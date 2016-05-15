@@ -1,1 +1,125 @@
-Hello ShisaQ
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href='https://fonts.googleapis.com/css?family=Quicksand:300,400' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js" ></script>
+  <title>ShisaQ's First Program</title>
+</head>
+<body>
+  <!-- header,contains logo and titles -->
+  <div class="container">
+    <div class="row">
+    <div class="col-md-6 top">
+      <a href="index.html"><img class="mainlogo img-responsive" src="images/mainlogo.png" alt="shisaq logo"></a>
+    </div>
+    <div class="col-md-6 text-right text-uppercase">
+      <a class="indexlink" href="index.html"><h1 class="title-super text-thin">ShisaQ</h1></a>
+      <h4>A Junior Front-end Engeneer</h4>
+    </div>
+  </div>
+  <!-- boundary, split the header and navigation -->
+  <div class="row">
+    <div class="col-md-12">
+      <hr class="boundary">
+    </div>
+  </div>
+  <!--   navigation, contains the biggest image in the webpage-->
+  <div class="row">
+    <div class="col-md-12">
+      <img class="img-responsive" src="images/navigation.jpg" alt="navigation">
+    </div>
+  </div>
+  <!-- This is the main content including 3 blocks with the same style in a same line -->
+  <div class="row">
+    <div class="col-md-12">
+      <h2 class="text-muted">Travelling Time</h2>
+    </div>
+  </div>
+  <div class="row text-center">
+    <div class="col-md-4">
+      <img class="img-responsive" src="images/pic1.jpg" alt="Action" data-toggle="modal" data-target="#Modal1">
+      <h3 class="text-uppercase">Action</h3>
+      <p>Some action time when I'm on travelling.</p>
+    </div>
+    <div class="col-md-4">
+      <img class="img-responsive" src="images/pic2.jpg" alt="Signs" data-toggle="modal" data-target="#Modal2">
+      <h3 class="text-uppercase">Signs</h3>
+      <p>Hallmarks captured by me.</p>
+    </div>
+    <div class="col-md-4">
+      <img class="img-responsive" src="images/pic3.jpg" alt="Awesome Sence" data-toggle="modal" data-target="#Modal3">
+      <h3 class="text-uppercase">Awesome Sence</h3>
+      <p>Here we can see beautiful sence everywhere. Enjoy!</p>
+    </div>
+  </div>
+  <!-- boundary, split the navigation and footer -->
+  <div class="row">
+    <div class="col-md-12">
+      <hr class="boundary">
+    </div>
+  </div>
+  <!-- footer of the page -->
+  <div class="row text-center">
+    <div class="col-md-4 col-md-offset-4">
+      <p>Powered by <a href="http://shisaq.com">ShisaQ</a>. Supported by <a href="http://udacity.com" target="blank">Udacity</a>.</p>
+    </div>
+  </div>
+  </div>
+  <!-- Modal1, connected with the first block of the main content, will show after clicking the pic1.jpg -->
+    <div class="modal fade" id="Modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel1">Action Time</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-rounded center-block" src="images/pic1.jpg" alt="Action">
+            <p>In this case, you can always see a plenty of pictures being taken actions by me. Yeah that means "Pose Time". Haha of course I cannot take photos by myself, so the photographer is-- My wife.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- Modal2, connected with the second block of the main content, will show after clicking the pic2.jpg-->
+    <div class="modal fade" id="Modal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel2">Signs</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-rounded center-block" src="images/pic2.jpg" alt="Signs">
+            <p>In this space, you may see some hallmarks from all over the world, including buildings, vehicles, boards etc. You'll be able to experience the colorful stuffs made by the local people!</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal3, connected with the last block of the main content, will show after clicking the pic3.jpg-->
+    <div class="modal fade" id="Modal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel3">Awesome Sence</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-rounded center-block" src="images/pic3.jpg" alt="Awesome Sence">
+            <p>I like trevalling. One of the most important reasons is I like different sences from different places. When you get into a new area, the weather, the water, the air, the culture and the people are always unique. That's amazing, hah?</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>

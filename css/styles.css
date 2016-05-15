@@ -1,0 +1,36 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  color: #305065;
+  font-weight: 400;
+}
+
+.text-thin {
+  font-weight: 300;
+}
+
+.text-muted {
+  color: #7196ae;
+}
+
+.top {
+  margin-top: 20px;
+}
+
+.title-super {
+  font-size: 60px;
+}
+
+.boundary {
+  border-width: 4px;
+  border-color: #c0c2c3;
+}
+
+.indexlink {
+  color: #305065;
+}
+
+.indexlink:hover {
+  text-decoration: none;
+  color: #7196ae;
+}
+
