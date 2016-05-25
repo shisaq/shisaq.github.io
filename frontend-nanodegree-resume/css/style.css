@@ -1,0 +1,256 @@
+body,
+div,
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+  font-family: "Muli", "Roboto", sans-serif;
+}
+
+.clear-fix {
+  overflow: auto;
+}
+
+.education-entry,
+.work-entry,
+.project-entry {
+  padding: 0 5%;
+}
+
+h1 {
+  font-size: 40px;
+  color: #fcfff5;
+  line-height: 48px;
+  display: inline;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 24px;
+  color: #3e606f;
+  line-height: 29px;
+  padding: 10px;
+}
+
+h3 {
+  font-style: italic;
+  font-size: 20px;
+  color: #91aa9d;
+  line-height: 22px;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 14px;
+  color: #d1dbbd;
+  line-height: 17px;
+}
+
+h2,
+h3,
+h4,
+h5 {
+  padding: 10px 5%;
+}
+
+/* add icon fonts, by http://weloveiconfonts.com/ */
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+/* typicons */
+[class*="typicons-"]:before {
+  font-family: 'Typicons', sans-serif;
+}
+
+.date-text {
+  font-style: italic;
+  font-size: 14px;
+  color: #999;
+  line-height: 16px;
+  float: left;
+}
+
+.location-text {
+  font-style: italic;
+  font-size: 14px;
+  color: #999;
+  line-height: 16px;
+  float: right;
+}
+
+p {
+  font-size: 14px;
+  color: #193441;
+  line-height: 21px;
+}
+
+a {
+  color: #1199c3;
+  text-decoration: none;
+  margin-top: 10px;
+  display: block;
+}
+
+em {
+  color: #193441;
+}
+
+.welcome-message {
+  font-style: italic;
+  font-size: 18px;
+  color: #fcfff5;
+  line-height: 40px;
+}
+
+#skills-h3 {
+  color: #91aa9d;
+  margin-top: 70px;
+  display: none;
+}
+
+.orange {
+  background-color: #91aa9d;
+}
+
+.orange-text {
+  color: #91aa9d;
+}
+
+.white-text {
+  font-weight: bold;
+  color: #fcfff5;
+}
+
+.gray {
+  background-color: #f3f3f3;
+  padding-bottom: 10px;
+  clear: both;
+}
+
+.dark-gray {
+  background-color: #3e606f;
+}
+
+/* TODO: Replace with image later */
+#header {
+  background-color: #193441;
+}
+
+#role {
+  color: #d1dbbd;
+}
+
+#googleStyleGaugesTool {
+  float: right;
+}
+
+.flex-box {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.flex-item {
+  color: #91aa9d;
+}
+
+.flex-img {
+  max-width: 45%;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.center-content {
+  padding: 2.5% 5%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.biopic {
+  float: left;
+  padding: 10px;
+  width: 200px;
+  border-radius: 15px;
+  display: none;
+}
+
+img {
+  padding: 10px;
+}
+
+span {
+  padding: 5px;
+}
+
+#lets-connect {
+  text-align: center;
+}
+
+#onlineClasses {
+  padding: 10px 5%;
+}
+
+/* Media queries to handle various device widths */
+
+@media only screen and (max-width: 1024px) {
+  #lets-connect {
+    margin-top: 5%;
+  }
+}
+
+@media only screen and (max-width:900px) {
+  .biopic {
+    width: 175px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  #lets-connect {
+    margin-top: 10%;
+  }
+
+  .biopic {
+    width: 150px;
+  }
+
+  .welcome-message {
+    display: none;
+  }
+
+  #googleStyleGaugesTool {
+    float: none;
+    text-align: center;
+  }
+}
+
+#map {
+  display: block;
+  height: 100%;
+  margin: 0 5%;
+}
+
+#mapDiv {
+  height: 400px;
+  width: 100%;
+  padding-bottom: 5%;
+}
+
+@media only screen and (min-width: 750px) {
+  #skills-h3,
+  .biopic {
+    display: block;
+  }
+}
