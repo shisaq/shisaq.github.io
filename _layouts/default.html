@@ -7,17 +7,16 @@
 <body>
   <div class="container">
     <header>
-    <h1>ShisaQ</h1>
-    <nav>
-      <ul class="nav-ul">
-        <li class="nav-item"><a href="index.html">home</a></li>
-        <li class="nav-item"><a href="build-a-portfolio-site/index.html">build-a-portfolio-site</a></li>
-        <li class="nav-item"><a href="frontend-nanodegree-resume/index.html">frontend-nanodegree-resume</a></li>
-        <li class="nav-item"><a href="about.html">about</a></li>
-      </ul>
-    </nav>
-  </header>
+      <h1>ShisaQ</h1>
+      {% include nav.html %}
+    </header>
+
     {{content}}
+
+    <footer>
+      {% include nav.html %}
+      <p>© 2016 ShisaQ. Supported by jekyll.</p>
+    </footer>
   </div>
 </body>
 </html>
