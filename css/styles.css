@@ -1,0 +1,8 @@
+.nav-item {
+  display: inline-block;
+}
+
+.current {
+  background-color: #124422;
+  color: #fff;
+}
