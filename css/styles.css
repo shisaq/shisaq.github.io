@@ -1,3 +1,17 @@
+html,
+body,
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container {
+  box-shadow: 0 0 50px #999;
+  width: 100%;
+}
+
 .nav-item {
   display: inline-block;
 }
@@ -5,4 +19,12 @@
 .current {
   background-color: #124422;
   color: #fff;
+}
+
+.nav-ul {
+  width: 100%;
+}
+
+.nav-top {
+  font-size: 1.25em;
 }

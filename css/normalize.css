@@ -15,7 +15,8 @@ html {
  * Remove the margin in all browsers (opinionated).
  */
 
-body {
+body,
+ul {
   margin: 0;
 }
 
@@ -90,6 +91,7 @@ template, /* 1 */
 
 a {
   background-color: transparent;
+  text-decoration: none;
 }
 
 /**
