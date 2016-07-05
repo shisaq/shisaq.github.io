@@ -1,0 +1,48 @@
+html,
+body,
+div,
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background:
+  linear-gradient(45deg, #92baac 45px, transparent 45px)64px 64px,
+  linear-gradient(45deg, #92baac 45px, transparent 45px,transparent 91px, #e1ebbd 91px, #e1ebbd 135px, transparent 135px),
+  linear-gradient(-45deg, #92baac 23px, transparent 23px, transparent 68px,#92baac 68px,#92baac 113px,transparent 113px,transparent 158px,#92baac 158px);
+  background-color:#e1ebbd;
+  background-size: 128px 128px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  background-color: rgba(250, 128, 114, 0.5);
+  text-align: center;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.pg_title {
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+.controls {
+  transition: 1s all;
+  border: 5px solid #000;
+  margin: 20px;
+  opacity: 0.3;
+}
+
+.controls:hover {
+  opacity: 1;
+}
+
+.mult_num {
+  margin: 5px auto;
+}

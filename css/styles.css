@@ -10,6 +10,8 @@ body,
 .container {
   box-shadow: 0 0 50px #999;
   width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .nav-item {
