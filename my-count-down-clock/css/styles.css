@@ -1,0 +1,41 @@
+html {
+    height: 100%;
+}
+
+html,
+body,
+div,
+h1,
+h2,
+h3,
+.container {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #315065;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 50px 0 20px 0;
+}
+
+h2 {
+    font-size: 24px;
+    color: #eaeaea;
+}
+
+span {
+    color: hsl(5, 53%, 63%);
+    font-weight: bold;
+    padding: 0 5px;
+}
+
+.container {
+    text-align: center;
+    background-color: hsla(197, 62%, 11%, 0.5);
+    color:  hsl(35, 91%, 65%);
+}
