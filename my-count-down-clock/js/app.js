@@ -20,6 +20,7 @@ var deadline = "November 13 2016 23:59:59 GMT -0500";
 //     };
 // }
 
+// get the time remaining
 function getTimeRemaining(endtime) {
   var t = Date.parse(endtime) - Date.parse(new Date());
   var seconds = Math.floor((t / 1000) % 60);
@@ -35,6 +36,7 @@ function getTimeRemaining(endtime) {
   };
 }
 
+// initialize clock
 function initializeClock(id, endtime) {
   var clock = document.getElementById(id);
   var daysSpan = clock.querySelector('.days');
