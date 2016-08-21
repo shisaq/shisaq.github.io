@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neighborhood Map</title>
+    <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=fontawesome">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="container">
+        <header id="page-head">
+            <button id="hamburger-btn" class="list-btn fontawesome-reorder" data-bind="click: toggleAddressList"></button>
+            <h1 class="page-title"><a href="index.html">Neighborhood Map</a></h1>
+        </header>
+        <div class="address-sidebar" data-bind="css: {open: currentStatus() > 0}">
+            <div id="address-search"">
+                <input id="address-input" type="text" autofocus="autofocus" placeholder="Search address" data-bind="textInput: currentAddress">
+                <button id="address-clear" data-bind="click: clearCurrentAddress">clear</button>
+            </div>
+            <ul id="address-list" data-bind="foreach: filteredList">
+                <li class="address-item" data-bind="text: title, click: $parent.updateCurrentAddress"></li>
+            </ul>
+        </div>
+        <div id="google-map"></div>
+    </div>
+    <script src="js/lib/jquery-3.1.0.min.js"></script>
+    <script src="js/lib/knockout-3.4.0.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA22nTEP7c-BkxI3lamWBpwrpfAEtgZ_as&callback=initMap" onerror="googleError()"></script>
+</body>
+</html>

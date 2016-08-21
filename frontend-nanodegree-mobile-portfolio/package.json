@@ -1,0 +1,32 @@
+{
+  "name": "project-web-performance-mobile",
+  "version": "1.0.0",
+  "description": "web performance project in Udacity Front-end Nanodegree",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shisaq/frontend-nanodegree-mobile-portfolio.git"
+  },
+  "keywords": [
+    "performance",
+    "mobile"
+  ],
+  "author": "shisaq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shisaq/frontend-nanodegree-mobile-portfolio/issues"
+  },
+  "homepage": "https://github.com/shisaq/frontend-nanodegree-mobile-portfolio#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-mkdir": "^1.0.0",
+    "grunt-responsive-images": "^0.1.9",
+    "imagemin-mozjpeg": "^6.0.0"
+  }
+}
