@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 这一条针对IE。使用IE最高版本渲染页面 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <!--[if IE 9]>
+    <link rel="stylesheet" href="css/basic-ie.css">
+    <![endif]-->
+    <!-- 载入基础css -->
+    <link rel="stylesheet" href="css/basic.css">
+    <link rel="stylesheet" href="css/people.css">
+    <title>Yigong Shi Lab - People</title>
+</head>
+<body>
+    <!--主页-->
+    <div class="container">
+        <!--正文部分-->
+        <section class="main-content">
+            <article class="card boss">
+                <div class="boss-info">
+                    <img id="boss-img" src="img/people/shiyigong.jpg" alt="Image of Yigong Shi">
+                    <h4 class="boss-name-english">Yigong Shi, Ph.D</h4>
+                    <h4 class="boss-name-chinese">施一公 教授</h4>
+                    <a id="boss-biography" href="CV_YigongShi.pdf" target="_blank">Biography</a>
+                </div>
+                <div class="boss-more">
+                    <ul class="boss-contact">
+                        <li class="purple bold boss-contact-head entypo-globe">CONTACT</li>
+                        <li class="boss-contact-item">University Professor</li>
+                        <li class="boss-contact-item">
+                            <a class="boss-contact-link" href="http://life.tsinghua.edu.cn" target="_blank">School of Life Sciences</a>
+                        </li>
+                        <li class="boss-contact-item">
+                            <a class="boss-contact-link" href="http://www.tsinghua.edu.cn" target="_blank">Tsinghua University</a>
+                        </li>
+                        <li class="boss-contact-item">Lab: 86(10)62797560</li>
+                        <li class="boss-contact-item">Asst.: 86(10)62781053</li>
+                    </ul>
+                    <ul class="boss-contact">
+                        <li class="purple bold boss-contact-head entypo-users">Alumni</li>
+                        <li class="boss-contact-item alumni">Tsinghua Alumni</li>
+                        <li class="boss-contact-item alumni">Princeton Alumni</li>
+                    </ul>
+                </div>
+            </article>
+            <article class="card">
+                <h4 class="degree" >Group Photo 2015</h4>
+                <img src="img/people/shi_group2015.jpg" alt="Group photo of Shi Lab in 2015">
+            </article>
+            <!-- ko foreach: degreeArray -->
+            <article class="members card">
+                <h4 class="degree" data-bind="text: degree"></h4>
+                <ul class="member-list" data-bind="foreach: memberList">
+                    <li class="member-item">
+                        <img class="menber-img" alt="lab member" data-bind="attr: {src: imgSrc}">
+                        <p class="member-name-english bold purple" data-bind="text: nameEn"></p>
+                        <p class="member-name-chinese bold purple" data-bind="text: nameZh"></p>
+                    </li>
+                </ul>
+            </article>
+            <!-- /ko -->
+        </section>
+        <div class="clearboth"></div>
+    </div>
+    <script src="js/lib/jquery-3.1.0.min.js"></script>
+    <script src="js/lib/knockout-3.4.0.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/ko-people.js"></script>
+    <script src="js/basic.js"></script>
+</body>
+</html>

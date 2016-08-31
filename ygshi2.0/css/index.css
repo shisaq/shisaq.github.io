@@ -1,0 +1,42 @@
+#index-active {
+    color: #ffc600;
+}
+
+.intro-main {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.intro-achievements {
+    max-width: 288px;
+    text-align: center;
+    box-shadow: 0 0 50px #999;
+    margin: 0 auto 20px auto;
+}
+
+.achievements-title {
+    white-space: nowrap; /*禁止换行*/
+    overflow: hidden; /*溢出截取*/
+    text-overflow: ellipsis; /*省略超出部分*/
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.achievement-link {
+    color: #743481;
+}
+
+.main-images {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.abstract {
+    padding: 10px 15px;
+    text-align: justify;
+    line-height: 25px;
+}

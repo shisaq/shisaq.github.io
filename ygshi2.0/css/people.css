@@ -1,0 +1,179 @@
+/* 载入iconfonts */
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+/* entypo */
+[class*="entypo-"]:before {
+    font-family: 'entypo', sans-serif;
+    color: #743481;
+    padding-right: 5px;
+}
+
+img {
+    max-width: 100%;
+}
+
+#people-active {
+    color: #ffc600;
+}
+
+.main-content {
+    margin-top: 0;
+}
+
+.card {
+    box-shadow: 0 0 50px #999;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.boss {
+    padding-top: 5px;
+}
+
+#boss-img {
+    border-radius: 50%;
+    width: 200px;
+    padding: 10px 0;
+}
+
+.boss-name-chinese {
+    font-family: 'Microsoft YaHei', '微软雅黑', 'Hiragino Sans GB', '冬青黑体',  sans-serif;
+}
+
+#boss-biography {
+    display: block;
+    margin: 10px auto;
+    width: 120px;
+    background-color: #743481;
+    color: #f0f0f0;
+    box-shadow: 0 0 50px #999;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+#boss-biography:hover {
+    color: #ffc600;
+}
+
+.boss-contact {
+    text-align: left;
+    padding: 15px;
+    border-top: 1px solid #743481;
+}
+
+.purple {
+    color: #743481;
+}
+
+.boss-contact-head {
+    padding: 5px 0 10px 0;
+}
+
+.boss-contact-item {
+    padding: 3px 20px;
+}
+
+.boss-contact-link {
+    color: #22132d;
+    text-decoration: underline;
+}
+
+.alumni-item {
+    background-color: #743481;
+    color: #f0f0f0;
+    box-shadow: 0 0 50px #999;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+.alumni-item:hover {
+    color: #ffc600;
+    cursor: pointer;
+}
+
+.degree {
+    text-align: left;
+    padding: 15px 10px;
+}
+
+.member-item {
+    margin-bottom: 15px;
+    padding: 15px 0;
+}
+
+.menber-img {
+    border-radius: 50%;
+    width: 150px;
+}
+
+@media screen and (min-width: 480px) {
+    .boss,
+    .member-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #boss-img-area {
+        width: 45%;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    .boss-info {
+        width: 50%;
+    }
+
+    .boss-more {
+        width: 50%;
+    }
+
+    .boss-contact {
+        width: 100%;
+        border-top: none;
+    }
+
+    .boss-contact-head {
+        display: block;
+        width: 100%;
+    }
+
+    .alumni-item {
+        display: inline-block;
+    }
+
+    .member-list {
+        justify-content: space-around;
+    }
+
+    .member-item {
+        margin: 10px;
+        padding: 10px;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    .boss-info {
+        width: 60%;
+    }
+
+    .boss-more {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .boss-contact {
+        padding-left: 5%;
+    }
+
+    .member-list {
+        justify-content: flex-start;
+    }
+
+    .member-item {
+        padding: 15px;
+    }
+}

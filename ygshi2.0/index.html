@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- 这一条针对IE。使用IE最高版本渲染页面 -->
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<!--[if IE 9]>
+	<link rel="stylesheet" href="css/basic-ie.css">
+	<link rel="stylesheet" href="css/index-ie.css">
+	<![endif]-->
+	<link rel="stylesheet" href="css/basic.css">
+	<link rel="stylesheet" href="css/index.css">
+	<title>Yigong Shi Lab</title>
+</head>
+<body>
+	<!--主页-->
+	<div class="container">
+		<!--正文部分-->
+		<section class="main-content">
+			<!--简介-->
+			<div class="intro">
+				<p>Prof. Yigong Shi's laboratory combines structural biology, biochemical and biophysical approaches to elucidate the molecular and chemical basis of fundamental cellular events. We are particularly interested in the regulation of apoptosis, the assembly and dynamics of macromolecular machineries exemplified by spliceosome and proteasome, and the mechanism of regulated intramembrane proteolysis with a focus on the structure and function of γ-secretase, a 4-component membrane complex that is associated with the development of Alzheimer's disease.</p>
+			</div>
+			<!--研究成果简介-->
+			<div class="intro-main" data-bind="foreach: achievementsList">
+				<article class="intro-achievements">
+					<video class="main-images" autoplay loop muted data-bind="attr: {poster: imgSrc}">
+				        <source class="video" type="video/mp4" data-bind="attr: {src: vidSrc}">
+				        <!-- <img data-bind="attr: {src: imgSrc, alt: title}"> -->
+				        Your browser doesn't support HTML5 video tag.
+			        </video>
+					<h2 class="achievements-title"><a class="achievement-link" data-bind="attr: {href: link}, text: title"></a></h2>
+					<p class="abstract">
+						<span data-bind="html: abstract"></span>
+						<a data-bind="attr: {href: link}">Read More</a>
+					</p>
+				</article>
+			</div>
+		</section>
+		<div class="clearboth"></div>
+	</div>
+	<script src="js/lib/jquery-3.1.0.min.js"></script>
+	<script src="js/lib/knockout-3.4.0.js"></script>
+	<script src="js/data.js"></script>
+	<script src="js/ko-index.js"></script>
+	<script src="js/basic.js"></script>
+</body>
+</html>
