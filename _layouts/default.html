@@ -1,25 +1,15 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ShisaQ's Space</title>
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-  <div class="container">
-    <header>
-      <h1>ShisaQ</h1>
-      {% include nav.html navclass='nav-top' %}
-    </header>
+  <head>
+    {% include meta.html %}
+      <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
+      {% include css.html %}
+  </head>
 
-    {{content}}
-
-    <footer>
-      {% include nav.html navclass='nav-bottom' %}
-      <p>© 2016 ShisaQ. Supported by jekyll.</p>
-    </footer>
-  </div>
-</body>
+  <body class="home overflow-hidden">
+    {% include header.html %}
+    {% include main.html %}
+    {% include js.html %}
+    {% include analytics.html %}
+  </body>
 </html>
