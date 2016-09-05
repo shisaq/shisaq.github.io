@@ -1,18 +1,18 @@
 [
   {
     "icon": "fa-facebook",
-    "link": ""
+    "link": "https://www.facebook.com/haiquanqoo"
   },
   {
     "icon": "fa-twitter",
-    "link": ""
+    "link": "https://twitter.com/shisaq"
   },
   {
     "icon": "fa-linkedin",
-    "link": ""
+    "link": "http://linkedin.com/in/shisaq"
   },
   {
-    "icon": "fa-stack-exchange",
-    "link": ""
+    "icon": "fa-weibo",
+    "link": "http://weibo.com/shisaq"
   }
 ]
