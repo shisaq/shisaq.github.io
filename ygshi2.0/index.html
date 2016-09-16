@@ -25,7 +25,7 @@
 			<!--研究成果简介-->
 			<div class="intro-main" data-bind="foreach: achievementsList">
 				<article class="intro-achievements">
-					<video class="main-images" autoplay loop muted data-bind="attr: {poster: imgSrc}">
+					<video class="main-images" autoplay loop webkit-playsinline muted data-bind="attr: {poster: imgSrc}">
 				        <source class="video" type="video/mp4" data-bind="attr: {src: vidSrc}">
 				        <!-- <img data-bind="attr: {src: imgSrc, alt: title}"> -->
 				        Your browser doesn't support HTML5 video tag.
@@ -42,6 +42,7 @@
 	</div>
 	<script src="js/lib/jquery-3.1.0.min.js"></script>
 	<script src="js/lib/knockout-3.4.0.js"></script>
+	<script src="js/lib/iphone-inline-video.browser.js"></script>
 	<script src="js/data.js"></script>
 	<script src="js/ko-index.js"></script>
 	<script src="js/basic.js"></script>
