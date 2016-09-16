@@ -1,0 +1,209 @@
+#publications-active {
+    color: #ffc600;
+}
+
+/* 年份导航条 */
+.timeline {
+    width: 100%;
+    background: -prefix-radial-gradient(#999 10%, #f0f0f0);
+    background: radial-gradient(#999 10%, #f0f0f0);
+}
+
+/* 年份导航条在页面向下滚动时，固定在屏幕头部 */
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    box-shadow: 0 0 50px #999;
+    z-index: 1;
+}
+
+/* 当导航条变为fixed时，用这个占位 */
+.occupy {
+    width: 1px;
+    height: 56px;
+    display: none;
+}
+
+.slick-nav {
+    width: calc(100% - 50px);
+    padding: 20px 0 1px 0;
+    text-align: center;
+    position: relative;
+    opacity: 0.8;
+}
+
+.slick-nav:hover {
+    opacity: 1;
+}
+
+.slick-list {
+    border-bottom: 1px dashed #743481;
+    height: 35px;
+}
+
+.slick-item {
+    height: 18px;
+}
+
+.slick-link {
+    position: relative;
+    display: inline-block;
+}
+
+.slick-link::after {
+    position: absolute;
+    content: '';
+    width: 5px;
+    height: 5px;
+    background-color: #ffc600;
+    top: 29px;
+    left: calc(50% - 5px);
+}
+
+.slick-prev:before, .slick-next:before {
+    color: #743481;
+}
+
+.main-content {
+    position: relative;
+}
+
+/* 时间轴背景竖线 */
+.main-content::before {
+    content: '';
+    position: absolute;
+    left: 18px;
+    height: 100%;
+    width: 4px;
+    background-color: #743481;
+    opacity: 0.3;
+}
+
+.year-collection {
+    box-shadow: 0 0 50px #999;
+    margin-bottom: 15px;
+    padding: 10px;
+    position: relative;
+    padding-left: 40px;
+}
+
+.year-collection::before {
+    position: absolute;
+    content: '';
+    top: 26px;
+    left: 11px;
+    width: 18px;
+    height: 18px;
+    background-color: #ffc600;
+    border-radius: 50%;
+}
+
+.year {
+    position: absolute;
+    top: 18px;
+    left: 50px;
+    transition: all 0.5s ease;
+}
+
+.year:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    color: #ffc600;
+    cursor: pointer;
+}
+
+/* 当点击年度导航条中的年份链接时，用此暗锚修复内容与导航条重叠的问题
+segmentfault链接：https://segmentfault.com/q/1010000000124208 */
+.target-fix {
+    position: relative;
+    top: -56px;
+    display: block;
+    height: 0;
+    overflow: hidden;
+}
+
+.current-year {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    color: #ffc600;
+    cursor: pointer;
+}
+
+.paper-list {
+    margin-top: 55px;
+    list-style: disc inside none;
+    text-align: justify;
+}
+
+.paper {
+    list-style: inherit;
+    line-height: 1.5em;
+    padding: 10px 0;
+}
+
+.paper-link {
+    text-decoration: underline;
+    color: #743481;
+}
+
+@media screen and (min-width: 1200px) {
+    .timeline {
+        width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+/* 以下代码参考自https://codyhouse.co/gem/vertical-timeline/，
+目的是加载publication每年的内容时，有个动画效果 */
+.is-hidden {
+    visibility: hidden;
+}
+
+.bounce-in {
+    visibility: visible;
+    -webkit-animation: cd-bounce-1 0.6s;
+    -moz-animation: cd-bounce-1 0.6s;
+    animation: cd-bounce-1 0.6s;
+}
+
+@-webkit-keyframes cd-bounce-1 {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(0.8);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+    }
+}
+@-moz-keyframes cd-bounce-1 {
+    0% {
+        opacity: 0;
+        -moz-transform: scale(0.8);
+    }
+
+    100% {
+        -moz-transform: scale(1);
+    }
+}
+@keyframes cd-bounce-1 {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(0.8);
+        -moz-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        -o-transform: scale(0.8);
+        transform: scale(0.8);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+    }
+}

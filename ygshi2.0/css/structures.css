@@ -1,0 +1,174 @@
+#structures-active {
+    color: #ffc600;
+}
+
+#research-orientation {
+    text-align: center;
+}
+
+.orientation-item {
+    width: 100%;
+    display: inline-block;
+    padding: 15px;
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #f0f0f0;
+    background-color: #743481;
+}
+
+.orientation-item:hover {
+    color: #ffc600;
+    cursor: pointer;
+}
+
+.selected {
+    color: #743481;
+    background-color: rgba(116, 52, 129, 0.2);
+    border-bottom: none;
+    box-shadow: 0 5px 5px 0 #743481;
+    transition: all 0.3s ease;
+}
+
+.category-item {
+    box-shadow: 0 0 50px #999;
+    margin-bottom: 15px;
+}
+
+.category-name {
+    padding: 15px;
+}
+
+.sub-category-list {
+    padding: 0 15px;
+}
+
+.vice-name {
+    padding-left: 15px;
+}
+
+.item-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item-content {
+    width: 145px;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.item-name {
+    line-height: 56px;
+}
+
+.item-name-inside {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.item-thumbnail:hover {
+    cursor: pointer;
+}
+
+/* 弹出对话框相关元素设置 */
+#current-structure {
+    margin-bottom: 50px;
+}
+
+#overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1001;
+    transition: all 0.3s ease;
+}
+
+.beneath {
+    opacity: 0;
+    visibility: hidden;
+}
+
+#popup-header {
+    width: 100%;
+    height: 30px;
+    background-color: #743481;
+    margin-bottom: 10px;
+}
+
+#closeit {
+    float: right;
+    font-size: 15px;
+    position: relative;
+    right: 10px;
+    top: 5px;
+}
+
+#closeit:hover {
+    cursor: pointer;
+}
+
+#popup-structure {
+    position: fixed;
+    top: calc(15% + 10px);
+    left: 0;
+    right: 0;
+    width: 100%;
+    max-width: 600px;
+    height: 70%;
+    background-color: #f0f0f0;
+    z-index: 1002;
+    margin: auto;
+    -webkit-transition: opacity 0.3s ease;
+    -moz-transition: opacity 0.3s ease;
+    -ms-transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease;
+}
+
+#popup-body {
+    padding: 10px;
+    height: calc(100% - 40px);
+    overflow: auto;
+    text-align: center;
+}
+
+.large-img {
+    margin: 10px 0;
+    max-width: 100%;
+}
+
+.describtion {
+    text-align: left;
+}
+
+/* 禁止窗口弹出后，滚动页面 */
+.nooverflow {
+    overflow: hidden;
+    padding-right: 16px;
+}
+
+@media screen and (min-width: 720px) {
+    #research-orientation {
+        height: 76px;
+    }
+
+    .orientation-item {
+        width: calc(24% - 4px);
+        height: 100%;
+        line-height: 15px;
+        vertical-align: middle;
+    }
+
+    .orientation-item:after{
+        display: inline-block;
+        width: 0;
+        height: 100%;
+        vertical-align: middle;
+        content: '';
+    }
+}

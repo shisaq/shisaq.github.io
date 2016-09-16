@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 这一条针对IE。使用IE最高版本渲染页面 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <!--[if IE 9]>
+    <link rel="stylesheet" href="css/basic-ie.css">
+    <![endif]-->
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="css/basic.css">
+    <link rel="stylesheet" href="css/publications.css">
+    <title>Yigong Shi Lab - Publications</title>
+</head>
+<body>
+    <!--主页-->
+    <div class="container">
+        <!--时间轴导航-->
+        <div class="timeline">
+            <section class="slick-nav" data-bind="foreach: model.publications.slice(0).reverse()">
+                <div class="slick-item">
+                    <a class="slick-link bold" data-bind="attr: {href: '#' + year}, text: year"></a>
+                </div>
+            </section>
+        </div>
+        <div class="occupy"></div>
+        <!--正文部分-->
+        <section class="main-content">
+        <!-- ko foreach: model.publications -->
+            <a class="target-fix" data-bind="attr: {id: year}"></a>
+            <article class="year-collection">
+                <h4 class="year" data-bind="text: year"></h4>
+                <ul class="paper-list" data-bind="foreach: paperList">
+                    <li class="paper">
+                        <span class="paper-members" data-bind="text: members"></span>.
+                        <a class="paper-link" data-bind="text: linkText, attr: {href: linkSrc}" target="_blank"></a>.
+                        <span class="bold italic" data-bind="text: journalName"></span>.
+                        <span class="doi" data-bind="text: DOI"></span>.
+                        <span class="time" data-bind="text: time"></span>
+                    </li>
+                </ul>
+            </article>
+        <!-- /ko -->
+        </section>
+        <div class="clearboth"></div>
+    </div>
+    <script src="js/lib/jquery-3.1.0.min.js"></script>
+    <script src="js/lib/knockout-3.4.0.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="slick/slick.min.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/ko-publications.js"></script>
+    <script src="js/basic.js"></script>
+    <script src="js/publications.js"></script>
+</body>
+</html>

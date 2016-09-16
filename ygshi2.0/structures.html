@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 这一条针对IE。使用IE最高版本渲染页面 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <!--[if IE 9]>
+    <link rel="stylesheet" href="css/basic-ie.css">
+    <![endif]-->
+    <link rel="stylesheet" href="css/basic.css">
+    <link rel="stylesheet" href="css/structures.css">
+    <title>Yigong Shi Lab - Structures</title>
+</head>
+<body data-bind="css: {nooverflow: bodyOverflow}">
+    <!--主页-->
+    <div class="container">
+        <!--正文部分-->
+        <section class="main-content">
+            <div class="intro">
+                <p>Please click on the structure images for larger views and related literatures.</p>
+            </div>
+            <ul id="research-orientation" data-bind="foreach: model.structures">
+                <li class="orientation-item" data-bind="text: orientation, click: $parent.updateOri, css: {selected: orientation === $parent.currentOri().orientation}"></li>
+            </ul>
+            <article class="current-orientation" data-bind="with: currentOri">
+                <ul class="category-list" data-bind="foreach: categoryList">
+                    <li class="category-item">
+                        <h4 class="category-name" data-bind="html: categoryName"></h4>
+                        <ul class="all-structures-list" data-bind="foreach: allStructures">
+                            <li class="all-structures-item">
+                                <ul class="sub-category-list" data-bind="foreach: $data">
+                                    <!-- ko if: !viceName === false-->
+                                    <h5 class="vice-name" data-bind="text: viceName"></h5>
+                                    <!-- /ko -->
+                                    <ul class="item-info" data-bind="foreach: sList">
+                                        <li class="item-content">
+                                            <div class="item-name"><p class="item-name-inside" data-bind="html: itemName"></p></div>
+                                            <img class="item-thumbnail" alt="structure's thumbnail" data-bind="attr: {src: 'img/structures/' + ID + '-thumbnail.jpg'}, click: $root.showCurrentStructure">
+                                            <p class="item-id"><a class="item-link" target="_blank" data-bind="text: ID, attr: {href: 'http://www.rcsb.org/pdb/explore/explore.do?structureId=' + ID}"></a></p>
+                                            <!-- ko if: !optionalID === false-->
+                                            <p class="optional-id"><a class="optional-link" target="_blank" data-bind="text: optionalID, attr: {href: optionalLink}"></a></p>
+                                            <!-- /ko -->
+                                        </li>
+                                    </ul>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </article>
+        </section>
+        <div class="clearboth"></div>
+        <!-- 点击图片时，弹出该structure详情窗口 -->
+        <div id="overlay" data-bind="css: {beneath: currentStatus() === false},  click: hidePopupBox"></div>
+        <div id="popup-structure" data-bind="css: {beneath: currentStatus() === false}, with: currentStructure">
+            <div id="popup-header"><a id="closeit", data-bind="click: $root.hidePopupBox">x</a></div>
+            <div id="popup-body">
+                <!-- ko if: !fullName === true -->
+                <h5 class="structure-whole-name" data-bind="html: itemName"></h5>
+                <!-- /ko -->
+                <!-- ko if: !fullName === false -->
+                <h5 class="structure-whole-name" data-bind="html: fullName"></h5>
+                <!-- /ko -->
+                <!-- ko foreach: imgList -->
+                <img class="large-img" alt="structure detail" data-bind="attr: {src: 'img/structures/' + $data + '.jpg'}">
+                <!-- /ko -->
+                <p class="describtion">
+                    <a class="detail-link" target="_blank" data-bind="text: detailLinkText, attr: {href: detailLink}"></a>.
+                </p>
+                <p class="describtion">
+                    <span class="members" data-bind="text: members"></span>.
+                    <span class="bold italic" data-bind="text: journalName"></span>.
+                    <span data-bind="text: DOI"></span>.
+                </p>
+                <!-- ko if: !options === false -->
+                    <p class="describtion" data-bind="html: options"></p>
+                <!-- /ko -->
+            </div>
+        </div>
+    </div>
+    <script src="js/lib/jquery-3.1.0.min.js"></script>
+    <script src="js/lib/knockout-3.4.0.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/ko-structures.js"></script>
+    <script src="js/basic.js"></script>
+</body>
+</html>

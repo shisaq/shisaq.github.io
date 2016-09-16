@@ -32,7 +32,7 @@ img {
 #boss-img {
     border-radius: 50%;
     width: 200px;
-    padding: 10px 0;
+    margin: 10px 0;
 }
 
 .boss-name-chinese {
@@ -57,8 +57,8 @@ img {
 
 .boss-contact {
     text-align: left;
-    padding: 15px;
-    border-top: 1px solid #743481;
+    padding-left: 15px;
+    padding-bottom: 15px;
 }
 
 .purple {
@@ -66,7 +66,9 @@ img {
 }
 
 .boss-contact-head {
-    padding: 5px 0 10px 0;
+    padding: 15px;
+    border-top: 1px solid #743481;
+    text-align: left;
 }
 
 .boss-contact-item {
@@ -76,20 +78,6 @@ img {
 .boss-contact-link {
     color: #22132d;
     text-decoration: underline;
-}
-
-.alumni-item {
-    background-color: #743481;
-    color: #f0f0f0;
-    box-shadow: 0 0 50px #999;
-    font-weight: bold;
-    text-align: center;
-    padding: 10px;
-}
-
-.alumni-item:hover {
-    color: #ffc600;
-    cursor: pointer;
 }
 
 .degree {
@@ -107,6 +95,102 @@ img {
     width: 150px;
 }
 
+.alumni {
+    text-decoration: underline;
+}
+
+.alumni:hover {
+    cursor: pointer;
+    color: #ffc600;
+}
+
+/* pop up box */
+#overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1001;
+    transition: all 0.3s ease;
+}
+
+/* pop up box */
+#alumni-box {
+    position: fixed;
+    top: calc(25% + 30px);
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 50%;
+    background-color: #f0f0f0;
+    z-index: 1002;
+    overflow: auto;
+    padding-top: 20px;
+    margin: auto;
+    -webkit-transition: opacity 0.3s ease;
+    -moz-transition: opacity 0.3s ease;
+    -ms-transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease;
+}
+
+#alumni-header {
+    width: 100%;
+    height: 30px;
+    background-color: #743481;
+    position: fixed;
+    top: 25%;
+    z-index: 1003;
+    margin: auto;
+    left: 0;
+    right: 0;
+    -webkit-transition: opacity 0.3s ease;
+    -moz-transition: opacity 0.3s ease;
+    -ms-transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease;
+}
+
+#close-alumni {
+    font-size: 15px;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+
+#alumni-body {
+    text-align: left;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.alumni-school {
+    text-align: center;
+}
+
+.alumni-degree {
+    margin: 15px;
+    width: 200px;
+}
+
+.alumni-member-list {
+    height: 128px;
+    overflow: auto;
+}
+
+.nooverflow {
+    overflow: hidden;
+    padding-right: 16px;
+}
+
+.beneath {
+    opacity: 0;
+    visibility: hidden;
+}
+
+/* responsive design */
 @media screen and (min-width: 480px) {
     .boss,
     .member-list {
@@ -130,18 +214,17 @@ img {
         width: 50%;
     }
 
+    .boss-contact-head {
+        border-top: none;
+    }
+
     .boss-contact {
         width: 100%;
-        border-top: none;
     }
 
     .boss-contact-head {
         display: block;
         width: 100%;
-    }
-
-    .alumni-item {
-        display: inline-block;
     }
 
     .member-list {
@@ -151,6 +234,16 @@ img {
     .member-item {
         margin: 10px;
         padding: 10px;
+    }
+}
+
+@media screen and (min-width: 520px) {
+    #alumni-box {
+        width: 520px;
+    }
+
+    #alumni-header {
+        width: 520px;
     }
 }
 

@@ -52,5 +52,3 @@ var ViewModel = function () {
         self.currentAchievement(achievement);
     };
 };
-
-

@@ -4,7 +4,7 @@ $(document).ready(function() {
     $('.container').prepend(model.headerTemplate);
     $('.page-header').append(model.navTemplate);
     $('.container').append(model.footerTemplate);
-    $('.main-content').append(model.goTopButton);
+    $('body').append(model.goTopButton);
 
     var bodyHeight, windowHeight, footerTop, safeDistance;
     $(document).scroll(function() {
@@ -43,7 +43,7 @@ $(document).ready(function() {
     $('#go-top').on('click', function(event){
         event.preventDefault();
         $('body,html').animate({
-            scrollTop: 0 ,
+            scrollTop: 0,
             }, 200
         );
     });

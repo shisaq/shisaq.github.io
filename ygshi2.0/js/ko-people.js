@@ -15,20 +15,27 @@ var ViewModel = function () {
         }
     };
 
-    var Degree = function (data) {
-        this.degree = data.degree;
-        this.memberList = data.memberList;
-    }
-
-    var Member = function (data) {
-        this.imgSrc = data.imgSrc;
-        this.nameEn = data.nameEn;
-        this.nameZh = data.nameZh;
-    }
-
     self.degreeArray = ko.observableArray([]);
     model.people.forEach( function(degree) {
-        var item = new Degree(degree);
-        self.degreeArray.push(item);
+        self.degreeArray.push(degree);
     });
+
+    // alumni弹出对话框设置
+    self.alumniList = ko.observableArray([]);
+    model.alumniList.forEach( function(alumni) {
+        self.alumniList.push(alumni);
+    });
+
+    self.currentAlumni = ko.observable();
+
+    self.popupBoxStatus = ko.observable(false);
+
+    self.updateCurrentAlumni = function (alumni) {
+        self.currentAlumni(alumni);
+        self.popupBoxStatus(true);
+    }
+
+    self.hideAlumni = function () {
+        self.popupBoxStatus(false);
+    };
 };

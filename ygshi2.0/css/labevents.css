@@ -1,0 +1,81 @@
+#labevents-active {
+    color: #ffc600;
+}
+
+.intro {
+    text-align: center;
+}
+
+.scholl-logo {
+    width: calc(50% - 5px);
+    max-width: 200px;
+}
+
+#tsinghua-event-tags {
+    text-align: center;
+}
+
+.event-title {
+    width: 100%;
+    display: inline-block;
+    padding: 15px;
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #f0f0f0;
+    background-color: #743481;
+}
+
+.event-title:hover {
+    color: #ffc600;
+    cursor: pointer;
+}
+
+.selected {
+    color: #743481;
+    background-color: rgba(116, 52, 129, 0.2);
+    border-bottom: none;
+    box-shadow: 0 5px 5px 0 #743481;
+    transition: all 0.3s ease;
+}
+
+.current-event-item {
+    padding: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 50px #999;
+}
+
+.name {
+    padding: 10px 0;
+}
+
+.awards {
+    list-style: disc inside none;
+}
+
+.award {
+    list-style: inherit;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+.happy-pics {
+    display: block;
+    max-width: 100%;
+    margin: 20px auto;
+    box-shadow: 0 0 50px #999;
+}
+
+@media screen and (min-width: 610px) {
+    .event-title {
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    .happy-pics {
+        display: inline-block;
+        width: calc(50% - 42.5px);
+        margin: 20px;
+    }
+}

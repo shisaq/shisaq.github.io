@@ -260,10 +260,6 @@ button:hover {
 	color: #f0f0f0;
 }
 
-.main-content {
-	margin: 10px 0;
-}
-
 .intro {
     margin: 30px auto;
     padding: 0 10px;
@@ -363,4 +359,10 @@ button:hover {
 	.navlist-item {
 		padding: 0 30px;
 	}
+}
+
+.beta {
+    font-size: 14px;
+    font-weight: normal;
+    padding-left: 5px;
 }

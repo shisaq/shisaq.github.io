@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 这一条针对IE。使用IE最高版本渲染页面 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <!--[if IE 9]>
+    <link rel="stylesheet" href="css/basic-ie.css">
+    <![endif]-->
+    <link rel="stylesheet" href="css/basic.css">
+    <link rel="stylesheet" href="css/labevents.css">
+    <title>Yigong Shi Lab - Lab Events</title>
+</head>
+<body>
+    <!--主页-->
+    <div class="container">
+        <!--正文部分-->
+        <section class="main-content">
+            <div class="intro">
+                <a href="labevents.html"><img class="scholl-logo" src="img/labevents/Tsinghualogo.png" alt="Tsinghua Logo"></a>
+                <a href="princeton.html"><img class="scholl-logo" src="img/labevents/Princetonlogo.png" alt="Princeton Logo"></a>
+            </div>
+            <ul id="tsinghua-event-tags" data-bind="foreach: model.labEvents">
+                <li class="event-title" data-bind="text: title, click: $parent.updateEvent, css: {selected: title === $parent.currentEvent().title}"></li>
+            </ul>
+            <ul id="current-event" data-bind="with: currentEvent">
+                <!-- ko if: !imgSrcs === true-->
+                    <!-- ko foreach: members-->
+                    <li class="current-event-item">
+                        <h5 class="name" data-bind="text: name"></h5>
+                        <ul class="awards" data-bind="foreach: awardsList">
+                            <li class="award" data-bind="text: $data"></li>
+                        </ul>
+                    </li>
+                    <!-- /ko -->
+                <!-- /ko -->
+                <!-- ko if: !members === true-->
+                <li class="current-event-item" data-bind="foreach: imgSrcs">
+                    <img class="happy-pics" alt="happy times" data-bind="attr: {src: $data}">
+                </li>
+                <!-- /ko -->
+            </ul>
+        </section>
+        <div class="clearboth"></div>
+    </div>
+    <script src="js/lib/jquery-3.1.0.min.js"></script>
+    <script src="js/lib/knockout-3.4.0.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/ko-labevents.js"></script>
+    <script src="js/basic.js"></script>
+</body>
+</html>
