@@ -366,3 +366,11 @@ button:hover {
     font-weight: normal;
     padding-left: 5px;
 }
+
+/* 为iphone和ipod设置，隐藏video的控制按钮 */
+.IIV::-webkit-media-controls-play-button,
+.IIV::-webkit-media-controls-start-playback-button {
+    opacity: 0;
+    pointer-events: none;
+    width: 5px;
+}
