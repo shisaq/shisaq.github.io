@@ -39,7 +39,7 @@ $(document).ready(function() {
         }
     });
 
-    //smooth scroll to top
+    //点击go-top按钮时，平滑滚动回页面顶部
     $('#go-top').on('click', function(event){
         event.preventDefault();
         $('body,html').animate({

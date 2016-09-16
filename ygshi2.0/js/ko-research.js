@@ -22,7 +22,7 @@ var ViewModel = function () {
         this.short = data.short;
         this.title = data.title;
         this.details = ko.observable(data.details);
-    }
+    };
 
     // 构建research中3大结构所含内容的数组
     self.achievementsList = ko.observableArray([]);

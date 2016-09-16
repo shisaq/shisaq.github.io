@@ -26,10 +26,10 @@
                 </ul>
                 <article class="achievement-details" data-bind="with: currentAchievement">
                     <h3 class="full-title" data-bind="text: title"></h3>
-                    <video class="main-images" autoplay loop muted webkit-playsinline data-bind="attr: {src: vidSrc}">
-                        <!-- <source class="video" type="video/mp4" data-bind="attr: {src: vidSrc}"> -->
+                    <video class="main-images" autoplay loop muted webkit-playsinline data-bind="attr: {poster: imgSrc}">
+                        <source class="video" type="video/mp4" data-bind="attr: {src: vidSrc}">
                         <!-- <img data-bind="attr: {src: imgSrc, alt: title}"> -->
-                        <!-- Your browser doesn't support HTML5 video tag. -->
+                        Your browser doesn't support HTML5 video tag.
                     </video>
                     <div class="description" data-bind="foreach: details">
                         <p class="portion" data-bind="html: $data"></p>

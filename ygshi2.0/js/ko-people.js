@@ -15,6 +15,8 @@ var ViewModel = function () {
         }
     };
 
+    /* people部分 */
+    // 按不同学位将数据存到degreeArray中
     self.degreeArray = ko.observableArray([]);
     model.people.forEach( function(degree) {
         self.degreeArray.push(degree);
@@ -26,15 +28,17 @@ var ViewModel = function () {
         self.alumniList.push(alumni);
     });
 
+    // 初始化currentAlumni和对话框显示状态的值
     self.currentAlumni = ko.observable();
-
     self.popupBoxStatus = ko.observable(false);
 
+    // 当点击链接时，显示currentAlumni对话框
     self.updateCurrentAlumni = function (alumni) {
         self.currentAlumni(alumni);
         self.popupBoxStatus(true);
-    }
+    };
 
+    // 当点击阴影或者x时，隐藏currentAlumni对话框
     self.hideAlumni = function () {
         self.popupBoxStatus(false);
     };

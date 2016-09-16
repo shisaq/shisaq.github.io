@@ -1,4 +1,5 @@
 var model = {
+    // 头部，导航栏，页脚和回到顶部按钮的代码
     headerTemplate: '<header class="page-header"><!--顶部主标题-->' +
                     '<h1 class="lab-title"><a class="index-link" href="index.html">The SHI Lab</a><span class="beta">beta</span></h1>' +
                     '<button id="hamburger" data-bind="click: toggleNav"></button>' +
@@ -585,6 +586,7 @@ var model = {
         }
     ],
 
+    // 校友相关数据
     alumniList: [
         {
             name: 'Tsinghua Alumni',

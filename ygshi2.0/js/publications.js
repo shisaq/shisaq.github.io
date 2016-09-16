@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    // 时间轴用幻灯片的效果显示，以下是相关设置
     $('.slick-nav').slick({
         centerMode: true,
         centerPadding: '80px',
@@ -48,6 +49,7 @@ $(document).ready(function() {
     //隐藏在初始屏幕外的blocks
     hideBlocks(timelineBlocks, offset);
 
+    // 当页面向下滚动时，保持时间轴黏在屏幕最上方
     var top = $('.timeline').position().top;
 
     $(window).on('scroll', function(){

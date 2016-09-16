@@ -16,8 +16,10 @@ var ViewModel = function () {
     };
 
     /* lab events部分 */
+    // 初始化currentEvent为相关数组中第一个元素
     self.currentEvent = ko.observable(model.labEvents[0]);
 
+    // 点击标签时，把被点击的标签所对应的数据赋给currentEvent
     self.updateEvent = function (event) {
         self.currentEvent(event);
     };
