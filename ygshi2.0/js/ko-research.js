@@ -49,6 +49,11 @@ var ViewModel = function () {
 
     // 根据点击的标题更新currentAchievement
     self.updateAchievement = function (achievement) {
-        self.currentAchievement(achievement);
+        $('.achievement-details').css('opacity', 0);
+
+        window.setTimeout(function () {
+            self.currentAchievement(achievement);
+            $('.achievement-details').css('opacity', 1);
+        }, 200);
     };
 };

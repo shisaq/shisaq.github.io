@@ -36,6 +36,7 @@
 
 .achievement-details {
     box-shadow: 0 0 50px #999;
+    transition: opacity 0.2s ease;
 }
 
 .full-title {

@@ -20,7 +20,12 @@ var ViewModel = function () {
 
     // 点击任意一个类别，就更新内容
     self.updateOri = function (ori) {
-        self.currentOri(ori);
+        $('.current-orientation').css('opacity', 0);
+
+        window.setTimeout(function () {
+            self.currentOri(ori);
+            $('.current-orientation').css('opacity', 1);
+        }, 200);
     };
 
     // 初始化currentStructure，对应状态和body滚动条设置

@@ -30,6 +30,10 @@
     transition: all 0.3s ease;
 }
 
+.current-orientation {
+    transition: opacity 0.2s ease;
+}
+
 .category-item {
     box-shadow: 0 0 50px #999;
     margin-bottom: 15px;
