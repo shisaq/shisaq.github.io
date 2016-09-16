@@ -57,6 +57,7 @@
     text-align: center;
     display: inline-block;
     margin-bottom: 20px;
+    vertical-align: top;
 }
 
 .item-name {
@@ -150,6 +151,12 @@
 .nooverflow {
     overflow: hidden;
     padding-right: 16px;
+}
+
+@media screen and (max-width: 620px) {
+    .item-info {
+        justify-content: space-around;
+    }
 }
 
 @media screen and (min-width: 720px) {
