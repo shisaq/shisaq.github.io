@@ -26,7 +26,7 @@ var model = {
     achievementsList: [
         {
             imgSrc: 'img/spliceosome.gif',
-            vidSrc: 'img/video/spliceosome.mp4',
+            vidSrc: 'img/video/Spliceosome.mp4',
             title: 'pre-mRNA splicing',
             abstract: 'The structure of the intact spliceosome from ' +
                       '<span class="italic">S. pombe</span>' +
@@ -53,7 +53,7 @@ var model = {
     achievementsDetail: [
         {
             imgSrc: 'img/spliceosome.gif',
-            vidSrc: 'img/video/spliceosome.mp4',
+            vidSrc: 'img/video/Spliceosome.mp4',
             short: 'Spliceosome',
             title: 'Structural basis of pre-mRNA splicing',
             details: [
