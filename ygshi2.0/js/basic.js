@@ -51,6 +51,6 @@ $(document).ready(function() {
     // 执行knockout绑定
     ko.applyBindings(new ViewModel());
     $('.main-images').each(function () {
-        makeVideoPlayableInline(this);
+        makeVideoPlayableInline(this, /* hasAudio */ false);
     });
 });
