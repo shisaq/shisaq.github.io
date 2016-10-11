@@ -88,7 +88,7 @@ categories: front-end notes
     `$instance = new Person();`
 3. print a public property from a class
 
-``` PHP
+``` php
 class Person {
   public $theValue = true;
 }
@@ -100,7 +100,7 @@ print $example->theValue; // true
 
 4. methods: functions bundled into objects
 
-``` PHP
+``` php
 class Person {
   public function __construct($para1, $para2) {
     this->num1 = $para1;
@@ -113,7 +113,7 @@ print $obj->num1; // one
 
 ## OOP PHP
 
-``` PHP
+``` php
 class Person {
   function __construct($name) {
       $this->name = $name;
@@ -127,7 +127,7 @@ class Person {
 
 1. `is_a()`: find out if a particular object is an instance of a given class
 
-``` PHP
+``` php
 if (is_a($me, "Person")) {
   echo "I'm a person";
 }
@@ -135,7 +135,7 @@ if (is_a($me, "Person")) {
 
 2. `property_exists()`: if an object has a given property
 
-``` PHP
+``` php
 if (property_exists($me, "name")) {
   echo "I have a name";
 }
@@ -143,7 +143,7 @@ if (property_exists($me, "name")) {
 
 3. `method_exists()`: if an object has a given method
 
-``` PHP
+``` php
 if (method_exists($me, "dance")) {
   echo "I know how to dance";
 }
@@ -151,7 +151,7 @@ if (method_exists($me, "dance")) {
 
 4. inheritance
 
-``` PHP
+``` php
 class Shape {
   public $hasSides = true;
 }
@@ -162,7 +162,7 @@ class Square extends Shape {
 
 5. override and the final word
 
-``` PHP
+``` php
 class Vehicle {
     final public function honk() {
       return "HONK HONK!";
@@ -184,7 +184,7 @@ class Vehicle {
 
 6. `const` is short for constant, which is not allowed to change
 
-``` PHP
+``` php
 class Immortal extends Person {
   // Immortals never die!
   const alive = true;
@@ -193,7 +193,7 @@ class Immortal extends Person {
 
 7. Scope Resolution 范围解析符 __::__
 
-``` PHP
+``` php
 class Person {
   const life = "MAXIMUM";
 }
@@ -208,7 +208,7 @@ echo Person::life; //MAXIMUM
 2. `echo $anArray[0]; // 0`
 3. Associative Arrays
 
-``` PHP
+``` php
 $anotherArray = array('color' => 'blue',
                        'sex' => 'male',
                        'year' => 2016);
@@ -217,7 +217,7 @@ echo $anotherArray['color']; // blue
 
 4. Iterating over Associative Arrays
 
-``` PHP
+``` php
 $salad = array('lettuce' => 'with',
                'tomato' => 'without',
                'onions' => 'with');
@@ -229,7 +229,7 @@ foreach ($salad as $key => $value) {
 
 5. Multidimensional Arrays
 
-``` PHP
+``` php
 $deck = array(array('2 of Diamonds', 2),
                   array('5 of Diamonds', 5),
                   array('7 of Diamonds', 7));
