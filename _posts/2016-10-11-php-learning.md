@@ -123,95 +123,95 @@ class Person {
 ```
 
 1. `is_a()`: find out if a particular object is an instance of a given class
-    ``` PHP
-    if (is_a($me, "Person")) {
-      echo "I'm a person";
-    }
-    ```
+``` PHP
+if (is_a($me, "Person")) {
+  echo "I'm a person";
+}
+```
 2. `property_exists()`: if an object has a given property
-    ``` PHP
-    if (property_exists($me, "name")) {
-      echo "I have a name";
-    }
-    ```
+``` PHP
+if (property_exists($me, "name")) {
+  echo "I have a name";
+}
+```
 3. `method_exists()`: if an object has a given method
-    ``` PHP
-    if (method_exists($me, "dance")) {
-      echo "I know how to dance";
-    }
-    ```
+``` PHP
+if (method_exists($me, "dance")) {
+  echo "I know how to dance";
+}
+```
 4. inheritance
-    ``` PHP
-    class Shape {
-      public $hasSides = true;
-    }
+``` PHP
+class Shape {
+  public $hasSides = true;
+}
 
-    class Square extends Shape {
-    }
-    ```
+class Square extends Shape {
+}
+```
 5. override and the final word
-    ``` PHP
-    class Vehicle {
-        final public function honk() {
-          return "HONK HONK!";
-        }
+``` PHP
+class Vehicle {
+    final public function honk() {
+      return "HONK HONK!";
+    }
+  }
+
+  class Bicycle extends Vehicle {
+      public function honk() {
+          return "Beep beep!";    
       }
+  }
 
-      class Bicycle extends Vehicle {
-          public function honk() {
-              return "Beep beep!";    
-          }
-      }
+  $bicycle = new Bicycle();
 
-      $bicycle = new Bicycle();
+  echo $bicycle->honk(); // Cannot override final method Vehicle::honk()
 
-      echo $bicycle->honk(); // Cannot override final method Vehicle::honk()
-
-    ?>
-    ```
+?>
+```
 6. `const` is short for constant, which is not allowed to change
-    ``` PHP
-    class Immortal extends Person {
-      // Immortals never die!
-      const alive = true;
-    }
-    ```
+``` PHP
+class Immortal extends Person {
+  // Immortals never die!
+  const alive = true;
+}
+```
 7. Scope Resolution 范围解析符 __::__
-    ``` PHP
-    class Person {
-      const life = "MAXIMUM";
-    }
+``` PHP
+class Person {
+  const life = "MAXIMUM";
+}
 
-    echo Person::life; //MAXIMUM
-    ```
+echo Person::life; //MAXIMUM
+```
 8. `static` is similar with `const`, but it can be a function for a class
 
 ## arrays
 1. `$anArray = array(0, 'apple', '333');`
 2. `echo $anArray[0]; // 0`
 3. Associative Arrays
-    ``` PHP
-    $anotherArray = array('color' => 'blue',
-                           'sex' => 'male',
-                           'year' => 2016);
-    echo $anotherArray['color']; // blue
-    ```
+``` PHP
+$anotherArray = array('color' => 'blue',
+                       'sex' => 'male',
+                       'year' => 2016);
+echo $anotherArray['color']; // blue
+```
 4. Iterating over Associative Arrays
-    ``` PHP
-    $salad = array('lettuce' => 'with',
-                   'tomato' => 'without',
-                   'onions' => 'with');
+``` PHP
+$salad = array('lettuce' => 'with',
+               'tomato' => 'without',
+               'onions' => 'with');
 
-    foreach ($salad as $key => $value) {
-      echo $value . ' ' . $key; // with lettuce without tomato with onions
-    }
-    ```
+foreach ($salad as $key => $value) {
+  echo $value . ' ' . $key; // with lettuce without tomato with onions
+}
+```
 5. Multidimensional Arrays
-    ``` PHP
-    $deck = array(array('2 of Diamonds', 2),
-                      array('5 of Diamonds', 5),
-                      array('7 of Diamonds', 7));
+``` PHP
+$deck = array(array('2 of Diamonds', 2),
+                  array('5 of Diamonds', 5),
+                  array('7 of Diamonds', 7));
 
-    echo 'You have the ' . $deck[2][1] . '!'; // You have the 7!
-    echo 'You have the ' . $deck[2] . '!'; // You have the Array!
-    ```
+echo 'You have the ' . $deck[2][1] . '!'; // You have the 7!
+echo 'You have the ' . $deck[2] . '!'; // You have the Array!
+```
