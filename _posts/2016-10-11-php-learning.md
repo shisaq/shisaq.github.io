@@ -87,26 +87,29 @@ categories: front-end notes
 2. Construct an instance of the class
     `$instance = new Person();`
 3. print a public property from a class
-    ``` PHP
-    class Person {
-      public $theValue = true;
-    }
 
-    $example = new Person();
+``` PHP
+class Person {
+  public $theValue = true;
+}
 
-    print $example->theValue; // true
-    ```
+$example = new Person();
+
+print $example->theValue; // true
+```
+
 4. methods: functions bundled into objects
-    ``` PHP
-    class Person {
-      public function __construct($para1, $para2) {
-        this->num1 = $para1;
-        this->num2 = $para2;
-      }
-    }
-    $obj = new Person("one", "two");
-    print $obj->num1; // one
-    ```
+
+``` PHP
+class Person {
+  public function __construct($para1, $para2) {
+    this->num1 = $para1;
+    this->num2 = $para2;
+  }
+}
+$obj = new Person("one", "two");
+print $obj->num1; // one
+```
 
 ## OOP PHP
 
