@@ -1,4 +1,4 @@
-var deadline = "November 13 2016 23:59:59 GMT -0500";
+var deadline = "February 23 2017 23:59:59 GMT -0500";
 
 // function getTimeRemaining(endtime) {
 //     var t = Date.parse(endtime) - Date.parse(new Date());
