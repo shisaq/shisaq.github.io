@@ -1,4 +1,8 @@
-var deadline = "February 23 2017 23:59:59 GMT -0500";
+var deadline = "Thu Feb 23 2017 23:59:59 GMT-0500";
+
+// var sss = '2017-02-23T23:59:59.0500';
+// var a = sss.split(/[^0-9]/);
+// var deadline = new Date (a[0],a[1]-1,a[2],a[3],a[4],a[5]);
 
 // function getTimeRemaining(endtime) {
 //     var t = Date.parse(endtime) - Date.parse(new Date());
@@ -23,7 +27,8 @@ var deadline = "February 23 2017 23:59:59 GMT -0500";
 // get the time remaining
 function getTimeRemaining(endtime) {
   var t = Date.parse(endtime) - Date.parse(new Date());
-  var seconds = Math.floor((t / 1000) % 60);
+
+  var seconds = (t / 1000) % 60;
   var minutes = Math.floor((t / 1000 / 60) % 60);
   var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
   var days = Math.floor(t / (1000 * 60 * 60 * 24));
@@ -48,9 +53,9 @@ function initializeClock(id, endtime) {
     var t = getTimeRemaining(endtime);
 
     daysSpan.innerHTML = t.days;
-    hoursSpan.innerHTML = Number(('0' + String(t.hours)).slice(-2));
-    minutesSpan.innerHTML = Number(('0' + String(t.minutes)).slice(-2));
-    secondsSpan.innerHTML = Number(('0' + String(t.seconds)).slice(-2));
+    hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+    minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+    secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
 
     if (t.total <= 0) {
       clearInterval(timeinterval);
