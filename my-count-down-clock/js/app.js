@@ -1,4 +1,4 @@
-var deadline = "Thu Feb 23 2017 23:59:59 GMT-0500";
+var deadline = "Thu Feb 22 2017 23:59:59 GMT-0500";
 
 // var sss = '2017-02-23T23:59:59.0500';
 // var a = sss.split(/[^0-9]/);
