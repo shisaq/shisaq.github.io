@@ -1,0 +1,61 @@
+---
+author: shisaq
+comments: true
+date: 2016-06-23 13:11:29+00:00
+layout: post
+link: http://shisaq.com/%e5%85%a5%e9%97%a8%e5%ad%a6%e4%b9%a0grunt.html
+slug: '%e5%85%a5%e9%97%a8%e5%ad%a6%e4%b9%a0grunt'
+title: 入门学习Grunt
+wordpress_id: 190
+categories:
+- 前端学习笔记
+---
+
+在Udacity上学习了一点Grunt的皮毛，其实还不算会用，只是会拿现有的文件重新套用到新项目中去。将流程记录如下，慢慢增进。
+
+
+
+
+
+
+ 	
+  1. ******安装node.js
+**[node.js链接](https://nodejs.org/)。安装完毕后，就能用npm了。查看npm的位置，可以在终端输入which npm。
+
+ 	
+  2. ******将Grunt命令行安装到全局环境中：
+**`npm install -g grunt-cli`
+
+ 	
+  3. ******初始化npm
+**使用终端进入将要使用Grunt的项目根目录，输入`npm init`，初始化npm，将会输入必要信息（name, description, git repository, keywords, author需要手填，其他均直接回车即可），逐步建立package.json文件。
+
+ 	
+  4. ******安装Grunt
+**使用终端进入将要使用Grunt的项目根目录，输入`npm --save-dev install grunt`。此步骤会创建名为node_modules文件夹及运行Grunt所需的文件。
+
+ 	
+  5. ******创建配置文件Gruntfile.js
+**在项目根目录创建Gruntfile.js，此文件将包含未来要使用Grunt运行的功能。我现在的做法是复制之前的文件，内含4个插件：responsive-images, contrib-clean, contrib-copy, mkdir。
+
+ 	
+  6. ******下载所需插件
+**打开[Grunt插件链接](http://gruntjs.com/plugins)，寻找所需插件，并按每个插件的安装方式安装。一般方式是：`npm --save-dev install pluginName`。
+
+ 	
+  7. ******编辑配置文件Gruntfile.js
+**一般情况下，所有插件的配置都被保存在`module.exports = function(grunt) { }`内部，并且分为2部分：
+
+ 	
+    1. 编辑具体功能选项；
+
+ 	
+    2. 注册该插件。
+
+
+
+
+ 	
+  8. 一切配置完成后，在终端输入`grunt`，即可运行Grunt，得到相应效果。
+
+

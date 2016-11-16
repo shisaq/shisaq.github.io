@@ -1,0 +1,102 @@
+---
+author: shisaq
+comments: true
+date: 2016-11-14 14:17:15+00:00
+layout: post
+link: http://shisaq.com/%e7%89%9b%e5%88%80%e5%b0%8f%e8%af%95-python-2-7%e4%b8%8b%e7%9a%84rot13%e7%bc%96%e7%a0%81%e4%b8%8e%e8%a7%a3%e7%a0%81.html
+slug: '%e7%89%9b%e5%88%80%e5%b0%8f%e8%af%95-python-2-7%e4%b8%8b%e7%9a%84rot13%e7%bc%96%e7%a0%81%e4%b8%8e%e8%a7%a3%e7%a0%81'
+title: 牛刀小试——Python 2.7下的rot13编码与解码
+wordpress_id: 255
+categories:
+- 前端学习笔记
+---
+
+<blockquote>rot13是什么？它是一种很好玩的编码技术。可以参考[wiki](https://en.wikipedia.org/wiki/ROT13)。其实我更想叫它“加密”，不过因为它太容易破解了，所以我还是自己这么叫它吧。</blockquote>
+
+
+
+
+
+### 原理
+
+
+
+rot13，展开说就是“rotate by 13 places”，也就是向后移动13个位置。我们都知道，英文字母一共有26个。如果你把它们想象成一个圈圈，让a和z手拉着手，此时从a往后数13个，就是n；那么从n再往后数13个，就又回到了a。也就是说，rot13可以让你对一段话中的每个英文字母都往后移动13个，从而达到编码（加密）的效果。
+
+
+
+### 栗子
+
+
+
+`hello` 经过rot13编码后就是 `uryyb` 。乍一看uryyb，这是神马玩意？你看不懂，自然就是加密了。但是有人再用rot13编码一遍，就把`uryyb` 变回了`hello` 。
+
+
+
+### 实现
+
+
+
+在StackOverflow上找到了Python内置的办法：[http://stackoverflow.com/a/3270252/5769598](http://stackoverflow.com/a/3270252/5769598)。有了核心代码，剩下的工作就是写个`app.yaml` 和`rot13cipher.py` ，然后按照我之前[那篇文章](http://shisaq.com/%E5%9C%A8windows-10%E4%B8%8A%E8%BF%90%E8%A1%8Cgoogle-app-engine.html)把代码上传到GAE服务器就可以了。
+
+`app.yaml` 中的代码：
+
+
+    
+    <code>application: udacitywebdevelopment-149320
+    version: 1
+    runtime: python27
+    api_version: 1
+    threadsafe: true
+    
+    handlers:
+    - url: /.*
+     script: rot13cipher.app
+    </code>
+
+
+
+`rot13cipher.py` 的[代码](https://gist.github.com/shisaq/5fc4e7ed11f4f0d4d69e975c06706270)：
+
+
+    
+    <code>import webapp2
+    import cgi
+    import codecs
+    
+    # build a simple html form
+    form = """
+    <form method="post">
+    <h1 style="color: green">Let's use rot13 cipher!</h1>
+    <textarea name="text" rows="8" cols="40">%(text)s</textarea>
+    <input type="submit">
+    </form>
+    """
+    
+    # build a function that make the special characters into character entities, such like "&" -- "&amp;"
+    def escape_html(s):
+     return cgi.escape(s, quote = True)
+    
+    class MainPage(webapp2.RequestHandler):
+     def write_form(self, text=""):
+     self.response.out.write(form % {'text': escape_html(text)})
+    
+     def get(self):
+     self.write_form()
+    
+     def post(self):
+     user_text = self.request.get('text')
+    
+     # 'ignore' is to ignore Chinese characters
+     translated_text = codecs.encode(user_text, 'rot_13', 'ignore')
+    
+     self.write_form(translated_text)
+    
+    app = webapp2.WSGIApplication([
+     ('/', MainPage),
+    ], debug=True)
+    </code>
+
+
+
+其中，`codecs.encode` 就内置了rot13的编码技术。在测试的过程中，我发现如果输入中文的话，服务器就500错误了。于是查阅了[Python文档](https://docs.python.org/2/library/codecs.html#codec-base-classes)，使用了`ignore` ，使得服务器将中文字符忽略掉。虽然不是最好的方法，但是基本功能还是满足了。毕竟，rot13就是针对英文的，中文本来也就没法用，哈哈。

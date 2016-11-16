@@ -1,0 +1,56 @@
+---
+author: shisaq
+comments: true
+date: 2016-11-12 18:55:38+00:00
+layout: post
+link: http://shisaq.com/windows-10%e4%b8%8b%e4%bd%bf%e7%94%a8telnet%e8%af%b7%e6%b1%82%e5%be%97%e5%88%b0%e6%9c%8d%e5%8a%a1%e5%99%a8%e5%93%8d%e5%ba%94%e5%a4%b4%e7%9a%84%e6%96%b9%e6%b3%95.html
+slug: windows-10%e4%b8%8b%e4%bd%bf%e7%94%a8telnet%e8%af%b7%e6%b1%82%e5%be%97%e5%88%b0%e6%9c%8d%e5%8a%a1%e5%99%a8%e5%93%8d%e5%ba%94%e5%a4%b4%e7%9a%84%e6%96%b9%e6%b3%95
+title: Windows 10下使用telnet请求得到服务器响应头的方法
+wordpress_id: 243
+categories:
+- 前端学习笔记
+---
+
+本来可以用MacBook Pro的Terminal的，但是MacBook Pro前段时间被小偷带走了，无奈只能用这个老旧的ThinkPad代替一个月，同时等着MacBook Pro 2016到货了。
+
+既然用了Windows，开发过程中一定会有很多坑要踩。这两天开始学习Udacity的[Web Development](https://www.udacity.com/course/web-development--cs253)课程，遇到了HTTP Request的问题，目的是**使用telnet命令获得服务器的响应头信息**。按Udacity的视频展示的是MacOS系统，不适用Windows。于是开始了踩坑之旅。
+
+首先打开Windows PowerShell，尝试性地使用`telnet www.udacity.com 80` ，果然如下图所示，赤裸裸地失败，Windows甚至不认识telnet。
+
+[caption id="" align="aligncenter" width="978"]![不识别telnet](http://7xpx1z.com1.z0.glb.clouddn.com/QQ%E5%9B%BE%E7%89%8720161112111215.png) 不识别telnet[/caption]
+
+参照Udacity推荐的一篇Microsoft[官方instruction](https://technet.microsoft.com/en-us/library/cc771275(v=ws.10).aspx)和Google上找到的[一篇文章](https://www.rootusers.com/how-to-enable-the-telnet-client-in-windows-10/)（主要针对Windows 10），我们先让Windows识别这个telnet命令，在Windows 10下，右键开始——程序和功能——启用或关闭Windows功能，在弹出的对话框中找到Telnet客户端，打上勾，点击确定：
+
+[caption id="" align="aligncenter" width="448"]![Telnet客户端安装](http://7xpx1z.com1.z0.glb.clouddn.com/QQ%E5%9B%BE%E7%89%8720161112112311.png) Telnet客户端安装[/caption]
+
+然后再打开Windows PowerShell，重新输入该命令，于是掉入了下一个坑：
+
+[caption id="" align="aligncenter" width="975"]![一片空白](http://7xpx1z.com1.z0.glb.clouddn.com/QQ%E5%9B%BE%E7%89%8720161112112748.png) 一片空白[/caption]
+
+这是神马情况？啥玩意儿没有？看样子Windows已经认识了telnet了，但是为什么会啥也没有呢？先在Udacity Forum里搜搜吧，找到了这样一个[帖子](https://discussions.udacity.com/t/telnet-on-windows/23813)。
+
+原来在那片空白中，我可以继续输入代码，只是敲出来的代码只剩下了个下划线而已。于是我：
+
+输入：`GET / HTTP/1.0` ，回车；
+
+再输入`Host: www.udacity.com` ，**连续2次回车（这一步不能弄错，连续，2次，否则又是一个坑）**，出现了如下结果：
+
+[caption id="" align="aligncenter" width="290"]![貌似正确的结果](http://7xpx1z.com1.z0.glb.clouddn.com/QQ%E5%9B%BE%E7%89%8720161112133801.png) 貌似正确的结果[/caption]
+
+由于暂时没有Mac系统，我还不能测试它是否正确。但至少可以表明，Windows下的这个telnet真的不好用。论坛中还有一个[帖子](https://discussions.udacity.com/t/windows-using-putty-as-a-telnet-client/67817)建议用putty。详细步骤参加这个帖子就好。经测试，和我用Windows PowerShell的结果一样。不过用putty的好处是，你输入的代码，特别是`GET / HTTP/1.0`都可以看到了。注意大小写敏感。
+
+另外总结几个常用HTTP响应状态代码：
+
+
+
+<blockquote>200 OK 正常
+
+302 Found 在服务器其他地方找到了
+
+404 Not Found 这个不解释
+
+500 Server Error 服务器挂了</blockquote>
+
+
+
+
