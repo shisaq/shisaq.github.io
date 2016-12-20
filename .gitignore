@@ -4,5 +4,6 @@
 _site/
 .sass-cache/
 .jekyll-metadata
+_posts/.Archive/
 
 .DS_Store
