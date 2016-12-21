@@ -1,7 +1,7 @@
 ---
 author: shisaq
 comments: true
-date: 2016-12-20 9:47:33+00:00
+date: 2016-12-21 9:47:33+00:00
 layout: post
 title: 用React, Flask和SocketIO搭建在线聊天室(四)
 categories:
@@ -25,7 +25,9 @@ categories:
      New python executable in venv/bin/python
      Installing setuptools, pip, wheel...done.
      ```
-  此时再看你的项目文件夹，会发现一个新文件夹`/venv`躺在里面待命了。
+
+此时再看你的项目文件夹，会发现一个新文件夹`/venv`躺在里面待命了。
+
   4. 此时运行virtualenv：`$ . venv/bin/activate`(Windows在这里可能有坑，虽然官网给的命令是`$ venv\scripts\activate`，但是你可以试试看，如果不奏效，试试这个`$ venv/Scripts/activate`，总之要找到正确的activate文件目录)。
   5. 在这个虚拟环境下安装Flask：`$ pip install Flask`。进度条读完，Flask安装完成。
 
@@ -33,14 +35,14 @@ categories:
 
 在项目根目录新建一个`myproject.py`文件(我自定义为`run.py`)，复制如下代码并保存：
 
-    ```python
-    from flask import Flask
-    app = Flask(__name__)
+```python
+from flask import Flask
+app = Flask(__name__)
     
-    @app.route('/')
-    def hello_world():
-        return 'Hello, Chat Server!'
-    ```
+@app.route('/')
+def hello_world():
+  return 'Hello, Chat Server!'
+```
 
 关于Flask的基础代码已经配置完成了。此时只需要告诉Flask这个文件是要运行的文件即可：
 
