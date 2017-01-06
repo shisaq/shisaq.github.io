@@ -7,7 +7,7 @@ about: Front-end Developer
 
 baseurl: "https://shisaq.com"
 url: "https://shisaq.com"
-enforce_ssl: "https://shisaq.com"
+enforce_ssl: "shisaq.com"
 
 disqus_shortname: shisaq
 google_analytics: UA-73217350-1
