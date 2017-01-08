@@ -2,7 +2,7 @@
 	{
 		"name": "My Countdown Clock",
 		"image": "mycountdowncapture.png",
-		"url": "https://shisaq.com/mycountdownapp",
+		"url": "https://shisaq.github.io/mycountdownapp",
 		"date": "Jan 2017",
 		"tags": ["React","Material-UI","Font-Spider","HTML","CSS"]
 	},
