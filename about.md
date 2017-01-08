@@ -4,8 +4,12 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+## 我叫李海泉，这是我的个人博客。
 
-You can find the source code for this Jekyll theme at: [github.com/ashutosh2k12/hcz-jekyll-blog](https://github.com/ashutosh2k12/hcz-jekyll-blog)
+shisaq 这个名字由来已久，最初是因为我是狮子座，有次看文章，发现shisa 一词来源于冲绳的一个神话，也是冲绳的一头石狮子，同时象征着平安、守护、坚毅之意。于是我就借了这个词；同时q取自“泉”中的声母，两者一拼，世界上基本属于独一无二了，Google一下[shisaq](https://www.google.com/?q=shisaq#newwindow=1&q=shisaq)，都是我的信息。不要Google我的真名，因为你会收到很多“李小龙的爸爸”相关信息。
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+这个博客由Jekyll搭建，主要用来记录我决心转行前端工程师以来，各个阶段的收获。无论是这个博客的搭建时间，还是我开始学习前端的时间，都集中在2016年1月份，所以很多内容还是更偏向于加深我自己对一些知识的理解。我不能保证没有错误，但我会尽力保证它。毕竟要给自己看，要对自己好一点。
+
+如果你哪天旅行到了这里，欢迎留下你的足迹，也欢迎跟我探讨问题。
+
+## 我的新浪微博：[shisaq](http://weibo.com/shisaq)。
