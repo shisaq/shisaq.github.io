@@ -5,8 +5,8 @@ logo: /static/img/avatar.jpg
 github: https://github.com/shisaq
 about: Front-end Developer
 
-baseurl: "https://shisaq.github.io"
-# url: "https://shisaq.github.io"
+baseurl: ""
+url: "https://shisaq.github.io"
 
 disqus_shortname: shisaq
 google_analytics: UA-73217350-1
