@@ -7,24 +7,37 @@
 		"tags": ["React","Material-UI","Font-Spider"]
 	},
 	{
-		"name": "Cool project 2",
-		"image": "placeholder.jpg",
-		"url": "#",
-		"date": "May 2014",
-		"tags": ["Android","PHP"]
+		"name": "Online Chat Server",
+		"image": "chatservercover.png",
+		"date": "Dec 2016",
+		"tags": ["React","Flask","Socket.io"]
 	},
 	{
-		"name": "Cool project 3",
-		"image": "placeholder.jpg",
-		"url": "#",
-		"date": "June 2014",
-		"tags": ["HTML","JQuery","PHP"]
+		"name": "Yigong Shi Lab Website",
+		"image": "shilabcover.png",
+		"url": "http://ygshi.life.tsinghua.edu.cn",
+		"date": "Aug 2016",
+		"tags": ["KnockoutJS","JQuery"]
 	},
 	{
-		"name": "Cool project 4",
-		"image": "placeholder.jpg",
-		"date": "Oct 2016",
-		"tags": ["Android","nodejs"]
+		"name": "Neighborhood Map",
+		"image": "neighborcover.png",
+		"url": "fr-nano-neighborhood-map",
+		"date": "Jun 2016",
+		"tags": ["APIs","JavaScript","Ajax"]
+	},
+	{
+		"name": "Arcade Game",
+		"image": "arcadecover.png",
+		"url": "fr-nano-arcade-game",
+		"date": "May 2016",
+		"tags": ["HTML5","Object-Oriented JavaScript"]
+	},
+	{
+		"name": "Single Page Resume",
+		"image": "resumecover.png",
+		"url": "fr-nano-resume",
+		"date": "Apr 2017",
+		"tags": ["HTML","CSS","JQuery"]
 	}
-
 ]
