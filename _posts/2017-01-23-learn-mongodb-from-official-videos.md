@@ -36,10 +36,10 @@ the official videos are AWESOME. But, well, there is a but. But, it's pretty har
 
 ## What I found
 
-1. `app.use(errorHandler);`
+* `app.use(errorHandler);`
 
-  This error handler code has to be **AFTER** all other `app.use(someMiddleWares)`. Otherwise, it won't work properly. See [Node.js Doc](https://expressjs.com/en/guide/error-handling.html).
+This error handler code has to be **AFTER** all other `app.use()` and routes calls. Otherwise, it won't work properly. See [Node.js Doc](https://expressjs.com/en/guide/error-handling.html).
 
-2. `app.use(app.router);`
+* `app.use(app.router);`
 
-  This code has already been deprecated. What we need to do is simply remove this code, it will work perfectly.
+This code has already been deprecated. What we need to do is simply remove this code, it will work perfectly.
