@@ -8,11 +8,11 @@ categories:
 - frontend
 ---
 
-> Recently, after having handled the basic knowledge of React, I started the new journey -- NodeJS & MongoDB.
+> The best way to learn is to get your hands dirty.
 
 ## Background
 
-I successfully finished 2 projects: Chat Server and Countdown Web App. In order to be more comprehensive in programming, and of course to get a better chance for the job opportunities, I think it's time to alter myself to be a full stack engineer.
+Recently, after having handled the basic knowledge of React, I started the new journey -- NodeJS & MongoDB. I successfully finished 2 projects: Chat Server and Countdown Web App. In order to be more comprehensive in programming, and of course to get a better chance for the job opportunities, I think it's time to alter myself to be a full stack engineer.
 
 After having browsed several stacks, I picked these below:
 
@@ -43,3 +43,34 @@ This error handler code has to be **AFTER** all other `app.use()` and routes cal
 * `app.use(app.router);`
 
 This code has already been deprecated. What we need to do is simply remove this code, it will work perfectly.
+
+## What I learned
+
+* `mongod`: to start database server.
+
+* `mongo`: to run MongoDB shell and manipulate data.
+
+* Once we are in MongoDB shell, we can:
+
+  * `show dbs`: to show all the databases we have.
+
+  * `help`: to check all commands we have.
+
+  * `use abc`: switch to db `abc`.
+
+  * `show collections`: show all collections inside db `abc`.
+
+  * `db.collection.find()`: if there is a collection called `collection` in db `abc`, we're able to check all the data inside it.
+
+* `mongorestore dump`: if we have a bson and a json file for our database, we can dump it into our database. Haven't made sure how to create the files, but once we have the files, we can wrap them into `dump` directory and run this command to store the data to our MongoDB.
+
+* `bodyParser`: This middleware is quite important. It helps to parse POST data. (usage: `var bodyParser = require('body-parser');  app.use(bodyParser.urlencoded({ extended: true }));`) With its help, we can easily get the data from POST request by using `req.body`.
+
+* callback function (the first parameter is `err`).
+
+```javascript
+db.collection('movies').insertOne({ title, year, imdb }, (err, r) => {
+    assert.equal(null, err);
+    res.status(200).send('The inserted ID is: ' + r.insertedId);
+});
+```
