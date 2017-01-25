@@ -46,6 +46,8 @@ This code has already been deprecated. What we need to do is simply remove this 
 
 ## What I learned
 
+### MongoDB Config
+
 * `mongod`: to start database server.
 
 * `mongo`: to run MongoDB shell and manipulate data.
@@ -74,3 +76,12 @@ db.collection('movies').insertOne({ title, year, imdb }, (err, r) => {
     res.status(200).send('The inserted ID is: ' + r.insertedId);
 });
 ```
+
+### Database "CRUD"
+
+|  Acronym  |  Meaning  |
+|---        |---        |
+|     C     |   Create  |
+|     R     |   Read    |
+|     U     |   Update  |
+|     D     |   Delete  |
