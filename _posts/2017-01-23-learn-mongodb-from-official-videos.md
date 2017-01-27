@@ -66,6 +66,8 @@ This code has already been deprecated. What we need to do is simply remove this 
 
 * `mongorestore dump`: if we have a bson and a json file for our database, we can dump it into our database. Haven't made sure how to create the files, but once we have the files, we can wrap them into `dump` directory and run this command to store the data to our MongoDB.
 
+* `mongoimport`: import json database to MongoDB. For instance: `mongoimport -d crunchbase -c companies companies.json`, create a database called `crunchbase` and collection called `companies`, the source is `companies.json`. `-d` means database; `-c` means collections.
+
 * `bodyParser`: This middleware is quite important. It helps to parse POST data. (usage: `var bodyParser = require('body-parser');  app.use(bodyParser.urlencoded({ extended: true }));`) With its help, we can easily get the data from POST request by using `req.body`.
 
 * callback function (the first parameter is `err`).
@@ -85,3 +87,18 @@ db.collection('movies').insertOne({ title, year, imdb }, (err, r) => {
 |     R     |   Read    |
 |     U     |   Update  |
 |     D     |   Delete  |
+
+* `db.movieDetails.find({});` find all data in `movieDetails`
+
+* `db.movieDetails.find({}, {title: 1}).pretty();` find all data, then output `title` of every element with `_id`
+
+* `db.movieDetails.find({}, {title: 1, _id: 0}).pretty();` find all data, then output `title` of every element WITHOUT `_id`
+
+* `db.movieDetails.find({title: "Muppets from Space"});` find all elements whose `title` equal to "Muppets from Space"
+
+* `db.movieDetails.find({'countries.1': 'Sweden'}).count();` how many movies list "Sweden" SECOND in the list of countries.
+
+* `db.movieDetails.find({'genres': ['Comedy', 'Crime']}).count();` just the following two genres: "Comedy" and "Crime" with "Comedy" listed first
+
+* `db.movieDetails.find({'genres': { $all: ['Comedy', 'Crime'] } }).count();` how many documents in the video.movieDetails collection list both "Comedy" and "Crime" as genres regardless of how many other genres are listed
+
