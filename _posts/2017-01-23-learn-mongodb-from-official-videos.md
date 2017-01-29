@@ -113,3 +113,12 @@ In Node.js, we can first specify a cursor by using `var cursor = db.collection('
 * Skip: when I'm on the second page, the data will skip the data on the first page and return the rest of it. e.g: `cursor.skip(4);` this will skip 4 data from the returned data.
 
 * limit: how many data shall it appear. e.g: `cursor.limit(2)` only 2 data element will be returned.
+
+### a simple sample for the usage of `$or` in Node.js driver
+
+```javascript
+query['$or'] = [
+    {'overview': {'$regex': options.overview, '$options': 'i'}},
+    {'tag_list': {'$regex': options.overview, '$options': 'i'}}
+];
+```
