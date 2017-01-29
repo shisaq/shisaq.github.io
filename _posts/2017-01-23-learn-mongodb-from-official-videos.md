@@ -102,3 +102,14 @@ db.collection('movies').insertOne({ title, year, imdb }, (err, r) => {
 
 * `db.movieDetails.find({'genres': { $all: ['Comedy', 'Crime'] } }).count();` how many documents in the video.movieDetails collection list both "Comedy" and "Crime" as genres regardless of how many other genres are listed
 
+* `db.movieDetails.find({ title: {'$regex': 'abc', '$options': 'i'} });` find title that contains `abc`. `'$options': 'i'` means case insensitive.
+
+### Sort, Skip, Limit
+
+In Node.js, we can first specify a cursor by using `var cursor = db.collection('grades').find({some query}, {some projection});`, then add some sort, skip or limit to the cursor object.
+
+* Sort: range data by passing in conditions. e.g: `cursor.sort({"grade": -1});` the returned data will be sorted by `grade` on descending order.
+
+* Skip: when I'm on the second page, the data will skip the data on the first page and return the rest of it. e.g: `cursor.skip(4);` this will skip 4 data from the returned data.
+
+* limit: how many data shall it appear. e.g: `cursor.limit(2)` only 2 data element will be returned.
