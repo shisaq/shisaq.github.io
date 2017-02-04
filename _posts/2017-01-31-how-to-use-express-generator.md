@@ -20,6 +20,8 @@ categories:
 
 Now if you type `express -h`, you're able to get the help list below.
 
+![help](http://7xpx1z.com1.z0.glb.clouddn.com/Snip20170131_3.png)
+
 ## One Step Generation
 
 `express myapp`
@@ -29,6 +31,8 @@ This command will simply generate the application folder called `myapp` for you 
  * `cd myapp && npm install`
  * `npm start`
  * Open your browser, type `localhost:3000`, you can see the server is running
+
+![generate](http://7xpx1z.com1.z0.glb.clouddn.com/Snip20170131_2.png)
 
 ## Customize Config
 
