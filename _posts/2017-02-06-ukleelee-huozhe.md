@@ -8,7 +8,7 @@ categories:
 - ukulele
 ---
 
-Recently, I'm learning MongoDB. Meanwhile, I made a video that I was playing and singing at the Inspiration Point by using my favorite ukulele. Hope you'll love it.
+> Recently, I'm learning MongoDB. Meanwhile, I made a video that I was playing and singing at the Inspiration Point by using my favorite ukulele. Hope you'll love it.
 
 Whatever you do, be passionate about it.
 
