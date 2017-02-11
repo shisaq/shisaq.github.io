@@ -1,6 +1,6 @@
 # ShisaQ's Website
 
-Currently it's being contributed. Just contains several portfolios.
+My name is ShisaQ. Here is my blog: [https://shisaq.github.io](https://shisaq.github.io).
 
 ## Contributing Tool
 
