@@ -182,3 +182,64 @@ db.companies.aggregate([
 // { "_id" : "eric-di-benedetto", "count" : 15 }
 // Homework 6.1 from [MongoDB University](https://university.mongodb.com/courses/MongoDB/M101JS/2017_January/courseware/Week_6_The_Aggregation_Framework/56ba8617d8ca39047c3ac29c/vertical_2018b095655e)
 ```
+
+### `unwind`
+
+This can unwind elements from an array.
+
+Before unwind:
+
+```javascript
+{
+    a: 1,
+    b: 2,
+    c: [3, 4]
+}
+```
+
+After unwind:
+
+```javascript
+{
+    a: 1,
+    b: 2,
+    c: 3
+},
+{
+    a: 1,
+    b: 2,
+    c: 4
+}
+```
+
+This command can easily split an array, then sort, filter or limit.
+
+### This is the question of Homework 6.3 of MongoDB University:
+
+For companies in our collection founded in 2004 and having 5 or more rounds of funding, calculate the average amount raised in each round of funding. Which company meeting these criteria raised the smallest average amount of money per funding round? You do not need to distinguish between currencies. Write an aggregation query to answer this question.
+
+### This is the answer of Homework 6.3 of MongoDB University:
+
+```javascript
+db.companies.aggregate([
+    { $match: { founded_year: 2004 } },
+    { $project: { founded_year: 1,
+                  _id: 0,
+                  permalink: 1,
+                  funding_rounds: 1,
+                  size_of_r: { $size: '$funding_rounds' }
+    } },
+    { $match: { size_of_r: { $gte: 5 } } },
+    { $project: { founded_year: 1,
+                  _id: 0,
+                  permalink: 1,
+                  funding_rounds: 1
+    } },
+    { $unwind: '$funding_rounds' },
+    { $group: {
+        _id: '$permalink',
+        number: { $avg: '$funding_rounds.raised_amount'}
+    }},
+    { $sort: { number: -1 } }
+]).pretty();
+```
