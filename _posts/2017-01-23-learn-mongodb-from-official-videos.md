@@ -122,3 +122,63 @@ query['$or'] = [
     {'tag_list': {'$regex': options.overview, '$options': 'i'}}
 ];
 ```
+
+### Aggregation Pipeline
+
+**Aggregation** is a pipline by offering an array with stages, then match, sort, skip and limit data.
+
+```javascript
+db.companies.aggregate([
+    { $match: { founded_year: 2004 } },
+    { $limit: 5 },
+    { $project: {
+        _id: 0,
+        name: 1
+    } }
+]);
+
+// Result
+// { "name" : "Digg" }
+// { "name" : "Facebook" }
+// { "name" : "AddThis" }
+// { "name" : "Veoh" }
+// { "name" : "Pando Networks" }
+```
+
+```javascript
+db.companies.aggregate([
+    { $match: { founded_year: 2004 } },
+    { $limit: 5 },
+    { $sort: { name: 1 } },
+    { $project: {
+        _id: 0,
+        name: 1
+    } }
+]);
+
+// Result
+// { "name" : "AddThis" }
+// { "name" : "Digg" }
+// { "name" : "Facebook" }
+// { "name" : "Pando Networks" }
+// { "name" : "Veoh" }
+
+```
+
+```javascript
+db.companies.aggregate([
+    { $match: { "relationships.person": { $ne: null } } },
+    { $project: { relationships: 1, permalink: 1, _id: 0 } },
+    { $unwind: "$relationships" },
+    { $group: {
+        _id: "$relationships.person.permalink",
+        list: { $addToSet: '$permalink' }
+    } },
+    { $match: { '_id': 'eric-di-benedetto' } },
+    { $project: {_id: 1, count: { $size: '$list' } } },
+]);
+
+// Result
+// { "_id" : "eric-di-benedetto", "count" : 15 }
+// Homework 6.1 from [MongoDB University](https://university.mongodb.com/courses/MongoDB/M101JS/2017_January/courseware/Week_6_The_Aggregation_Framework/56ba8617d8ca39047c3ac29c/vertical_2018b095655e)
+```
