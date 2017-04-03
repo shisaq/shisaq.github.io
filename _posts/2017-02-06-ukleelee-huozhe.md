@@ -1,7 +1,7 @@
 ---
 author: shisaq
 comments: true
-date: 2017-01-31 10:57:19+00:00
+date: 2017-02-06 10:57:19+00:00
 layout: post
 title: My playing and singing -- [活着]
 categories:
