@@ -5,7 +5,7 @@ date: 2017-04-02 15:19:19+00:00
 layout: post
 title: My Fireman - Udacity Digital Marketing Nanodegree
 categories:
-- personal development
+- personal_dev
 ---
 
 Actually, I graduated from Udacity Front-end Web Development Nanodegree last August. I know NOTHING about digital marketing, meanwhile I’m a Chinese so I don’t know that much about US culture or the platforms people use in the US.
