@@ -3,14 +3,14 @@ author: shisaq
 comments: true
 date: 2017-05-10 17:01:19+00:00
 layout: post
-title: Book review: How to read a book
+title: Book review - How to read a book
 categories:
 - personal_dev
 ---
 
-如何阅读一本书(畅销70余年)
+# 如何阅读一本书(畅销70余年)
 
-作者：艾德勒(老师，原版) + 范多伦(学生，修订)
+> 作者：艾德勒(老师，原版) + 范多伦(学生，修订)
 
 ## 阅读的好处
 人的心智和思考能力不用就会萎缩。读书可以防止萎缩，推动心智运转。即用进废退。
