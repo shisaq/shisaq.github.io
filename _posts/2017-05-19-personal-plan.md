@@ -16,33 +16,33 @@ categories:
 
 ## 工作与学习项目
 
-1. **Digital Marketing Freelancer沟通**
+1. **Digital Marketing Freelancer沟通**(5/20/2017)
  * Persona分析与建议+Keywords建议
  * Facebook Audience Insights分析
  * 广告内容更新建议
  * 价格上涨通知
 
-2. **Indiegogo图片更新(Perks+标题，Eric)**
+2. **Indiegogo图片更新(Perks+标题，Eric)**(5/20/2017)
 
-3. 每周一/四在Facebook Page发Post(运营Sarah?)
+3. 每周一/四在Facebook Page发Post(运营Sarah?)(5/22/2017)
 
-4. app接入与开发(赵岩/Eric)
+4. app接入与开发(赵岩/Eric)(6/15/2017)
 
-5. **Shopify网站7天搭建计划(Martin/阿欣)**
+5. **Shopify网站7天搭建计划(Martin/阿欣)**(5/20/2017)
 
-6. 自定义网站计划制订(阿欣)
+6. 自定义网站计划制订(阿欣)(6/20/2017)
 
-7. 营销计划(Martin)与学习(书)
+7. 营销计划(Martin)与学习(书)(5/31/2017)
 
-8. **app需求文档分享与学习**
+8. **app需求文档分享与学习**(5/20/2017)
 
-9. Yousician调研(Eric)
+9. Yousician调研(Eric)(6/15/2017)
 
-10. 产品经理/全栈/DM/后期学习(Udacity & YouTube个人)
+10. 产品经理/全栈/DM/后期学习(Udacity & YouTube个人)(12/31/2017)
 
-11. **工资发放方式/股权学习/Upwork付款方式更改(Martin)**
+11. **工资发放方式/股权学习/Upwork付款方式更改(Martin)**(5/25/2017)
 
-12. _L1签证？_
+12. _L1签证？_(12/31/2017)
 
 ## 个人反思
 
