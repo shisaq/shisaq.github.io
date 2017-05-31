@@ -14,12 +14,15 @@ categories:
 `ffmpeg -i input.mp4 -c:v libvpx -preset slow -s 1280x540 -qmin 0 -qmax 50 -b:v 400K -c:a libvorbis output.webm`
 
 ## 静音webm版
-`ffmpeg -i 26s.mp4 -c:v libvpx -preset slow -s 1280x540 -qmin 0 -qmax 50 -b:v 400K -an output3.webm`
+`ffmpeg -i input.mp4 -c:v libvpx -preset slow -s 1280x540 -qmin 0 -qmax 50 -b:v 400K -an output3.webm`
 
 ## 静音mp4版
-`ffmpeg -i 26s.mp4 -c:v libx264 -preset slow -s 1280x540 -an -b:v 370K homepage.mp4`
+`ffmpeg -i input.mp4 -c:v libx264 -preset slow -s 1280x540 -an -b:v 370K homepage.mp4`
 
-原本26秒的视频，大概有7M，我以为已经挺小了；这下通过ffmpeg处理后，居然不到2M了。真爽 :)
+## 静音ogv版
+`ffmpeg -i input.mp4 -s 1280x540 -b:v 400K -an output3.ogv`
+
+原本26秒的视频，大概有7M，我以为已经挺小了；这下通过ffmpeg处理后，居然不到1.5M了。真爽 :)
 
 在尝试生成的时候，我遇到了一些坑：
 
