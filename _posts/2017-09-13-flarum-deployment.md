@@ -103,6 +103,7 @@ Flarum之所以是个轻论坛，就是因为它除了基本的论坛功能，�
 如果我的论坛文件夹是`public_html`下的`forum`，我想安装简体中文的语言包：
 
 `$ cd public_html/forum`
+
 `$ composer require jsthon/flarum-ext-simplified-chinese`
 
 ### 推荐插件
