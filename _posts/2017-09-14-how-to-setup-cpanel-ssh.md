@@ -122,6 +122,6 @@ This private key will be ignored.
 
 你也可以事先通过`stat`命令查看id_rsa的当前权限。Mac/Linux/Win具体命令不太一样，所以还是Google去吧。
 
-如果想了解更多，可以查看stackoverfow的[这篇文章](https://stackoverflow.com/a/9270753/5769598)。
+如果想了解更多，可以查看stackoverflow的[这篇文章](https://stackoverflow.com/a/9270753/5769598)。
 
 (全文完)
