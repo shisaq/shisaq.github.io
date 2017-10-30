@@ -117,3 +117,6 @@ everyone: 4.
 * 切换并激活虚拟环境 `workon venvname`
 
 python_home = '/home/grader/Envs/catalog/bin'
+
+### 下载服务器的catalog.db文件到当前文件夹下
+`scp -P 2200 grader@18.216.18.12:/home/grader/fsnd_catalog/tmp/catalog.db .`
