@@ -43,7 +43,7 @@ categories:
 ### 资深Google员工审核
 ### 拿到Offer
 
-## 下一步
+## 我需要做的事
 
 1. [Google Careers](https://careers.google.com/how-we-hire/)
 2. 更新简历
