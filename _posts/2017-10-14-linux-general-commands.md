@@ -34,6 +34,8 @@ categories:
 
 * `ssh-keygen` 生成ssh公钥和密钥
 * `ssh username/host (-p 1234)` ssh连接服务器
+* `ssh-add -K file` 添加一个ssh key(-K为Mac系统将该key添加到钥匙串keychain的参数)
+* `ssh-add -d file` 移除已经通过`ssh-add`添加过的ssh key
 
 ### `nano` 修改文件
 
