@@ -90,13 +90,27 @@ php -r "unlink('composer-setup.php');"
 
 如果安装过程中，遇到问题，请尝试以下3种方法：
 
-1. `$ chmod -R 755 ./public_html/forum`更改forum文件夹读取和写入权限；
+1. `$ chmod 755 ./public_html/forum`, `$ chmod 644 ./public_html/forum/index.php`更改forum文件夹及index.php的读取和写入权限(可能也需要更改admin.php及api.php的权限，方法同index.php一样)；
 2. 去[installation tag](https://discuss.flarum.org/t/installation)或[求助区](http://discuss.flarum.org.cn/t/support)搜索或提问；
-3. Google一下你遇到的错误内容。
+3. 在Apache错误日志或Flarum错误日志查询错误信息，然后去Google。这里放几个可能会有用的链接：
+
+### apache error log
+`$ cat /usr/local/apache/logs/error_log`
+
+### php config
+`$ sudo nano /usr/local/lib/php.ini`
+
+### grand permission of folder and all files to a user
+`$ chown -R username /path/to/folder/`
+
+### apache system config
+`$ sudo nano /etc/httpd/conf/httpd.conf`
+### apache user config
+`$ sudo nano /etc/httpd/conf.d/userdir.conf`
 
 ## 安装插件
 
-Flarum之所以是个轻论坛，就是因为它除了基本的论坛功能，没有其他功能。如果想要其他功能，我们可以尝试[寻找现有插件](https://github.com/moutonnoireu/flarumextlist/wiki/Extension-List)，或自行开发。截至目前(Flarumv0.1.0-beta.7)，新的插件安装都需要用composer完成。所以先普及一个基础知识：**在论坛文件夹(我的是`public_html/forum`)下运行composer命令。
+Flarum之所以是个轻论坛，就是因为它除了基本的论坛功能，没有其他功能。如果想要其他功能，我们可以尝试[寻找现有插件](https://github.com/moutonnoireu/flarumextlist/wiki/Extension-List)，或自行开发。截至目前(Flarumv0.1.0-beta.7)，新的插件安装都需要用composer完成。所以先普及一个基础知识：**在论坛文件夹(我的是`public_html/forum`)下运行composer命令。**
 
 ### 举例
 
