@@ -58,8 +58,10 @@ localhost:8000/admin，需要登录：
 
 * python2和python3版本的代码有所不同，主要是因为super()的用法不同。示例代码已涵盖python2和python3，如需python3，请注释掉python2。
 * Flask-BasicAuth登录方式**不安全**，建议放在SSL下使用，或使用flask-login或flask-security。
+* 使用wsgi和apache在服务器上运行时，需要在wsgi文件中添加`WSGIPassAuthorization On`，否则flask-basicauth会被apache忽略从而无法工作。
 
 ## 参考文章
 
 * [Secure flask-admin using flask-basicauth](https://computableverse.com/blog/flask-admin-using-basicauth)
 * [TypeError: super() takes at least 1 argument (0 given)](https://stackoverflow.com/a/38963433/5769598)
+* [How to access Apache Basic Authentication user in Flask](https://stackoverflow.com/a/24128485/5769598)
