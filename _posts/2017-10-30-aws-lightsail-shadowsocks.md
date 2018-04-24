@@ -62,6 +62,10 @@ _注：选择其他空间商也可以，安装ubuntu即可。推荐[vultr](https
 
 `$ pip install shadowsocks`
 
+## 查看帮助
+
+`$ ssserver --help`
+
 ## 配置shadowsocks
 
 新建配置文件`$ /etc/shadowsocks.json`。举例：
@@ -91,7 +95,7 @@ _注：选择其他空间商也可以，安装ubuntu即可。推荐[vultr](https
  * 保存文件(在nano打开该文件后)：`ctrl + O`
  * 退出文件(在保存后)： `ctrl + X`
 
-## 启动shadowsocks
+## 后台启动shadowsocks
 
 `$ ssserver -c /etc/shadowsocks.json -d start`
 
@@ -106,13 +110,18 @@ tcp        0      0 0.0.0.0:8388            0.0.0.0:*               LISTEN
 udp        0      0 0.0.0.0:8388            0.0.0.0:*
 ```
 
+## 设置非root用户运行ss
+
+```bash
+$ sudo useradd ssuser // 添加一个ssuser用户
+$ sudo ssserver [other options] --user ssuser // 用ssuser启动shadowsocks
+```
+
 ## 把shadowsocks设置为开机启动
 
-编辑`/etc/rc.local`文件，添加如下命令行：
+编辑`/etc/rc.local`文件，在末尾的`exit 0`之前添加如下命令行：
 
-`$ ssserver -c /etc/shadowsocks.json -d start`
-
-![run at startup](https://i.loli.net/2017/11/01/59f92019cf2eb.png)
+`ssserver -c /etc/shadowsocks.json -d start --user ssuser`
 
 *至此，服务器端配置完成。*
 
@@ -131,3 +140,4 @@ udp        0      0 0.0.0.0:8388            0.0.0.0:*
 ## 感谢
 
 [shadowsocks](https://shadowsocks.org/)
+[shadowsocks折腾记](https://thief.one/2017/02/22/Shadowsocks%E6%8A%98%E8%85%BE%E8%AE%B0/)
