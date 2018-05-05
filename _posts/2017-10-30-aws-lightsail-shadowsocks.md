@@ -30,7 +30,7 @@ categories:
 
 ![实例截图](https://i.loli.net/2017/11/01/59f90f9bd2e3e.png)
 
-_注：选择其他空间商也可以，安装ubuntu即可。推荐[vultr](https://vultr.com)， [Digital Ocean](https://www.digitalocean.com/)和[Linode](https://www.linode.com/)。_
+_注：选择其他空间商也可以，安装ubuntu即可。推荐[vultr](https://www.vultr.com/?ref=7244667)， [Digital Ocean](https://www.digitalocean.com/)和[Linode](https://www.linode.com/)。_
 
 ## 系统基础配置
 
