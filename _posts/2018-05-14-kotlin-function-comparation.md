@@ -86,7 +86,7 @@ fun canAddFish(tankSize: Double,
 
 * 定义了多余变量
 * 使用了不必要的循环
-* 忽略了“Kotlin任何对象都可看作表达式”
+* 忽略了“Kotlin除了while循环和for循环，任何对象都可看作表达式”
 * **逻辑不够清晰，sum函数其实可替代forEach**
 
 ## 出处
