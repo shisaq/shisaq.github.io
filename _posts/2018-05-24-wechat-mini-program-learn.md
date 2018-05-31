@@ -77,3 +77,31 @@ Page({
 4. **reLaunch**：对应于API接口中的wx.reLaunch方法。使用该跳转方法则会**关闭所有页面**，并打开到应用内的某个页面。
 
 5. **navigateBack**：对应API接口中的wx.navigateBack方法。使用该方式跳转时，将**关闭当前页面，返回上一级页面或多级页面(由delta属性决定)**。
+
+## API连接请求的说明
+
+1. 默认超时时间和最大超时时间都是60s；
+2. request, uploadFile, downloadFile最大并发限制是10个；
+3. 网络请求的referer header不可设置，格式固定为：
+ `https://service.wechat.com/{app_id}/{version}/page-frame.html`
+4. 小程序进入后台运行后，5s内网络请求没有结束，会回调错误信息`fail interrupted`。
+
+## 交互反馈
+
+### wx.showToast(OBJECT)
+
+显示消息提示框。
+
+![显示消息提示框](https://i.loli.net/2018/05/31/5b1018127396b.png)
+
+### wx.showLoading(OBJECT)
+
+显示 loading 提示框, 需主动调用 wx.hideLoading 才能关闭提示框。
+
+![loading提示框](https://i.loli.net/2018/05/31/5b10181272f66.png)
+
+### wx.showModal(OBJECT)
+
+显示模态弹窗。
+
+![显示模态弹窗](https://i.loli.net/2018/05/31/5b101810000a5.png)
