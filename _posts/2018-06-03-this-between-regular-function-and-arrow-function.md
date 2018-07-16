@@ -8,7 +8,7 @@ categories:
 - frontend
 ---
 
-> `this`这位仁兄在我学习JavaScript的时候，给我造成了不小困扰。如今ES6的箭头函数到来，`this`的用法和之前常规函数又不一样了。此文从`this`原本的用法开始，用一些简单例子试图把这两者间的不同讲清楚。
+> `this`这位仁兄在我学习 JavaScript 的时候，给我造成了不小困扰。如今 ES6 的箭头函数到来，`this`的用法和之前常规函数又不一样了。此文从`this`原本的用法开始，用一些简单例子试图把这两者间的不同讲清楚。
 
 ## `this`在常规函数中的用法
 
@@ -59,22 +59,22 @@ teleport();
 ```javascript
 // 构造函数
 function IceCream() {
-    this.scoops = 0;
+  this.scoops = 0;
 }
 
 // 多加1勺冰淇淋
 IceCream.prototype.addScoop = function() {
-    setTimeout(function() {
-        this.scoops++;
-        console.log('scoop added!');
-    }, 500);
+  setTimeout(function() {
+    this.scoops++;
+    console.log('scoop added!');
+  }, 500);
 };
 
 const dessert = new IceCream();
 dessert.addScoop(); // scoop added!
 ```
 
-此时，如果对`this`的概念不够熟悉的话，你可能以为`this.scoops`在0.5秒之后已经变成`1`了。然而并没有：
+此时，如果对`this`的概念不够熟悉的话，你可能以为`this.scoops`在 0.5 秒之后已经变成`1`了。然而并没有：
 
 ```javascript
 console.log(dessert.scoops); // 0
@@ -84,8 +84,8 @@ console.log(dessert.scoops); // 0
 
 因此，`dessert.addScoop();`这行代码做的事情其实是这样的：
 
-1. 定义一个名为`scoop`的全局变量，因为没有默认值，所以此时值为`undefined`；
-2. `scoop + 1`也就是：`undefined + 1 == NaN`
+1.  定义一个名为`scoops`的全局变量，因为没有默认值，所以此时值为`undefined`；
+2.  `scoop + 1`也就是：`undefined + 1 == NaN`
 
 ```javascript
 console.log(scoops); // NaN
@@ -96,16 +96,16 @@ console.log(scoops); // NaN
 ```javascript
 // 构造函数
 function IceCream() {
-    this.scoops = 0;
+  this.scoops = 0;
 }
 
 // 多加1勺冰淇淋
 IceCream.prototype.addScoop = function() {
-    const that = this;
-    setTimeout(function() {
-        that.scoops++;
-        console.log('scoop added!');
-    }, 500);
+  const that = this;
+  setTimeout(function() {
+    that.scoops++;
+    console.log('scoop added!');
+  }, 500);
 };
 
 const dessert = new IceCream();
@@ -123,15 +123,16 @@ console.log(dessert.scoops); // 1
 ```javascript
 // 构造函数
 function IceCream() {
-    this.scoops = 0;
+  this.scoops = 0;
 }
 
 // 多加1勺冰淇淋
 IceCream.prototype.addScoop = function() {
-    setTimeout(() => { // setTimeout传入箭头函数
-        this.scoops++;
-        console.log('scoop added!');
-    }, 500);
+  setTimeout(() => {
+    // setTimeout传入箭头函数
+    this.scoops++;
+    console.log('scoop added!');
+  }, 500);
 };
 
 const dessert = new IceCream();
@@ -149,15 +150,17 @@ console.log(dessert.scoops); // 1
 ```javascript
 // 构造函数
 function IceCream() {
-    this.scoops = 0;
+  this.scoops = 0;
 }
 
 // 多加1勺冰淇淋
-IceCream.prototype.addScoop = () => { // 把 addScoop 改为箭头函数
-    setTimeout(() => { // setTimeout传入箭头函数
-        this.scoops++;
-        console.log('scoop added!');
-    }, 500);
+IceCream.prototype.addScoop = () => {
+  // 把 addScoop 改为箭头函数
+  setTimeout(() => {
+    // setTimeout传入箭头函数
+    this.scoops++;
+    console.log('scoop added!');
+  }, 500);
 };
 
 const dessert = new IceCream();
@@ -178,4 +181,4 @@ console.log(scoops); // undefined + 1 == NaN
 
 > 因此，箭头函数中的`this`，指代的就是`此处`，**当前的上下文大环境**。
 
-更多关于`this`的解读，可参考[你不知道的JS](https://github.com/getify/You-Dont-Know-JS/blob/master/this%20%26%20object%20prototypes/ch2.md)
+更多关于`this`的解读，可参考[你不知道的 JS](https://github.com/getify/You-Dont-Know-JS/blob/master/this%20%26%20object%20prototypes/ch2.md)
