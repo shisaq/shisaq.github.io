@@ -4,7 +4,7 @@
     "image": "mycountdowncapture.png",
     "url": "mycountdownapp",
     "date": "Jan 2017",
-    "tags": ["React", "Material-UI", "Font-Spider"]
+    "tags": ["React", "Material-UI"]
   },
   {
     "name": "Chat Server",
@@ -32,7 +32,7 @@
     "image": "arcadecover.png",
     "url": "fr-nano-arcade-game",
     "date": "May 2016",
-    "tags": ["HTML5", "Object-Oriented JavaScript"]
+    "tags": ["HTML5", "JavaScript"]
   },
   {
     "name": "Simple Resume",
