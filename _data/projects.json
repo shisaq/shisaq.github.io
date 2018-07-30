@@ -9,7 +9,7 @@
   {
     "name": "Chat Server",
     "image": "chatservercover.png",
-    "url": "http://ygshi.life.tsinghua.edu.cn",
+    "url": "https://github.com/shisaq/chat-server",
     "date": "Dec 2016",
     "tags": ["React", "Flask", "Socket.io"]
   },
