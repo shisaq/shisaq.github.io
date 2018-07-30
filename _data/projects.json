@@ -1,43 +1,44 @@
 [
-	{
-		"name": "My Countdown Clock",
-		"image": "mycountdowncapture.png",
-		"url": "mycountdownapp",
-		"date": "Jan 2017",
-		"tags": ["React","Material-UI","Font-Spider"]
-	},
-	{
-		"name": "Online Chat Server",
-		"image": "chatservercover.png",
-		"date": "Dec 2016",
-		"tags": ["React","Flask","Socket.io"]
-	},
-	{
-		"name": "Yigong Shi Lab Website",
-		"image": "shilabcover.png",
-		"url": "http://ygshi.life.tsinghua.edu.cn",
-		"date": "Aug 2016",
-		"tags": ["KnockoutJS","JQuery"]
-	},
-	{
-		"name": "Neighborhood Map",
-		"image": "neighborcover.png",
-		"url": "fr-nano-neighborhood-map",
-		"date": "Jun 2016",
-		"tags": ["APIs","JavaScript","Ajax"]
-	},
-	{
-		"name": "Arcade Game",
-		"image": "arcadecover.png",
-		"url": "fr-nano-arcade-game",
-		"date": "May 2016",
-		"tags": ["HTML5","Object-Oriented JavaScript"]
-	},
-	{
-		"name": "Single Page Resume",
-		"image": "resumecover.png",
-		"url": "fr-nano-resume",
-		"date": "Apr 2017",
-		"tags": ["HTML","CSS","JQuery"]
-	}
+  {
+    "name": "Countdown Clock",
+    "image": "mycountdowncapture.png",
+    "url": "mycountdownapp",
+    "date": "Jan 2017",
+    "tags": ["React", "Material-UI", "Font-Spider"]
+  },
+  {
+    "name": "Chat Server",
+    "image": "chatservercover.png",
+    "url": "http://ygshi.life.tsinghua.edu.cn",
+    "date": "Dec 2016",
+    "tags": ["React", "Flask", "Socket.io"]
+  },
+  {
+    "name": "Lab Website",
+    "image": "shilabcover.png",
+    "url": "https://ygshi.org",
+    "date": "Aug 2016",
+    "tags": ["Python", "Flask", "KnockoutJS"]
+  },
+  {
+    "name": "Neighborhood Map",
+    "image": "neighborcover.png",
+    "url": "fr-nano-neighborhood-map",
+    "date": "Jun 2016",
+    "tags": ["APIs", "JavaScript", "Ajax"]
+  },
+  {
+    "name": "Arcade Game",
+    "image": "arcadecover.png",
+    "url": "fr-nano-arcade-game",
+    "date": "May 2016",
+    "tags": ["HTML5", "Object-Oriented JavaScript"]
+  },
+  {
+    "name": "Simple Resume",
+    "image": "resumecover.png",
+    "url": "fr-nano-resume",
+    "date": "Apr 2017",
+    "tags": ["HTML", "CSS", "JQuery"]
+  }
 ]
