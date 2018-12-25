@@ -40,5 +40,12 @@
     "url": "fr-nano-resume",
     "date": "Apr 2017",
     "tags": ["HTML", "CSS", "JQuery"]
+  },
+  {
+    "name": "Text Generator",
+    "image": "resumecover.png",
+    "url": "text_generator",
+    "date": "Dec 2018",
+    "tags": ["Vue"]
   }
 ]
