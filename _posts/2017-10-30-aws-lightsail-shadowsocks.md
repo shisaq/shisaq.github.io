@@ -4,7 +4,7 @@ comments: true
 date: 2017-10-30 17:05:23+00:00
 layout: post
 title: 科学上网-AWS和Shadowsocks给你自由
-categories:
+tags:
 - fullstack
 ---
 

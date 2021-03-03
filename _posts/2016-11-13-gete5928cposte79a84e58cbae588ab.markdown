@@ -7,7 +7,7 @@ link: http://shisaq.com/get%e5%92%8cpost%e7%9a%84%e5%8c%ba%e5%88%ab.html
 slug: get%e5%92%8cpost%e7%9a%84%e5%8c%ba%e5%88%ab
 title: GET和POST的区别
 wordpress_id: 251
-categories:
+tags:
 - 前端学习笔记
 ---
 

@@ -4,7 +4,7 @@ comments: true
 date: 2018-10-23 10:42:01+00:00
 layout: post
 title: Photoshop Gif 图制作
-categories:
+tags:
   - personal_dev
 ---
 

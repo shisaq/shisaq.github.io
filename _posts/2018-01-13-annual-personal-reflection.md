@@ -4,7 +4,7 @@ comments: true
 date: 2018-01-13 15:53:10+00:00
 layout: post
 title: 个人2017年度反思及2018方向
-categories:
+tags:
 - personal_dev
 ---
 

@@ -7,7 +7,7 @@ link: http://shisaq.com/responsive-and-seo-friendly-data-tables.html
 slug: responsive-and-seo-friendly-data-tables
 title: Responsive and SEO Friendly Data Tables
 wordpress_id: 141
-categories:
+tags:
 - 网络资源摘录
 ---
 

@@ -4,7 +4,7 @@ comments: true
 date: 2021-02-26 10:12:01+00:00
 layout: post
 title: 币圈日记20210226：应该坚持的是学习，应该贯彻的是等待
-categories:
+tags:
   - personal_dev
 ---
 

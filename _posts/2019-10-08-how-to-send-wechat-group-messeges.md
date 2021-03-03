@@ -4,7 +4,7 @@ comments: true
 date: 2019-10-08 15:36:00+00:00
 layout: post
 title: 如何使用微信群发助手群发消息呢
-categories:
+tags:
   - personal_dev
 ---
 

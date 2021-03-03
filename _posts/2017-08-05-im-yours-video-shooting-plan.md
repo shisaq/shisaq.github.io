@@ -4,7 +4,7 @@ comments: true
 date: 2017-08-05 23:14:15+00:00
 layout: post
 title: I'm Yours视频制作计划
-categories:
+tags:
 - personal_dev
 ---
 

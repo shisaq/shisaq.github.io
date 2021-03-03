@@ -7,7 +7,7 @@ link: http://shisaq.com/%e5%9c%a8windows-10%e4%b8%8a%e8%bf%90%e8%a1%8cgoogle-app
 slug: '%e5%9c%a8windows-10%e4%b8%8a%e8%bf%90%e8%a1%8cgoogle-app-engine'
 title: 在Windows 10上运行Google APP Engine
 wordpress_id: 247
-categories:
+tags:
 - 前端学习笔记
 ---
 

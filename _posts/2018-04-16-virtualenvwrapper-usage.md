@@ -4,7 +4,7 @@ comments: true
 date: 2018-04-16 20:57:12+00:00
 layout: post
 title: 使用virtualenvwrapper管理虚拟环境
-categories:
+tags:
 - fullstack
 ---
 

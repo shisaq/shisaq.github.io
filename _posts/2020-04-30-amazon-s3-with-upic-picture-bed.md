@@ -4,7 +4,7 @@ comments: true
 date: 2020-04-30 23:50:00+00:00
 layout: post
 title: 用Amazon S3 实现快速上传图床
-categories:
+tags:
   - personal_dev
 ---
 

@@ -4,7 +4,7 @@ comments: true
 date: 2017-01-23 16:43:35+00:00
 layout: post
 title: Learn MongoDB From The Official Video Tutorial
-categories:
+tags:
 - frontend
 ---
 

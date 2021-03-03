@@ -7,7 +7,7 @@ link: http://shisaq.com/css-align-center.html
 slug: css-align-center
 title: CSS 居中完全指南
 wordpress_id: 55
-categories:
+tags:
 - 网络资源摘录
 ---
 

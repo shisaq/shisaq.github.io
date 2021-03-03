@@ -4,7 +4,7 @@ comments: true
 date: 2017-10-09 22:22:22+00:00
 layout: post
 title: 用wget测试文件下载速度
-categories:
+tags:
 - fullstack
 ---
 

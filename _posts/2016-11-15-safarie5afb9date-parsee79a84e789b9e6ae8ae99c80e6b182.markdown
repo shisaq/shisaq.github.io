@@ -7,7 +7,7 @@ link: http://shisaq.com/safari%e5%af%b9date-parse%e7%9a%84%e7%89%b9%e6%ae%8a%e9%
 slug: safari%e5%af%b9date-parse%e7%9a%84%e7%89%b9%e6%ae%8a%e9%9c%80%e6%b1%82
 title: Safari对Date.parse()的需求更严格
 wordpress_id: 259
-categories:
+tags:
 - 前端学习笔记
 ---
 

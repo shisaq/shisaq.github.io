@@ -4,7 +4,7 @@ comments: true
 date: 2017-08-17 19:26:11+00:00
 layout: post
 title: 用Python通过DB-API连接SQL的极简例子
-categories:
+tags:
 - fullstack
 ---
 

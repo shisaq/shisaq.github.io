@@ -7,7 +7,7 @@ link: http://shisaq.com/jquery-notes.html
 slug: jquery-notes
 title: jQuery Notes
 wordpress_id: 182
-categories:
+tags:
 - 前端学习笔记
 ---
 

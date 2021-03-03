@@ -4,7 +4,7 @@ comments: true
 date: 2017-01-06 21:35:09+00:00
 layout: post
 title: GitHub博客自定义域名——从尝试到放弃
-categories:
+tags:
 - frontend
 ---
 

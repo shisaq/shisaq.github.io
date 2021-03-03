@@ -4,7 +4,7 @@ comments: true
 date: 2018-05-11 18:25:01+00:00
 layout: post
 title: 初尝Kotlin
-categories:
+tags:
 - fullstack
 ---
 

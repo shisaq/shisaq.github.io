@@ -7,7 +7,7 @@ link: http://shisaq.com/3-ways-to-optimize-webpage-performance%e7%bd%91%e9%a1%b5
 slug: 3-ways-to-optimize-webpage-performance%e7%bd%91%e9%a1%b5%e6%80%a7%e8%83%bd%e4%bc%98%e5%8c%96%e7%9a%843%e7%a7%8d%e6%96%b9%e6%b3%95
 title: 3 Ways To Optimize Webpage Performance(网页性能优化的3种方法)
 wordpress_id: 193
-categories:
+tags:
 - 前端学习笔记
 ---
 

@@ -6,7 +6,7 @@ layout: post
 link: http://shisaq.com/migrate-blog-from-wordpress-to-jekyll.html
 slug: migrate-blog-from-wordpress-to-jekyll
 title: 怎么把博客文章从WordPress搬到jekyll
-categories:
+tags:
 - 前端学习笔记
 ---
 

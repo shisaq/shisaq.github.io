@@ -4,7 +4,7 @@ comments: true
 date: 2017-08-15 10:31:45+00:00
 layout: post
 title: 扎克伯格的时间管理法
-categories:
+tags:
 - personal_dev
 ---
 

@@ -7,7 +7,7 @@ link: http://shisaq.com/font-issues-about-ie-embedding-and-font-spider.html
 slug: font-issues-about-ie-embedding-and-font-spider
 title: Font Issues about IE Embedding and Font-Spider
 wordpress_id: 206
-categories:
+tags:
 - 前端学习笔记
 ---
 

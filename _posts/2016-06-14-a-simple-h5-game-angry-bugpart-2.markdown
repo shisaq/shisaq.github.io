@@ -7,7 +7,7 @@ link: http://shisaq.com/a-simple-h5-game-angry-bugpart-2.html
 slug: a-simple-h5-game-angry-bugpart-2
 title: A Simple H5 Game -- Angry Bug(part 2)
 wordpress_id: 170
-categories:
+tags:
 - 前端学习笔记
 ---
 

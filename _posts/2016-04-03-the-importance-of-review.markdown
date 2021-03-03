@@ -7,7 +7,7 @@ link: http://shisaq.com/the-importance-of-review.html
 slug: the-importance-of-review
 title: The importance of review
 wordpress_id: 87
-categories:
+tags:
 - 前端学习笔记
 ---
 

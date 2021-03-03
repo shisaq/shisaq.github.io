@@ -4,7 +4,7 @@ comments: true
 date: 2018-02-12 23:26:22+00:00
 layout: post
 title: The Google Resume读书笔记
-categories:
+tags:
 - personal_dev
 ---
 

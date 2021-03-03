@@ -4,7 +4,7 @@ comments: true
 date: 2017-05-19 22:10:19+00:00
 layout: post
 title: 个人近期思考与计划
-categories:
+tags:
 - personal_dev
 ---
 

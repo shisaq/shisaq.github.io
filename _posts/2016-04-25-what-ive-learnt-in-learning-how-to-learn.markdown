@@ -7,7 +7,7 @@ link: http://shisaq.com/what-ive-learnt-in-learning-how-to-learn.html
 slug: what-ive-learnt-in-learning-how-to-learn
 title: What I've learnt in "Learning how to learn" -- "学习如何学习"学后感
 wordpress_id: 109
-categories:
+tags:
 - 前端学习笔记
 ---
 

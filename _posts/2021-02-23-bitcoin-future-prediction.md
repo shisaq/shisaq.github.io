@@ -4,7 +4,7 @@ comments: true
 date: 2021-02-23 21:40:00+00:00
 layout: post
 title: 币圈日记20210223
-categories:
+tags:
   - personal_dev
 ---
 

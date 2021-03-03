@@ -7,7 +7,7 @@ link: http://shisaq.com/setting-up-sublime-text-3-with-terminal.html
 slug: setting-up-sublime-text-3-with-terminal
 title: Setting Up Sublime Text 3 With Terminal
 wordpress_id: 97
-categories:
+tags:
 - 前端学习笔记
 ---
 

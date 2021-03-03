@@ -2,7 +2,7 @@
 layout: post
 title: Things I need to do
 date:   2016-10-13 17:39:56
-categories: journal
+tags: journal
 ---
 
 > metacognition: awareness and understanding of one's own thought processes.

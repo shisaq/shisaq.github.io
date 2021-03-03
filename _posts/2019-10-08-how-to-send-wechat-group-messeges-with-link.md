@@ -4,7 +4,7 @@ comments: true
 date: 2019-10-08 15:50:00+00:00
 layout: post
 title: 如何利用微信标签快速群发带链接的消息
-categories:
+tags:
   - personal_dev
 ---
 

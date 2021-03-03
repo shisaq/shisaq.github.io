@@ -4,7 +4,7 @@ comments: true
 date: 2016-12-30 07:58:45+00:00
 layout: post
 title: 我是怎么拿到原创和赞赏功能的
-categories:
+tags:
 - 前端学习笔记
 ---
 

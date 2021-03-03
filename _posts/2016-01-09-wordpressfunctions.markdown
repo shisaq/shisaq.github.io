@@ -7,7 +7,7 @@ link: http://shisaq.com/wordpressfunctions.html
 slug: wordpressfunctions
 title: 初识WordPress函数
 wordpress_id: 31
-categories:
+tags:
 - 前端学习笔记
 ---
 

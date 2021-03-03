@@ -4,7 +4,7 @@ comments: true
 date: 2019-05-14 20:00:00+00:00
 layout: post
 title: 如何提高VLOG和小视频的播放量 —— 视频大拍档观后笔记
-categories:
+tags:
   - personal_dev
 ---
 

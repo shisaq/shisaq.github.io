@@ -7,7 +7,7 @@ link: http://shisaq.com/windows-10%e4%b8%8b%e4%bd%bf%e7%94%a8telnet%e8%af%b7%e6%
 slug: windows-10%e4%b8%8b%e4%bd%bf%e7%94%a8telnet%e8%af%b7%e6%b1%82%e5%be%97%e5%88%b0%e6%9c%8d%e5%8a%a1%e5%99%a8%e5%93%8d%e5%ba%94%e5%a4%b4%e7%9a%84%e6%96%b9%e6%b3%95
 title: Windows 10下使用telnet请求得到服务器响应头的方法
 wordpress_id: 243
-categories:
+tags:
 - 前端学习笔记
 ---
 

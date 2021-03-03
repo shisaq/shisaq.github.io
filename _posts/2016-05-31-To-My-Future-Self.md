@@ -2,7 +2,7 @@
 layout: post
 title: To My Future Self
 date:   2016-05-31 13:50:39
-categories: others
+tags: others
 ---
 
 Hey myself:

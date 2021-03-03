@@ -4,7 +4,7 @@ comments: true
 date: 2018-05-24 16:01:23+00:00
 layout: post
 title: 微信小程序学习笔记
-categories:
+tags:
 - frontend
 ---
 

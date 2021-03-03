@@ -4,7 +4,7 @@ comments: true
 date: 2017-09-13 15:57:41+00:00
 layout: post
 title: 用Flarum搭建尤克里里轻论坛
-categories:
+tags:
 - fullstack
 ---
 

@@ -4,7 +4,7 @@ comments: true
 date: 2018-08-16 23:40:01+00:00
 layout: post
 title: 人生重要的选择就那几次
-categories:
+tags:
   - personal_dev
 ---
 

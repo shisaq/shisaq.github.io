@@ -7,7 +7,7 @@ link: http://shisaq.com/tab-by-pure-css.html
 slug: tab-by-pure-css
 title: 纯CSS实现tab切换
 wordpress_id: 61
-categories:
+tags:
 - 网络资源摘录
 ---
 

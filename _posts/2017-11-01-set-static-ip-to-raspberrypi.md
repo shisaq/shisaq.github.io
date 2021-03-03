@@ -4,7 +4,7 @@ comments: true
 date: 2017-11-01 21:31:13+00:00
 layout: post
 title: 给你的树莓派设置静态ip
-categories:
+tags:
 - fullstack
 ---
 

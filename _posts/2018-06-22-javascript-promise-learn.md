@@ -4,7 +4,7 @@ comments: true
 date: 2018-06-22 13:17:01+00:00
 layout: post
 title: JavaScript Promise 学习笔记
-categories:
+tags:
 - frontend
 ---
 

@@ -7,7 +7,7 @@ link: http://shisaq.com/using-the-viewport-meta-tag-to-control-layout-on-mobile-
 slug: using-the-viewport-meta-tag-to-control-layout-on-mobile-browsers
 title: Using the viewport meta tag to control layout on mobile browsers-在移动浏览器中使用viewport元标签控制布局
 wordpress_id: 133
-categories:
+tags:
 - 网络资源摘录
 ---
 

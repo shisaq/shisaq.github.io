@@ -4,7 +4,7 @@ comments: true
 date: 2018-02-24 17:24:22+00:00
 layout: post
 title: Flask-BasicAuth简单登录Flask-admin后台
-categories:
+tags:
 - fullstack
 ---
 

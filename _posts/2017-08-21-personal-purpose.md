@@ -4,7 +4,7 @@ comments: true
 date: 2017-08-21 19:33:14+00:00
 layout: post
 title: 开发，视频，音乐 -- 个人未来展望
-categories:
+tags:
 - personal_dev
 ---
 

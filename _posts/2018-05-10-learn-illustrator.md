@@ -4,7 +4,7 @@ comments: true
 date: 2018-05-10 21:27:32+00:00
 layout: post
 title: 初学Adobe Illustrator
-categories:
+tags:
 - personal_dev
 ---
 

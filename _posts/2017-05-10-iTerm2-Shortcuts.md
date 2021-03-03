@@ -4,7 +4,7 @@ comments: true
 date: 2017-05-10 09:48:19+00:00
 layout: post
 title: iTerm2 Shortcuts Collection
-categories:
+tags:
 - frontend
 ---
 

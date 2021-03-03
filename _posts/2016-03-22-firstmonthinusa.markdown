@@ -7,7 +7,7 @@ link: http://shisaq.com/firstmonthinusa.html
 slug: firstmonthinusa
 title: 米国第1个月
 wordpress_id: 78
-categories:
+tags:
 - 娱乐
 ---
 

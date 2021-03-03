@@ -7,7 +7,7 @@ link: http://shisaq.com/note-of-command-line-on-wether-hiding-the-system-folds-o
 slug: note-of-command-line-on-wether-hiding-the-system-folds-or-not
 title: Note of command line on wether hiding the system folds or not
 wordpress_id: 100
-categories:
+tags:
 - 网络资源摘录
 ---
 

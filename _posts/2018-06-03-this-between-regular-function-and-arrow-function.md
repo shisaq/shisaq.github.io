@@ -4,7 +4,7 @@ comments: true
 date: 2018-06-03 23:09:21+00:00
 layout: post
 title: this在普通函数与箭头函数中的不同
-categories:
+tags:
 - frontend
 ---
 

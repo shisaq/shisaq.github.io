@@ -7,7 +7,7 @@ link: http://shisaq.com/srcset-and-sizes.html
 slug: srcset-and-sizes
 title: Srcset 和 sizes
 wordpress_id: 150
-categories:
+tags:
 - 网络资源摘录
 ---
 

@@ -7,7 +7,7 @@ link: http://shisaq.com/when-someone-gives-you-a-bug-long-by-robotjoe.html
 slug: when-someone-gives-you-a-bug-long-by-robotjoe
 title: When someone gives you a bug (long)-- by RobotJoe
 wordpress_id: 115
-categories:
+tags:
 - 网络资源摘录
 ---
 

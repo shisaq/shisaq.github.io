@@ -7,7 +7,7 @@ link: http://shisaq.com/how-to-navigate-the-up-and-downs-of-learning-to-code-by_
 slug: how-to-navigate-the-up-and-downs-of-learning-to-code-by_code-conquest
 title: How To Navigate The Up And Downs Of Learning To Code (by_Code Conquest)
 wordpress_id: 94
-categories:
+tags:
 - 网络资源摘录
 ---
 

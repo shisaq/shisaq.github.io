@@ -7,7 +7,7 @@ link: http://shisaq.com/javascript%e5%9c%a8for-in%e5%be%aa%e7%8e%af%e4%b8%ad%ef%
 slug: javascript%e5%9c%a8for-in%e5%be%aa%e7%8e%af%e4%b8%ad%ef%bc%8c%e7%94%a8%e7%82%b9%e8%bf%98%e6%98%af%e4%b8%ad%e6%8b%ac%e5%8f%b7%ef%bc%9f
 title: JavaScript在for-in循环中，用点还是中括号？
 wordpress_id: 155
-categories:
+tags:
 - 前端学习笔记
 ---
 

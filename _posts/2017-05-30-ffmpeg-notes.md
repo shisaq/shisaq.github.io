@@ -4,7 +4,7 @@ comments: true
 date: 2017-05-30 23:20:29+00:00
 layout: post
 title: ffmpeg使用笔记
-categories:
+tags:
 - frontend
 ---
 

@@ -7,7 +7,7 @@ link: http://shisaq.com/how-to-call-out-menu.html
 slug: how-to-call-out-menu
 title: Wordpress如何把仪表盘里的［菜单］选项调出来
 wordpress_id: 46
-categories:
+tags:
 - 前端学习笔记
 ---
 

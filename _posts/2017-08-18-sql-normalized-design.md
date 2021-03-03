@@ -4,7 +4,7 @@ comments: true
 date: 2017-08-17 19:26:11+00:00
 layout: post
 title: SQL标准化设计原则
-categories:
+tags:
 - fullstack
 ---
 

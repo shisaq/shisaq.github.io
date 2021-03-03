@@ -7,7 +7,7 @@ link: http://shisaq.com/on-27th-birthday.html
 slug: on-27th-birthday
 title: 写在27岁生日
 wordpress_id: 202
-categories:
+tags:
 - 前端学习笔记
 ---
 

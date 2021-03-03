@@ -7,7 +7,7 @@ link: http://shisaq.com/upgrade-git-by-terminal.html
 slug: upgrade-git-by-terminal
 title: 使用终端（Terminal）升级git
 wordpress_id: 43
-categories:
+tags:
 - 前端学习笔记
 ---
 

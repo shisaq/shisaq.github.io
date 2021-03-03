@@ -2,7 +2,7 @@
 layout: post
 title: The Most Important Thing for Me Now
 date:   2016-10-18 10:01:27
-categories: journal
+tags: journal
 ---
 
 > I was always confused on my own future. But NOT anymore.

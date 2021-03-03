@@ -4,7 +4,7 @@ comments: true
 date: 2017-04-22 14:21:19+00:00
 layout: post
 title: iMac or MacBook Camera Isn't Working? Here's A Simple Solution
-categories:
+tags:
 - personal_dev
 ---
 

@@ -7,7 +7,7 @@ link: http://shisaq.com/medition20160402.html
 slug: medition20160402
 title: 冥想－2016年4月2日
 wordpress_id: 84
-categories:
+tags:
 - 前端学习笔记
 ---
 

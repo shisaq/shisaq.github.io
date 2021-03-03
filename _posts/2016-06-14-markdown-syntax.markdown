@@ -7,7 +7,7 @@ link: http://shisaq.com/markdown-syntax.html
 slug: markdown-syntax
 title: Markdown Syntax
 wordpress_id: 174
-categories:
+tags:
 - 前端学习笔记
 ---
 

@@ -4,7 +4,7 @@ comments: true
 date: 2017-10-14 20:49:12+00:00
 layout: post
 title: Linux(Ubuntu)常用命令
-categories:
+tags:
   - fullstack
 ---
 

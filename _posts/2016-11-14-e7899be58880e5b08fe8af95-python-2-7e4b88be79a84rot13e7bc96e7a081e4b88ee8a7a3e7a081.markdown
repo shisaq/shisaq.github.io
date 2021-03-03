@@ -7,7 +7,7 @@ link: http://shisaq.com/%e7%89%9b%e5%88%80%e5%b0%8f%e8%af%95-python-2-7%e4%b8%8b
 slug: '%e7%89%9b%e5%88%80%e5%b0%8f%e8%af%95-python-2-7%e4%b8%8b%e7%9a%84rot13%e7%bc%96%e7%a0%81%e4%b8%8e%e8%a7%a3%e7%a0%81'
 title: 牛刀小试——Python 2.7下的rot13编码与解码
 wordpress_id: 255
-categories:
+tags:
 - 前端学习笔记
 ---
 

@@ -4,7 +4,7 @@ comments: true
 date: 2017-04-02 15:19:19+00:00
 layout: post
 title: My Fireman - Udacity Digital Marketing Nanodegree
-categories:
+tags:
 - personal_dev
 ---
 

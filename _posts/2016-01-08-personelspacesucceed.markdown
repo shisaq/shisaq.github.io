@@ -7,7 +7,7 @@ link: http://shisaq.com/personelspacesucceed.html
 slug: personelspacesucceed
 title: 个人空间搭建成功
 wordpress_id: 16
-categories:
+tags:
 - 前端学习笔记
 ---
 

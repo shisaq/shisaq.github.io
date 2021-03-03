@@ -4,7 +4,7 @@ comments: true
 date: 2018-02-11 12:12:12+00:00
 layout: post
 title: Google招聘解读
-categories:
+tags:
 - personal_dev
 ---
 

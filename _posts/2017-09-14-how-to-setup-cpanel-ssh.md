@@ -4,7 +4,7 @@ comments: true
 date: 2017-09-14 16:48:11+00:00
 layout: post
 title: 如何配合cPanel使用SSH免密登录
-categories:
+tags:
 - fullstack
 ---
 

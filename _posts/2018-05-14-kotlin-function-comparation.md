@@ -4,7 +4,7 @@ comments: true
 date: 2018-05-14 12:15:01+00:00
 layout: post
 title: Kotlin：我和大神之间仍然有条鸿沟
-categories:
+tags:
 - fullstack
 ---
 

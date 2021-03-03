@@ -6,7 +6,7 @@ layout: post
 link: http://shisaq.com/learn-from-uber-position-requirement.html
 slug: learn-from-uber-position-requirement
 title: Uber的招聘要求读后感
-categories:
+tags:
 - 前端学习笔记
 ---
 

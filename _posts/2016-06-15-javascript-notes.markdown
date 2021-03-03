@@ -7,7 +7,7 @@ link: http://shisaq.com/javascript-notes.html
 slug: javascript-notes
 title: JavaScript Notes
 wordpress_id: 178
-categories:
+tags:
 - 前端学习笔记
 ---
 

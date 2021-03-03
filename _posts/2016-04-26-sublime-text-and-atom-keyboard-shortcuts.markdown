@@ -7,7 +7,7 @@ link: http://shisaq.com/sublime-text-and-atom-keyboard-shortcuts.html
 slug: sublime-text-and-atom-keyboard-shortcuts
 title: Sublime Text and Atom Keyboard Shortcuts
 wordpress_id: 118
-categories:
+tags:
 - 网络资源摘录
 ---
 

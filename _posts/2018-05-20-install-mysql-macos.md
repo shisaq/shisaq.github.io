@@ -4,7 +4,7 @@ comments: true
 date: 2018-05-20 20:01:01+00:00
 layout: post
 title: 在macOS安装和配置mysql
-categories:
+tags:
 - fullstack
 ---
 

@@ -4,7 +4,7 @@ comments: true
 date: 2018-04-15 15:47:12+00:00
 layout: post
 title: 使用rsync上传文件
-categories:
+tags:
 - fullstack
 ---
 

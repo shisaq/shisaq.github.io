@@ -4,7 +4,7 @@ comments: true
 date: 2016-12-18 15:26:45+00:00
 layout: post
 title: 用React, Flask和SocketIO搭建在线聊天室(一)
-categories:
+tags:
 - 前端学习笔记
 ---
 

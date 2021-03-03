@@ -7,7 +7,7 @@ link: http://shisaq.com/truncate-string-with-ellipsis.html
 slug: truncate-string-with-ellipsis
 title: Truncate String with Ellipsis 用省略号缩短文本长度
 wordpress_id: 146
-categories:
+tags:
 - 前端学习笔记
 ---
 

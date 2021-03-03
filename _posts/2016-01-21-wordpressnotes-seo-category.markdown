@@ -7,7 +7,7 @@ link: http://shisaq.com/wordpressnotes-seo-category.html
 slug: wordpressnotes-seo-category
 title: WordPress学习笔记－SEO、自定义工具栏、仪表盘下新增分类
 wordpress_id: 65
-categories:
+tags:
 - 前端学习笔记
 ---
 

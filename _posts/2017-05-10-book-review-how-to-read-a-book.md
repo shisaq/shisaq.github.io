@@ -4,7 +4,7 @@ comments: true
 date: 2017-05-10 17:01:19+00:00
 layout: post
 title: Book review - How to read a book
-categories:
+tags:
 - personal_dev
 ---
 

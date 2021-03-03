@@ -7,7 +7,7 @@ link: http://shisaq.com/preparation-for-google.html
 slug: preparation-for-google
 title: Preparation for Google
 wordpress_id: 106
-categories:
+tags:
 - 前端学习笔记
 ---
 

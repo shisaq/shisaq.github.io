@@ -7,7 +7,7 @@ link: http://shisaq.com/%e5%85%a5%e9%97%a8%e5%ad%a6%e4%b9%a0grunt.html
 slug: '%e5%85%a5%e9%97%a8%e5%ad%a6%e4%b9%a0grunt'
 title: 入门学习Grunt
 wordpress_id: 190
-categories:
+tags:
 - 前端学习笔记
 ---
 

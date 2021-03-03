@@ -7,7 +7,7 @@ link: http://shisaq.com/body-content-shakes-a-little-bit-when-pop-up-box-is-appe
 slug: body-content-shakes-a-little-bit-when-pop-up-box-is-appearing
 title: Body Content Shakes A Little Bit When Pop-up Box Is Appearing?
 wordpress_id: 214
-categories:
+tags:
 - 前端学习笔记
 ---
 

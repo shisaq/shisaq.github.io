@@ -4,7 +4,7 @@ comments: true
 date: 2018-09-28 16:06:01+00:00
 layout: post
 title: 微电影制作流程笔记(一)
-categories:
+tags:
   - filmmaking
 ---
 
