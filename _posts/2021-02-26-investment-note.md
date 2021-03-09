@@ -5,7 +5,7 @@ date: 2021-02-26 10:12:01+00:00
 layout: post
 title: 币圈日记20210226：应该坚持的是学习，应该贯彻的是等待
 tags:
-  - personal_dev
+  - 投资
 ---
 
 ![跌红一片](https://markdown-img.s3.ap-northeast-1.amazonaws.com/shisaq/2021-02-26-10-58-09-ttxXx7.jpg)
