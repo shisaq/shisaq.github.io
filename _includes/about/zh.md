@@ -34,4 +34,4 @@ Hi，我是优客李李，给你的生活加点阳光~
 
 ### 微信
 
-![优客李李企业微信](https://markdown-img.s3.ap-northeast-1.amazonaws.com/shisaq/2021-03-10-11-31-16-优客李李-企业微信二维码名片.JPG)
+![优客李李企业微信](https://markdown-img.s3.ap-northeast-1.amazonaws.com/shisaq/2021-03-10-12-43-11-优客李李企业微信二维码.png)
