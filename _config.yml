@@ -14,6 +14,7 @@ future: true
 # SNS settings
 RSS: false
 weibo_username:     shisaq
+bilibili_username:  35566393
 zhihu_username:     shisaq
 github_username:    shisaq
 twitter_username:   shisaq
