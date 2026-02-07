@@ -1,11 +1,11 @@
 ---
-author: shisaq
-comments: true
-date: 2018-02-11 12:12:12+00:00
 layout: post
-title: Google招聘解读
-tags:
-- personal_dev
+title: "Google招聘解读"
+date: 2018-02-11 12:12:12+00:00
+author: "shisaq"
+header-img: "img/home-bg-o.jpg"
+tags: ["-", "personal_dev"]
+categories: ["成长日记"]
 ---
 
 > 心底一直想去Google，也写过很多文章，或激励或激将，却一直没有自信，没有鼓起勇气真的开始为进Google而准备。和静静又聊了一次，毕业已经将近6年，今年已经要步入29岁了，如果5年内没有实现这个愿望，那我就自己创业去吧。立帖为证，从今天开始，我每天都要离Google更近一步！

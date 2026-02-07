@@ -1,11 +1,11 @@
 ---
-author: shisaq
-comments: true
-date: 2019-10-08 15:50:00+00:00
 layout: post
-title: 如何利用微信标签快速群发带链接的消息
-tags:
-  - personal_dev
+title: "如何利用微信标签快速群发带链接的消息"
+date: 2019-10-08 15:50:00+00:00
+author: "shisaq"
+header-img: "img/contact-bg.jpg"
+tags: ["-", "personal_dev"]
+categories: ["成长日记"]
 ---
 
 > 如果只群发不带链接的消息，那可以参考[这篇文章](/personal_dev/2019/10/08/how-to-send-wechat-group-messeges.html)，直接使用微信自带的群发助手；如果需要带链接的话，请继续阅读。

@@ -4,8 +4,9 @@ title: "AE 表达式特定变量 Value 的用途 After Effects Expression Defaul
 subtitle: "AE学习笔记"
 date: 2022-01-12
 author: "shisaq"
-header-img: "img/about-bg-walle.jpg"
-tags: [filmmaking]
+header-img: "img/home-bg-art.jpg"
+tags: ["filmmaking"]
+categories: ["成长日记"]
 ---
 
 ## value 默认值

@@ -1,11 +1,11 @@
 ---
-author: shisaq
-comments: true
-date: 2019-06-28 20:00:00+00:00
 layout: post
-title: 微信文章排版规范
-tags:
-  - personal_dev
+title: "微信文章排版规范"
+date: 2019-06-28 20:00:00+00:00
+author: "shisaq"
+header-img: "img/home-bg-art.jpg"
+tags: ["-", "personal_dev"]
+categories: ["成长日记"]
 ---
 
 > 文章来源：[公众号排版规范手册（2019版）](https://mp.weixin.qq.com/s/Ex8fACmKbTOySeKNhpS1QA)。本文原创是i排版编辑器，本人不时会使用，这里放一下链接：[ipaiban编辑器](http://ipaiban.com/bianji)。

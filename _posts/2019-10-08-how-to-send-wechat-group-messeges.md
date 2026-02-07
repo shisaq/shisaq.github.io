@@ -1,11 +1,11 @@
 ---
-author: shisaq
-comments: true
-date: 2019-10-08 15:36:00+00:00
 layout: post
-title: 如何使用微信群发助手群发消息呢
-tags:
-  - personal_dev
+title: "如何使用微信群发助手群发消息呢"
+date: 2019-10-08 15:36:00+00:00
+author: "shisaq"
+header-img: "img/about-bg-walle.jpg"
+tags: ["-", "personal_dev"]
+categories: ["成长日记"]
 ---
 
 ## 步骤

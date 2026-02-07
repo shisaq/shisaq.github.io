@@ -1,8 +1,11 @@
 ---
 layout: post
-title: Things I need to do
-date:   2016-10-13 17:39:56
-tags: journal
+title: "Things I need to do"
+date: 2016-10-13 17:39:56
+author: "shisaq"
+header-img: "img/about-bg-walle.jpg"
+tags: ["journal"]
+categories: ["成长日记"]
 ---
 
 > metacognition: awareness and understanding of one's own thought processes.

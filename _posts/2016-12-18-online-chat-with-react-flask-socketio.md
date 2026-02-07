@@ -1,11 +1,11 @@
 ---
-author: shisaq
-comments: true
-date: 2016-12-18 15:26:45+00:00
 layout: post
-title: 用React, Flask和SocketIO搭建在线聊天室(一)
-tags:
-- 前端学习笔记
+title: "用React, Flask和SocketIO搭建在线聊天室(一)"
+date: 2016-12-18 15:26:45+00:00
+author: "shisaq"
+header-img: "img/about-bg-walle.jpg"
+tags: ["前端开发", "-"]
+categories: ["成长日记"]
 ---
 
 > 上个月在米国找工作，遇到一家公司，给我发了一个制作在线聊天室的需求文档，说我做完后就可以面试。没有deadline，但他们会根据我的现有状况和学习速度对我评估。过了1个月，我把React，Flask和SocketIO学到手，这个项目做完了。先不管面试什么时候进行，我在这里跟大家分享一下我的整个学习历程。由于这更是我对自己这个项目对回顾，我会尽量写得比较细。如果喜欢简单直接，就去我的GitHub(https://github.com/shisaq/chat-server)看源码吧。

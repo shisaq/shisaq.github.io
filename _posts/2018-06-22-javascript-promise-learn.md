@@ -1,11 +1,11 @@
 ---
-author: shisaq
-comments: true
-date: 2018-06-22 13:17:01+00:00
 layout: post
-title: JavaScript Promise 学习笔记
-tags:
-- frontend
+title: "JavaScript Promise 学习笔记"
+date: 2018-06-22 13:17:01+00:00
+author: "shisaq"
+header-img: "img/home-bg.jpg"
+tags: ["-", "frontend"]
+categories: ["成长日记"]
 ---
 
 > JavaScript Promise 是处理异步流程、获取并处理延迟数据、妥善处理 error 的神器。之所以命名为 **Promise(保证；确保)** ，就是因为它解决的就是 **确保在...的情况下做某事** 的问题。那么这样的问题一般出现在哪里呢？只要是异步处理，就需要确保异步处理的稳定性，此时就可以用到 Promise 了。如请求 json 文件、与 web worker 通信。

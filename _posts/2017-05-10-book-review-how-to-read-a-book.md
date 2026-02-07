@@ -1,11 +1,11 @@
 ---
-author: shisaq
-comments: true
-date: 2017-05-10 17:01:19+00:00
 layout: post
-title: Book review - How to read a book
-tags:
-- personal_dev
+title: "Book review - How to read a book"
+date: 2017-05-10 17:01:19+00:00
+author: "shisaq"
+header-img: "img/home-bg-o.jpg"
+tags: ["-", "personal_dev"]
+categories: ["成长日记"]
 ---
 
 # 如何阅读一本书(畅销70余年)

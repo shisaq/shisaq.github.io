@@ -1,11 +1,11 @@
 ---
-author: shisaq
-comments: true
-date: 2016-12-21 9:47:33+00:00
 layout: post
-title: 用React, Flask和SocketIO搭建在线聊天室(四)
-tags:
-- 前端学习笔记
+title: "用React, Flask和SocketIO搭建在线聊天室(四)"
+date: 2016-12-21 9:47:33+00:00
+author: "shisaq"
+header-img: "img/post-sample-image.jpg"
+tags: ["前端开发", "-"]
+categories: ["成长日记"]
 ---
 
 > 这一篇默认你已经本身自带Python技能，或者按照上一篇的描述，实际操作过“Y分钟入门Python”了。否则本文看起来会很吃力。

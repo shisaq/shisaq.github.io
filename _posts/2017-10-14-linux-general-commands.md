@@ -1,11 +1,11 @@
 ---
-author: shisaq
-comments: true
-date: 2017-10-14 20:49:12+00:00
 layout: post
-title: Linux(Ubuntu)常用命令
-tags:
-  - fullstack
+title: "Linux(Ubuntu)常用命令"
+date: 2017-10-14 20:49:12+00:00
+author: "shisaq"
+header-img: "img/post-sample-image.jpg"
+tags: ["-", "fullstack"]
+categories: ["成长日记"]
 ---
 
 ## 基本命令

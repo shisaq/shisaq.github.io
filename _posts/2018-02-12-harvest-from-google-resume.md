@@ -1,11 +1,11 @@
 ---
-author: shisaq
-comments: true
-date: 2018-02-12 23:26:22+00:00
 layout: post
-title: The Google Resume读书笔记
-tags:
-- personal_dev
+title: "The Google Resume读书笔记"
+date: 2018-02-12 23:26:22+00:00
+author: "shisaq"
+header-img: "img/about-bg-walle.jpg"
+tags: ["-", "personal_dev"]
+categories: ["成长日记"]
 ---
 
 > 摘自[The Google Resume](https://www.uop.edu.jo/download/research/members/495_1887_llll.pdf)，自己翻译。

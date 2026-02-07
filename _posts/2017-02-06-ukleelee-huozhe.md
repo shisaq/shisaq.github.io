@@ -1,11 +1,11 @@
 ---
-author: shisaq
-comments: true
-date: 2017-02-06 10:57:19+00:00
 layout: post
-title: My playing and singing -- [活着]
-tags:
-- ukulele
+title: "My playing and singing -- [活着]"
+date: 2017-02-06 10:57:19+00:00
+author: "shisaq"
+header-img: "img/home-bg-art.jpg"
+tags: ["-", "ukulele"]
+categories: ["成长日记"]
 ---
 
 > Recently, I'm learning MongoDB. Meanwhile, I made a video that I was playing and singing at the Inspiration Point by using my favorite ukulele. Hope you'll love it.

@@ -1,11 +1,11 @@
 ---
-author: shisaq
-comments: true
-date: 2017-01-23 16:43:35+00:00
 layout: post
-title: Learn MongoDB From The Official Video Tutorial
-tags:
-- frontend
+title: "Learn MongoDB From The Official Video Tutorial"
+date: 2017-01-23 16:43:35+00:00
+author: "shisaq"
+header-img: "img/about-bg-walle.jpg"
+tags: ["-", "frontend"]
+categories: ["成长日记"]
 ---
 
 > The best way to learn is to get your hands dirty.

@@ -1,8 +1,11 @@
 ---
 layout: post
-title: My PHP Notes
-date:   2016-10-11 18:24:49
-tags: front-end notes
+title: "My PHP Notes"
+date: 2016-10-11 18:24:49
+author: "shisaq"
+header-img: "img/home-bg-o.jpg"
+tags: ["front-end", "notes"]
+categories: ["技术遗产"]
 ---
 
 > Learnd from [Codecademy](https://www.codecademy.com/)

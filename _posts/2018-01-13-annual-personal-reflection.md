@@ -1,11 +1,11 @@
 ---
-author: shisaq
-comments: true
-date: 2018-01-13 15:53:10+00:00
 layout: post
-title: 个人2017年度反思及2018方向
-tags:
-- personal_dev
+title: "个人2017年度反思及2018方向"
+date: 2018-01-13 15:53:10+00:00
+author: "shisaq"
+header-img: "img/contact-bg.jpg"
+tags: ["-", "personal_dev"]
+categories: ["成长日记"]
 ---
 
 > 1月7号晚上坐飞机去Las Vegas参加展会的路上，听了几个【得到app】下载的音频，睡了一小觉，仍然有2个小时空闲时间，于是做了一次睁着眼的冥想。趁着岁末年初，新形成的概念还热乎，把它们记录到这里。

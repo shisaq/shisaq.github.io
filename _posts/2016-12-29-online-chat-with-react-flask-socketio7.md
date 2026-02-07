@@ -1,11 +1,11 @@
 ---
-author: shisaq
-comments: true
-date: 2016-12-29 15:35:00+00:00
 layout: post
-title: 用React, Flask和SocketIO搭建在线聊天室(七)
-tags:
-- 前端学习笔记
+title: "用React, Flask和SocketIO搭建在线聊天室(七)"
+date: 2016-12-29 15:35:00+00:00
+author: "shisaq"
+header-img: "img/post-sample-image.jpg"
+tags: ["前端开发", "-"]
+categories: ["成长日记"]
 ---
 
 > 通过上一篇文章的操作，我们已经可以在Flask搭建的服务器下，用SocketIO连接前后端，并成功搭建了React的运行环境。这次就主要剖析在线聊天室的前端结构。

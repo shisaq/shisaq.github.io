@@ -1,11 +1,11 @@
 ---
-author: shisaq
-comments: true
-date: 2018-06-03 23:09:21+00:00
 layout: post
-title: this在普通函数与箭头函数中的不同
-tags:
-- frontend
+title: "this在普通函数与箭头函数中的不同"
+date: 2018-06-03 23:09:21+00:00
+author: "shisaq"
+header-img: "img/about-bg-walle.jpg"
+tags: ["-", "frontend"]
+categories: ["成长日记"]
 ---
 
 > `this`这位仁兄在我学习 JavaScript 的时候，给我造成了不小困扰。如今 ES6 的箭头函数到来，`this`的用法和之前常规函数又不一样了。此文从`this`原本的用法开始，用一些简单例子试图把这两者间的不同讲清楚。

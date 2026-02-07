@@ -1,11 +1,11 @@
 ---
-author: shisaq
-comments: true
-date: 2017-08-15 10:31:45+00:00
 layout: post
-title: 扎克伯格的时间管理法
-tags:
-- personal_dev
+title: "扎克伯格的时间管理法"
+date: 2017-08-15 10:31:45+00:00
+author: "shisaq"
+header-img: "img/contact-bg.jpg"
+tags: ["-", "personal_dev"]
+categories: ["成长日记"]
 ---
 
 > 前几天在`优达学城Udacity`公众号看到了这篇文章。从前也在哪里见到过，但被信息洪流冲得只留下了一个若有若无的印象。这次决定把这篇文章变成我的文章，加深记忆。来源可能有2个，我没有深究，毕竟不是论文：1. 扎克伯格自己制作的；2. etienne Garbugli product Design & Marketing Consultant。

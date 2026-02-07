@@ -1,11 +1,11 @@
 ---
-author: shisaq
-comments: true
-date: 2019-02-09 20:01:01+00:00
 layout: post
-title: 祝猪年猪事顺遂
-tags:
-  - personal_dev
+title: "祝猪年猪事顺遂"
+date: 2019-02-09 20:01:01+00:00
+author: "shisaq"
+header-img: "img/tag-bg.jpg"
+tags: ["-", "personal_dev"]
+categories: ["成长日记"]
 ---
 
 > 祝猪年猪事顺遂。

@@ -1,11 +1,11 @@
 ---
-author: shisaq
-comments: true
-date: 2018-04-16 20:57:12+00:00
 layout: post
-title: 使用virtualenvwrapper管理虚拟环境
-tags:
-- fullstack
+title: "使用virtualenvwrapper管理虚拟环境"
+date: 2018-04-16 20:57:12+00:00
+author: "shisaq"
+header-img: "img/post-sample-image.jpg"
+tags: ["-", "fullstack"]
+categories: ["成长日记"]
 ---
 
 > virtualenv在我们运行项目的时候，帮我们方便地创建虚拟环境，是个神器。但如果同一台服务器中，运行的项目不止一个，如何做到在一个地方同一管理不同的虚拟环境呢？virtualenvwrapper绝对是一个好的选择。在这里整理一些好用的命令，方便日后使用。

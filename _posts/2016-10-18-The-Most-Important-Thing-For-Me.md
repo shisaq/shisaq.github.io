@@ -1,8 +1,11 @@
 ---
 layout: post
-title: The Most Important Thing for Me Now
-date:   2016-10-18 10:01:27
-tags: journal
+title: "The Most Important Thing for Me Now"
+date: 2016-10-18 10:01:27
+author: "shisaq"
+header-img: "img/home-bg-o.jpg"
+tags: ["journal"]
+categories: ["成长日记"]
 ---
 
 > I was always confused on my own future. But NOT anymore.

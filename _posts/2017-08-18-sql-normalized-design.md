@@ -1,11 +1,11 @@
 ---
-author: shisaq
-comments: true
-date: 2017-08-17 19:26:11+00:00
 layout: post
-title: SQL标准化设计原则
-tags:
-- fullstack
+title: "SQL标准化设计原则"
+date: 2017-08-17 19:26:11+00:00
+author: "shisaq"
+header-img: "img/about-bg-walle.jpg"
+tags: ["-", "fullstack"]
+categories: ["成长日记"]
 ---
 
 1. Every row has the same number of columns(每行都有相同数目的列).

@@ -1,11 +1,11 @@
 ---
-author: shisaq
-comments: true
-date: 2017-08-21 19:33:14+00:00
 layout: post
-title: 开发，视频，音乐 -- 个人未来展望
-tags:
-- personal_dev
+title: "开发，视频，音乐 -- 个人未来展望"
+date: 2017-08-21 19:33:14+00:00
+author: "shisaq"
+header-img: "img/about-bg-walle.jpg"
+tags: ["-", "personal_dev"]
+categories: ["创作与 AI"]
 ---
 
 > 今天有幸看了日食，还拍了一张感觉挺不错的照片。放在这里和偶尔路过的游客分享一下。

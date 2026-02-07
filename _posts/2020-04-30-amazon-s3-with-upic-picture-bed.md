@@ -1,11 +1,11 @@
 ---
-author: shisaq
-comments: true
-date: 2020-04-30 23:50:00+00:00
 layout: post
-title: 用Amazon S3 实现快速上传图床
-tags:
-  - personal_dev
+title: "用Amazon S3 实现快速上传图床"
+date: 2020-04-30 23:50:00+00:00
+author: "shisaq"
+header-img: "img/home-bg-o.jpg"
+tags: ["-", "personal_dev"]
+categories: ["成长日记"]
 ---
 
 > 在用Markdown写作时，往往会有想要配图的时候。但是图片的网址从哪来？得先上传到网络图床才行啊。但每有一张配图，就得打开图床网站，上传，再回来，这时候我早就忘了要写什么东西了。

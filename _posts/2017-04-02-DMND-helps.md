@@ -1,11 +1,11 @@
 ---
-author: shisaq
-comments: true
-date: 2017-04-02 15:19:19+00:00
 layout: post
-title: My Fireman - Udacity Digital Marketing Nanodegree
-tags:
-- personal_dev
+title: "My Fireman - Udacity Digital Marketing Nanodegree"
+date: 2017-04-02 15:19:19+00:00
+author: "shisaq"
+header-img: "img/about-bg-walle.jpg"
+tags: ["-", "personal_dev"]
+categories: ["技术遗产"]
 ---
 
 Actually, I graduated from Udacity Front-end Web Development Nanodegree last August. I know NOTHING about digital marketing, meanwhile I’m a Chinese so I don’t know that much about US culture or the platforms people use in the US.

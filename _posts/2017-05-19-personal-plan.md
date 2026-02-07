@@ -1,11 +1,11 @@
 ---
-author: shisaq
-comments: true
-date: 2017-05-19 22:10:19+00:00
 layout: post
-title: 个人近期思考与计划
-tags:
-- personal_dev
+title: "个人近期思考与计划"
+date: 2017-05-19 22:10:19+00:00
+author: "shisaq"
+header-img: "img/tag-bg.jpg"
+tags: ["-", "personal_dev"]
+categories: ["成长日记"]
 ---
 
 自今年2月加入Popuband以来，每天都忙碌而充实。13号完成了IndieGoGo的众筹项目，42万销售额，团队5个人不请外援拿下了，值得庆祝。迈阿密一起度假5天4夜，我对大家也有了更多的了解，趁着这个时机，是时候对自己未来的发展好好思考一下了。

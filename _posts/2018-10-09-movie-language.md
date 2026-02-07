@@ -1,11 +1,11 @@
 ---
-author: shisaq
-comments: true
-date: 2018-10-09 14:28:31+00:00
 layout: post
-title: 微电影制作流程笔记(二)
-tags:
-  - filmmaking
+title: "微电影制作流程笔记(二)"
+date: 2018-10-09 14:28:31+00:00
+author: "shisaq"
+header-img: "img/home-bg-art.jpg"
+tags: ["-", "filmmaking"]
+categories: ["成长日记"]
 ---
 
 # 影响语言分析与分镜表的制作

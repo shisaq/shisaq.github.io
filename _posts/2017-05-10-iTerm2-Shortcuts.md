@@ -1,11 +1,11 @@
 ---
-author: shisaq
-comments: true
-date: 2017-05-10 09:48:19+00:00
 layout: post
-title: iTerm2 Shortcuts Collection
-tags:
-- frontend
+title: "iTerm2 Shortcuts Collection"
+date: 2017-05-10 09:48:19+00:00
+author: "shisaq"
+header-img: "img/contact-bg.jpg"
+tags: ["-", "frontend"]
+categories: ["成长日记"]
 ---
 
 This article is from [microzz](https://microzz.com/2017/04/22/iterm2/).

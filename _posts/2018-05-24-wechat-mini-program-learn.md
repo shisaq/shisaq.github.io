@@ -1,11 +1,11 @@
 ---
-author: shisaq
-comments: true
-date: 2018-05-24 16:01:23+00:00
 layout: post
-title: 微信小程序学习笔记
-tags:
-- frontend
+title: "微信小程序学习笔记"
+date: 2018-05-24 16:01:23+00:00
+author: "shisaq"
+header-img: "img/home-bg-art.jpg"
+tags: ["-", "frontend"]
+categories: ["成长日记"]
 ---
 
 ## wx.navigateTo

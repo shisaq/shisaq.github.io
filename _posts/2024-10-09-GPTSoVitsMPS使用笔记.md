@@ -4,8 +4,9 @@ title: "GPTSoVitsMPS使用笔记"
 subtitle: "GPTSoVitsMPS使用笔记"
 date: 2024-10-09
 author: "shisaq"
-header-img: "img/about-bg-walle.jpg"
-tags: [personal_dev]
+header-img: "img/home-bg-art.jpg"
+tags: ["personal_dev"]
+categories: ["成长日记"]
 ---
 
 

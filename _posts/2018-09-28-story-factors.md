@@ -1,11 +1,11 @@
 ---
-author: shisaq
-comments: true
-date: 2018-09-28 16:06:01+00:00
 layout: post
-title: 微电影制作流程笔记(一)
-tags:
-  - filmmaking
+title: "微电影制作流程笔记(一)"
+date: 2018-09-28 16:06:01+00:00
+author: "shisaq"
+header-img: "img/about-bg-walle.jpg"
+tags: ["-", "filmmaking"]
+categories: ["成长日记"]
 ---
 
 ## 故事的创作要素

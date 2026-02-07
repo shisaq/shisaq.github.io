@@ -1,11 +1,11 @@
 ---
-author: shisaq
-comments: true
-date: 2017-08-17 19:26:11+00:00
 layout: post
-title: 用Python通过DB-API连接SQL的极简例子
-tags:
-- fullstack
+title: "用Python通过DB-API连接SQL的极简例子"
+date: 2017-08-17 19:26:11+00:00
+author: "shisaq"
+header-img: "img/home-bg-geek.jpg"
+tags: ["-", "fullstack"]
+categories: ["成长日记"]
 ---
 
 ## 来源

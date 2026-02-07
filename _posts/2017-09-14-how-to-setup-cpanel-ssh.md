@@ -1,11 +1,11 @@
 ---
-author: shisaq
-comments: true
-date: 2017-09-14 16:48:11+00:00
 layout: post
-title: 如何配合cPanel使用SSH免密登录
-tags:
-- fullstack
+title: "如何配合cPanel使用SSH免密登录"
+date: 2017-09-14 16:48:11+00:00
+author: "shisaq"
+header-img: "img/home-bg.jpg"
+tags: ["-", "fullstack"]
+categories: ["成长日记"]
 ---
 
 > 前几天在[搭建自己尤克里里论坛](/fullstack/2017/09/13/flarum-deployment.html)的时候，遇到了ssh登录远程主机进行操作的需求。从完全没接触过，到开始掌握，差了一次实践和一次总结。实践已经做完，现在是时候总结一下了。这篇文章不写能直接Google到的内容，只写我自己的理解。

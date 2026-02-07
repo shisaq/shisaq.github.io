@@ -1,11 +1,11 @@
 ---
-author: shisaq
-comments: true
-date: 2017-01-24 20:42:35+00:00
 layout: post
-title: Unable To Manipulate MongoDB Due To Unproperly Closed Terminal?
-tags:
-- frontend
+title: "Unable To Manipulate MongoDB Due To Unproperly Closed Terminal?"
+date: 2017-01-24 20:42:35+00:00
+author: "shisaq"
+header-img: "img/home-bg-art.jpg"
+tags: ["-", "frontend"]
+categories: ["成长日记"]
 ---
 
 > I met a problem while I was learning MongoDB. Here are my steps eliciting the problem:

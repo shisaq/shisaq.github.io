@@ -1,11 +1,11 @@
 ---
-author: shisaq
-comments: true
-date: 2017-11-01 21:31:13+00:00
 layout: post
-title: 给你的树莓派设置静态ip
-tags:
-- fullstack
+title: "给你的树莓派设置静态ip"
+date: 2017-11-01 21:31:13+00:00
+author: "shisaq"
+header-img: "img/tag-bg.jpg"
+tags: ["-", "fullstack"]
+categories: ["成长日记"]
 ---
 
 > 本文只设置局域网的静态ip。公网ip可能需要用到花生壳，不过暂时还没有开始折腾，略过。

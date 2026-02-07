@@ -1,11 +1,11 @@
 ---
-author: shisaq
-comments: true
-date: 2018-05-14 12:15:01+00:00
 layout: post
-title: Kotlin：我和大神之间仍然有条鸿沟
-tags:
-- fullstack
+title: "Kotlin：我和大神之间仍然有条鸿沟"
+date: 2018-05-14 12:15:01+00:00
+author: "shisaq"
+header-img: "img/home-bg-geek.jpg"
+tags: ["-", "fullstack"]
+categories: ["成长日记"]
 ---
 
 ## 原题

@@ -1,8 +1,11 @@
 ---
 layout: post
-title: To My Future Self
-date:   2016-05-31 13:50:39
-tags: others
+title: "To My Future Self"
+date: 2016-05-31 13:50:39
+author: "shisaq"
+header-img: "img/about-bg-walle.jpg"
+tags: ["others"]
+categories: ["成长日记"]
 ---
 
 Hey myself:

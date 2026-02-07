@@ -1,11 +1,11 @@
 ---
-author: shisaq
-comments: true
-date: 2021-02-23 21:40:00+00:00
 layout: post
-title: 币圈日记20210223
-tags:
-  - 投资
+title: "币圈日记20210223"
+date: 2021-02-23 21:40:00+00:00
+author: "shisaq"
+header-img: "img/home-bg-o.jpg"
+tags: ["-", "投资理财"]
+categories: ["投资实验室"]
 ---
 
 > 目前的BTC价格是$50k，ETH是$1600。预测一波：最近2天还是会再1550左右震荡，然后接着起飞。

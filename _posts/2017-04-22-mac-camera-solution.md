@@ -1,11 +1,11 @@
 ---
-author: shisaq
-comments: true
-date: 2017-04-22 14:21:19+00:00
 layout: post
-title: iMac or MacBook Camera Isn't Working? Here's A Simple Solution
-tags:
-- personal_dev
+title: "iMac or MacBook Camera Isn't Working? Here's A Simple Solution"
+date: 2017-04-22 14:21:19+00:00
+author: "shisaq"
+header-img: "img/home-bg-o.jpg"
+tags: ["-", "personal_dev"]
+categories: ["成长日记"]
 ---
 
 

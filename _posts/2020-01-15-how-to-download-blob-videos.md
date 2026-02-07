@@ -1,11 +1,11 @@
 ---
-author: shisaq
-comments: true
-date: 2020-01-15 11:08:00+00:00
 layout: post
-title: 如何下载blob加密的视频
-tags:
-  - personal_dev
+title: "如何下载blob加密的视频"
+date: 2020-01-15 11:08:00+00:00
+author: "shisaq"
+header-img: "img/post-sample-image.jpg"
+tags: ["-", "personal_dev"]
+categories: ["创作与 AI"]
 ---
 
 ## 准备工作
