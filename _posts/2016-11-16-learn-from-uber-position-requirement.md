@@ -3,11 +3,10 @@ layout: post
 title: "Uber的招聘要求读后感"
 date: 2016-11-16 18:03:24+00:00
 author: "shisaq"
-header-img: "img/home-bg-art.jpg"
-tags: ["前端开发", "-"]
-categories: ["成长日记"]
+header-img: "img/about-bg-walle.jpg"
+tags: ["前端开发"]
+categories: ["技术遗产"]
 ---
-
 > 今天在网上搜工作机会，找到了Uber官网。有一个[招聘广告](https://www.uber.com/careers/list/14735/)(可能很快网址就过期了)讲了他们对全栈工程师的要求，看完当然觉得自己能力还不够，于是从我这里就把自己拒了。不过他们写的内容很中肯，我认为这确实是一个程序猿应有的素质。趁着这几天加速成长，我决定把它们好好解读一下，然后向这些能力迈进。
 
 ## 这篇文章的框架是根据Uber招聘要求展开的，一共8条，每条的结构都是“原文-翻译-解读”。翻译不以准确为目标，以理解为目标。

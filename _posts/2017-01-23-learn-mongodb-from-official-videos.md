@@ -3,11 +3,10 @@ layout: post
 title: "Learn MongoDB From The Official Video Tutorial"
 date: 2017-01-23 16:43:35+00:00
 author: "shisaq"
-header-img: "img/about-bg-walle.jpg"
-tags: ["-", "frontend"]
-categories: ["成长日记"]
+header-img: "img/home-bg.jpg"
+tags: ["前端开发"]
+categories: ["技术遗产"]
 ---
-
 > The best way to learn is to get your hands dirty.
 
 ## Background

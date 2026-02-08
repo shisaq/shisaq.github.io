@@ -3,11 +3,10 @@ layout: post
 title: "Responsive and SEO Friendly Data Tables"
 date: 2016-05-07 12:36:50+00:00
 author: "shisaq"
-header-img: "img/about-bg-walle.jpg"
-tags: ["-", "网络资源摘录"]
+header-img: "img/post-sample-image.jpg"
+tags: ["网络资源摘录"]
 categories: ["成长日记"]
 ---
-
 <blockquote>
 
 > 

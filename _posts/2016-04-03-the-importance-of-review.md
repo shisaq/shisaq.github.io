@@ -4,10 +4,9 @@ title: "The importance of review"
 date: 2016-04-03 19:56:07+00:00
 author: "shisaq"
 header-img: "img/home-bg-art.jpg"
-tags: ["前端开发", "-"]
-categories: ["成长日记"]
+tags: ["前端开发"]
+categories: ["技术遗产"]
 ---
-
 I always hate to review stuffs, such as movies, books, and of course the online courses in Udacity. But here I am, willing to say it's really really important to review it because you never know how many treasures you have lost on the first watching.
 
 

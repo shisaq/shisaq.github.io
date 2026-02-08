@@ -3,11 +3,10 @@ layout: post
 title: "JavaScript Notes"
 date: 2016-06-15 02:04:47+00:00
 author: "shisaq"
-header-img: "img/home-bg-art.jpg"
-tags: ["前端开发", "-"]
-categories: ["成长日记"]
+header-img: "img/contact-bg.jpg"
+tags: ["前端开发"]
+categories: ["技术遗产"]
 ---
-
 I learned JavaScript Basics in Udacity. This is the link: [JavaScript Basics](https://www.udacity.com/course/javascript-basics--ud804).
 
 

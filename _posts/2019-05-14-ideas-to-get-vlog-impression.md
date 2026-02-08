@@ -4,10 +4,9 @@ title: "如何提高VLOG和小视频的播放量 —— 视频大拍档观后笔
 date: 2019-05-14 20:00:00+00:00
 author: "shisaq"
 header-img: "img/home-bg-art.jpg"
-tags: ["-", "personal_dev"]
+tags: ["个人成长"]
 categories: ["创作与 AI"]
 ---
-
 > VLOG和小视频怎么提升播放量，我从视频大拍档里看到了一期特别干的干货，特此记录。
 
 ## YouTube 视频

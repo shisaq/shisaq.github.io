@@ -1,13 +1,11 @@
 ---
 layout: post
 title: "一笔不画，用ChatGPT和Midjourney制作微信表情包"
-date: 2023-04-07
 author: "shisaq"
-header-img: "img/home-bg-o.jpg"
-tags: ["personal_dev"]
-categories: ["成长日记"]
+header-img: "img/about-bg-walle.jpg"
+tags: ["个人成长"]
+categories: ["创作与 AI"]
 ---
-
 > 最近做了个迷你项目：“一笔不画，制作微信表情包，天天领赞赏(bushi)”，微信打开链接即可看到：[https://w.url.cn/s/AkxcGvz#wechat_redirect](https://w.url.cn/s/AkxcGvz#wechat_redirect)。回头有工夫详细补充一下细节。
 
 ## 思路整理

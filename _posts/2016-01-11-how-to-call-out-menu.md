@@ -3,11 +3,10 @@ layout: post
 title: "Wordpress如何把仪表盘里的［菜单］选项调出来"
 date: 2016-01-11 09:10:02+00:00
 author: "shisaq"
-header-img: "img/about-bg-walle.jpg"
-tags: ["前端开发", "-"]
+header-img: "img/home-bg.jpg"
+tags: ["前端开发"]
 categories: ["技术遗产"]
 ---
-
 Wordpress里，我对［菜单］［分类目录］［页面］的概念总是混淆不清。好不容易理顺了一些，去找［菜单］的时候，却发现：
 
 

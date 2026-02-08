@@ -3,11 +3,10 @@ layout: post
 title: "用Flarum搭建尤克里里轻论坛"
 date: 2017-09-13 15:57:41+00:00
 author: "shisaq"
-header-img: "img/home-bg.jpg"
-tags: ["-", "fullstack"]
-categories: ["成长日记"]
+header-img: "img/post-sample-image.jpg"
+tags: ["全栈开发"]
+categories: ["技术遗产"]
 ---
-
 > 前段时间想要开始做自己的个人品牌了。想想自己的技能树：歌手、尤克里里老师、视频剪辑师、摄像师、导演、演员、设计师、前端工程师、全栈工程师、作家... 能把这些都串起来的，就是围绕`尤克里里`来玩了。我有一个微信公众号：`优客李李`，所以就打算以此为基石，做一个汇集网站、论坛、公众号、app(未来)、直播(待定)的多平台乐园。我知道目前其实最缺的还是稳定输出的内容，但先搭好平台也没什么坏处呀。这样内容就可以在这平台的基础上快活地与世界连接了。所以这篇文章就是在我购买了一个[域名](https://uulili.com)和[空间](https://fastcomet.com)，并搭建了一个简单的Wordpress后，开始折腾的事情了。
 
 ## Flarum

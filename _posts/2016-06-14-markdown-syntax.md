@@ -3,11 +3,10 @@ layout: post
 title: "Markdown Syntax"
 date: 2016-06-14 15:28:13+00:00
 author: "shisaq"
-header-img: "img/home-bg-geek.jpg"
-tags: ["前端开发", "-"]
-categories: ["成长日记"]
+header-img: "img/home-bg-o.jpg"
+tags: ["前端开发"]
+categories: ["技术遗产"]
 ---
-
 These days I'm learning "How to write `readme` in GitHub", it's time to give a collection of Markdown syntax.
 
 # // 1st level caption 一级标题

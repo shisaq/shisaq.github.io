@@ -3,11 +3,10 @@ layout: post
 title: "Truncate String with Ellipsis 用省略号缩短文本长度"
 date: 2016-05-07 13:43:25+00:00
 author: "shisaq"
-header-img: "img/home-bg-o.jpg"
-tags: ["前端开发", "-"]
-categories: ["成长日记"]
+header-img: "img/tag-bg.jpg"
+tags: ["前端开发"]
+categories: ["技术遗产"]
 ---
-
 All the following are required, so the text must be in a single straight line that overflows a box where that overflow is hidden.
 
 以下所有条件均须满足：1，单行长文本；2，文本在一个有宽度限制的盒子里；3，此盒子超出部分会隐藏。

@@ -7,7 +7,6 @@ header-img: "img/about-bg-walle.jpg"
 tags: ["journal"]
 categories: ["成长日记"]
 ---
-
 > metacognition: awareness and understanding of one's own thought processes.
 
 ## _I feel anxious_ vs _Why I feel anxious_

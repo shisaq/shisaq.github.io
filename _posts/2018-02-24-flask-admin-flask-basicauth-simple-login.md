@@ -3,11 +3,10 @@ layout: post
 title: "Flask-BasicAuth简单登录Flask-admin后台"
 date: 2018-02-24 17:24:22+00:00
 author: "shisaq"
-header-img: "img/home-bg-art.jpg"
-tags: ["-", "fullstack"]
+header-img: "img/tag-bg.jpg"
+tags: ["全栈开发"]
 categories: ["成长日记"]
 ---
-
 > 本文简单介绍了一个以[Flask-admin](https://flask-admin.readthedocs.io/en/latest/)作为后台、[Flask-BasicAuth](https://flask-basicauth.readthedocs.io/en/latest/)作为简单登录方式的例子。主要解决的问题是：**仅使用Flask-BasicAuth登录后台，而其他页面不需要登录即可查看**。
 
 ## 示例代码

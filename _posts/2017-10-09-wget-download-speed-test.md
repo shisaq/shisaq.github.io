@@ -3,11 +3,10 @@ layout: post
 title: "用wget测试文件下载速度"
 date: 2017-10-09 22:22:22+00:00
 author: "shisaq"
-header-img: "img/about-bg-walle.jpg"
-tags: ["-", "fullstack"]
-categories: ["成长日记"]
+header-img: "img/contact-bg.jpg"
+tags: ["全栈开发"]
+categories: ["技术遗产"]
 ---
-
 前几天遇到一个国内发来的文件，但不知道北美这边下载速度有多少。Google了一下，找到了如下方法：
 
 `wget -O /dev/null http://example.com/large.file`

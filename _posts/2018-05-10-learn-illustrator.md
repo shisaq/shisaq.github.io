@@ -3,11 +3,10 @@ layout: post
 title: "初学Adobe Illustrator"
 date: 2018-05-10 21:27:32+00:00
 author: "shisaq"
-header-img: "img/about-bg-walle.jpg"
-tags: ["-", "personal_dev"]
+header-img: "img/home-bg-o.jpg"
+tags: ["个人成长"]
 categories: ["成长日记"]
 ---
-
 > 会了这些基本技巧，只要脑子里有点子，基本都能实现啦。
 
 ## 笔记

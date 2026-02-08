@@ -3,11 +3,10 @@ layout: post
 title: "初识WordPress函数"
 date: 2016-01-09 09:02:22+00:00
 author: "shisaq"
-header-img: "img/home-bg-o.jpg"
-tags: ["前端开发", "-"]
+header-img: "img/about-bg-walle.jpg"
+tags: ["前端开发"]
 categories: ["技术遗产"]
 ---
-
 这两天在仿站过程中，用到了如下5个函数，做个笔记，便于今后翻阅：
 
 

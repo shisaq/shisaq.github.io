@@ -3,11 +3,10 @@ layout: post
 title: "GitHub博客自定义域名——从尝试到放弃"
 date: 2017-01-06 21:35:09+00:00
 author: "shisaq"
-header-img: "img/home-bg-o.jpg"
-tags: ["-", "frontend"]
+header-img: "img/home-bg-art.jpg"
+tags: ["前端开发"]
 categories: ["技术遗产"]
 ---
-
 > 记录一下我最近折腾GitHub自定义域名的过程。简单地说，一句话：鱼和熊掌不可得兼。
 
 ## 前言

@@ -3,11 +3,10 @@ layout: post
 title: "Font Issues about IE Embedding and Font-Spider"
 date: 2016-08-29 03:28:06+00:00
 author: "shisaq"
-header-img: "img/about-bg-walle.jpg"
-tags: ["前端开发", "-"]
-categories: ["成长日记"]
+header-img: "img/contact-bg.jpg"
+tags: ["前端开发"]
+categories: ["技术遗产"]
 ---
-
 Recently I tried to use a font family called futura , which is just in Mac system. While I opened IE to test, it was replaced.
 
 I first tried [Font-Spider](http://font-spider.org), an awesome app with 2 major functions: font format transferring, font compressing.

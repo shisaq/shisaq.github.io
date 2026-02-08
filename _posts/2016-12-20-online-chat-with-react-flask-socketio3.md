@@ -1,13 +1,12 @@
 ---
 layout: post
 title: "用React, Flask和SocketIO搭建在线聊天室(三)"
-date: 2016-12-20 9:53:12+00:00
+date: 2016-12-20 09:53:12+00:00
 author: "shisaq"
-header-img: "img/contact-bg.jpg"
-tags: ["前端开发", "-"]
-categories: ["成长日记"]
+header-img: "img/post-sample-image.jpg"
+tags: ["前端开发"]
+categories: ["技术遗产"]
 ---
-
 > 这篇文章主要介绍一下我的开发环境和参考资料，以及前期筹备过程。
  
 ## 开发环境

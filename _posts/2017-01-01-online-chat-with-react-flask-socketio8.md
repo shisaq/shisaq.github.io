@@ -3,11 +3,10 @@ layout: post
 title: "用React, Flask和SocketIO搭建在线聊天室(八)"
 date: 2017-01-01 09:25:06+00:00
 author: "shisaq"
-header-img: "img/home-bg.jpg"
-tags: ["前端开发", "-"]
-categories: ["成长日记"]
+header-img: "img/home-bg-art.jpg"
+tags: ["前端开发"]
+categories: ["技术遗产"]
 ---
-
 > 在React的世界，初学的时候总是会遇到一些新奇的名词：Flux，Redux等。因为React并不是一个完整的前端框架，它只是一个可以创建虚拟DOM的View层。所以要想实现完整的前端框架，它就需要一些朋友帮忙，一个典型的框架就是Backbone。不过Flux和Redux这样的朋友是Facebook自己推出的，这篇文章主要介绍一下[Flux](https://facebook.github.io/flux/)这个朋友。这个在线聊天室就是根据Flux的思想架构起来的。理解了它，你就会发现`js`文件夹下的文件结构很清晰了。
 
 ## 什么是Flux

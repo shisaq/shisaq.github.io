@@ -3,11 +3,10 @@ layout: post
 title: "Unable To Manipulate MongoDB Due To Unproperly Closed Terminal?"
 date: 2017-01-24 20:42:35+00:00
 author: "shisaq"
-header-img: "img/home-bg-art.jpg"
-tags: ["-", "frontend"]
-categories: ["成长日记"]
+header-img: "img/tag-bg.jpg"
+tags: ["前端开发"]
+categories: ["技术遗产"]
 ---
-
 > I met a problem while I was learning MongoDB. Here are my steps eliciting the problem:
 
 1. I start MongoDB service: `mongod`.

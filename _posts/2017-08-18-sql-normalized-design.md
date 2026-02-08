@@ -3,11 +3,10 @@ layout: post
 title: "SQL标准化设计原则"
 date: 2017-08-17 19:26:11+00:00
 author: "shisaq"
-header-img: "img/about-bg-walle.jpg"
-tags: ["-", "fullstack"]
-categories: ["成长日记"]
+header-img: "img/contact-bg.jpg"
+tags: ["全栈开发"]
+categories: ["技术遗产"]
 ---
-
 1. Every row has the same number of columns(每行都有相同数目的列).
 In practice, the database system won't let us literally have different numbers of columns in different rows. But if we have columns that are sometimes empty (null) and sometimes not, or if we stuff multiple values into a single field, we're bending this rule.
 

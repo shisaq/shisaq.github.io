@@ -3,11 +3,10 @@ layout: post
 title: "What I've learnt in "Learning how to learn" -- "学习如何学习"学后感"
 date: 2016-04-25 01:02:16+00:00
 author: "shisaq"
-header-img: "img/home-bg.jpg"
-tags: ["前端开发", "-"]
-categories: ["成长日记"]
+header-img: "img/home-bg-art.jpg"
+tags: ["前端开发"]
+categories: ["技术遗产"]
 ---
-
 <blockquote>In the beginning, when the Chinese Udacity came out, I was thinking to get the 1-month-free-trial of Nanodegree in Udacity. But after the orientation, making profile and resume, submitting the purpose, I received the feedback of Udacity work group, which included a tool called Pomodoro, a course called Learning how to learn, I decided to learn these two stuffs!</blockquote>
 
 

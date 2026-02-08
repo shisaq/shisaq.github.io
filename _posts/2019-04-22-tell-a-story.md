@@ -3,11 +3,10 @@ layout: post
 title: "讲故事的窍门 —— b 站毒角SHOW 有感"
 date: 2019-04-22 13:23:01+00:00
 author: "shisaq"
-header-img: "img/home-bg-geek.jpg"
-tags: ["-", "personal_dev"]
+header-img: "img/home-bg-art.jpg"
+tags: ["个人成长"]
 categories: ["成长日记"]
 ---
-
 > 今天在 b 站看到了 vlog 大神[毒角 SHOW](https://space.bilibili.com/39847479)讲述的 Vlog 如何选题和脚本准备，形象生动，诙谐幽默，特地把精华提炼过来，做个笔记。感兴趣的朋友，墙裂推荐直接观看这部视频：[Vlog 如何选题与准备脚本？看家本领传授给你们！](https://www.bilibili.com/video/av48993279)
 
 ## 要点

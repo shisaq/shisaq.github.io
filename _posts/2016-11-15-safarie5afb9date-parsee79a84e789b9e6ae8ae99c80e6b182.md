@@ -3,11 +3,10 @@ layout: post
 title: "Safari对Date.parse()的需求更严格"
 date: 2016-11-15 18:55:41+00:00
 author: "shisaq"
-header-img: "img/home-bg-geek.jpg"
-tags: ["前端开发", "-"]
-categories: ["成长日记"]
+header-img: "img/tag-bg.jpg"
+tags: ["前端开发"]
+categories: ["技术遗产"]
 ---
-
 最近应老婆的需求，做了一个炒鸡简单的[倒计时网页](http://shisaq.github.io/my-count-down-clock/)。[附上源码](https://gist.github.com/shisaq/1f62d8439771f494fc0730b327438042)。没什么功能，连deadline都需要从后台写。不过至少能开始一个百天计划了。以后酌情优化。
 
 但是使用的时候，大多数浏览器都木有问题，只有Safari默默地罢工了。本应该显示日期、时、分、秒的地方，它统统显示为`NaN（如下图）`。

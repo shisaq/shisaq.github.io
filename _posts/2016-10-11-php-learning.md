@@ -3,11 +3,10 @@ layout: post
 title: "My PHP Notes"
 date: 2016-10-11 18:24:49
 author: "shisaq"
-header-img: "img/home-bg-o.jpg"
+header-img: "img/post-sample-image.jpg"
 tags: ["front-end", "notes"]
 categories: ["技术遗产"]
 ---
-
 > Learnd from [Codecademy](https://www.codecademy.com/)
 
 ## Several functions

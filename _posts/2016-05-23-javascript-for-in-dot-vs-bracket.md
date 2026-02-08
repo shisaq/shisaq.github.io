@@ -3,11 +3,10 @@ layout: post
 title: "JavaScript在for-in循环中，用点还是中括号？"
 date: 2016-05-23 15:01:51+00:00
 author: "shisaq"
-header-img: "img/post-sample-image.jpg"
-tags: ["前端开发", "-"]
-categories: ["成长日记"]
+header-img: "img/home-bg-geek.jpg"
+tags: ["前端开发"]
+categories: ["技术遗产"]
 ---
-
 初学JS。在用for in循环的时候，对用点还是用中括号产生了困惑。
 
 困惑阐述：

@@ -3,11 +3,10 @@ layout: post
 title: "使用终端（Terminal）升级git"
 date: 2016-01-10 12:57:41+00:00
 author: "shisaq"
-header-img: "img/post-sample-image.jpg"
-tags: ["前端开发", "-"]
+header-img: "img/home-bg.jpg"
+tags: ["前端开发"]
 categories: ["技术遗产"]
 ---
-
 刚从Windows转到Mac OS X，这些天看了不少教程和攻略，终于让Mac越来越顺手了，反观Windows，我几乎都不愿意开了（虽然我装了虚拟机）。
 
 

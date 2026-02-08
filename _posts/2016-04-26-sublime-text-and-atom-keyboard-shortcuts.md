@@ -3,11 +3,10 @@ layout: post
 title: "Sublime Text and Atom Keyboard Shortcuts"
 date: 2016-04-26 22:05:04+00:00
 author: "shisaq"
-header-img: "img/about-bg-walle.jpg"
-tags: ["-", "网络资源摘录"]
+header-img: "img/home-bg.jpg"
+tags: ["网络资源摘录"]
 categories: ["成长日记"]
 ---
-
 This article is from Udacity, see link: [Sublime Text and Atom Keyboard Shortcuts](https://classroom.udacity.com/nanodegrees/nd001/parts/0011345403/modules/742847927175460/lessons/7118285430/concepts/71211966890923).
 
 这篇文章摘自Udacity，见原文链接：[Sublime Text and Atom Keyboard Shortcuts](https://classroom.udacity.com/nanodegrees/nd001/parts/0011345403/modules/742847927175460/lessons/7118285430/concepts/71211966890923)。

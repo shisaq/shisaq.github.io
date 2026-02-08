@@ -3,11 +3,10 @@ layout: post
 title: "How To Navigate The Up And Downs Of Learning To Code (by_Code Conquest)"
 date: 2016-04-17 13:12:08+00:00
 author: "shisaq"
-header-img: "img/tag-bg.jpg"
-tags: ["-", "网络资源摘录"]
+header-img: "img/home-bg.jpg"
+tags: ["网络资源摘录"]
 categories: ["成长日记"]
 ---
-
 ## I LOVE this article. I do.
 
 

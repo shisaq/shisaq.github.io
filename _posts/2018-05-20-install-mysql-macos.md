@@ -3,11 +3,10 @@ layout: post
 title: "在macOS安装和配置mysql"
 date: 2018-05-20 20:01:01+00:00
 author: "shisaq"
-header-img: "img/home-bg.jpg"
-tags: ["-", "fullstack"]
+header-img: "img/post-sample-image.jpg"
+tags: ["全栈开发"]
 categories: ["成长日记"]
 ---
-
 > 本文为在macOS安装mysql的快速存档。
 
 ## 准备工作

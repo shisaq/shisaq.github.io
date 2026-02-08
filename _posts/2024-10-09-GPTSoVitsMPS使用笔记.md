@@ -2,14 +2,11 @@
 layout: post
 title: "GPTSoVitsMPS使用笔记"
 subtitle: "GPTSoVitsMPS使用笔记"
-date: 2024-10-09
 author: "shisaq"
-header-img: "img/home-bg-art.jpg"
-tags: ["personal_dev"]
-categories: ["成长日记"]
+header-img: "img/about-bg-walle.jpg"
+tags: ["个人成长"]
+categories: ["创作与 AI"]
 ---
-
-
 ## 查看已安装的环境
 
 `$ conda env list`

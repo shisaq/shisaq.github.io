@@ -3,11 +3,10 @@ layout: post
 title: "A Simple H5 Game -- Angry Bug(part 1)"
 date: 2016-06-14 01:57:15+00:00
 author: "shisaq"
-header-img: "img/tag-bg.jpg"
-tags: ["前端开发", "-"]
-categories: ["成长日记"]
+header-img: "img/contact-bg.jpg"
+tags: ["前端开发"]
+categories: ["技术遗产"]
 ---
-
 Recently, on my way processing Udacity Front-end Nanodegree, I met a project called "Classic Arcade Game", developed by Object Oriented JavaScript and HTML5. Here is my result : [https://github.com/shisaq/frontend-nanodegree-arcade-game](https://github.com/shisaq/frontend-nanodegree-arcade-game)
 
 In the beginning of this project, when I received the resources, opening `index.html` , wow what a pity! There was nothing except a totally blank white page. After a long time fighting against my hopeless, I started to dig into the project.

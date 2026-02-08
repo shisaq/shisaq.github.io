@@ -3,16 +3,10 @@ layout: post
 title: "Note of command line on wether hiding the system folds or not"
 date: 2016-04-08 13:42:06+00:00
 author: "shisaq"
-header-img: "img/post-sample-image.jpg"
-tags: ["-", "网络资源摘录"]
+header-img: "img/home-bg.jpg"
+tags: ["网络资源摘录"]
 categories: ["成长日记"]
 ---
-
-
-
-
-
-	
   1. 使用终端命令：显示 Mac 隐藏文件的命令：defaults write com.apple.finder AppleShowAllFiles -bool true
 
 隐藏 Mac 隐藏文件的命令：defaults write com.apple.finder AppleShowAllFiles -bool false

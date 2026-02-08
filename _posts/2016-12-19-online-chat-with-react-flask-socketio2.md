@@ -3,11 +3,10 @@ layout: post
 title: "用React, Flask和SocketIO搭建在线聊天室(二)"
 date: 2016-12-19 21:11:09+00:00
 author: "shisaq"
-header-img: "img/home-bg-geek.jpg"
-tags: ["前端开发", "-"]
-categories: ["成长日记"]
+header-img: "img/home-bg-art.jpg"
+tags: ["前端开发"]
+categories: ["技术遗产"]
 ---
-
 > 这篇文章主要是关于Chat Server的GIF图，呈现各个状态下的效果，让着急的看官有个大概的印象——觉得有意思的继续关注文章进度，觉得小儿科的也不用在这里耽误时间了。
  
 ## 主界面

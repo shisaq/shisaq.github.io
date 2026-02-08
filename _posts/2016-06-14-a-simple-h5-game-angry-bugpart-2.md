@@ -4,10 +4,9 @@ title: "A Simple H5 Game -- Angry Bug(part 2)"
 date: 2016-06-14 14:43:22+00:00
 author: "shisaq"
 header-img: "img/home-bg.jpg"
-tags: ["前端开发", "-"]
-categories: ["成长日记"]
+tags: ["前端开发"]
+categories: ["技术遗产"]
 ---
-
 ### Now it's time to sum up `canvas` :
 
 

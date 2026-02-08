@@ -3,11 +3,10 @@ layout: post
 title: "ffmpeg使用笔记"
 date: 2017-05-30 23:20:29+00:00
 author: "shisaq"
-header-img: "img/home-bg-o.jpg"
-tags: ["-", "frontend"]
-categories: ["成长日记"]
+header-img: "img/tag-bg.jpg"
+tags: ["前端开发"]
+categories: ["技术遗产"]
 ---
-
 > 最近搭建Shopify网站时，我打算把背景视频压缩掉，并只在桌面版显示，在尝试生成webm文件时，我找到了ffmpeg这个工具。其实以前在学习的时候也遇到过，但不知啥原因，最后没用着。这次用了之后才发现，这简直是命令行版的Handbrake！不禁也让我想起了imagemagick，哈哈。
 
 ## 未静音webm版

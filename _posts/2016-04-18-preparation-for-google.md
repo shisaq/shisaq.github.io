@@ -3,11 +3,10 @@ layout: post
 title: "Preparation for Google"
 date: 2016-04-18 13:24:08+00:00
 author: "shisaq"
-header-img: "img/post-sample-image.jpg"
-tags: ["前端开发", "-"]
-categories: ["成长日记"]
+header-img: "img/home-bg-art.jpg"
+tags: ["前端开发"]
+categories: ["技术遗产"]
 ---
-
 ## I desire to be hired by Google.
 
 

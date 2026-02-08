@@ -3,11 +3,10 @@ layout: post
 title: "怎么把博客文章从WordPress搬到jekyll"
 date: 2016-11-20 17:09:29+00:00
 author: "shisaq"
-header-img: "img/contact-bg.jpg"
-tags: ["前端开发", "-"]
+header-img: "img/home-bg-o.jpg"
+tags: ["前端开发"]
 categories: ["技术遗产"]
 ---
-
 > 由于没有深究WordPress，我一直没对我的个人WordPress博客优化过。最近找到了一个从WordPress搬到jekyll的方法，在这里总结一下。
 
 ## 为什么搬家？

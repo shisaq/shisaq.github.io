@@ -3,11 +3,10 @@ layout: post
 title: "How to Use Express Generator"
 date: 2017-01-31 10:57:19+00:00
 author: "shisaq"
-header-img: "img/post-sample-image.jpg"
-tags: ["-", "frontend"]
-categories: ["成长日记"]
+header-img: "img/home-bg-geek.jpg"
+tags: ["前端开发"]
+categories: ["技术遗产"]
 ---
-
 > [Express generator](http://expressjs.com/en/starter/generator.html) is a tool that helps quickly generate your application skeleton.
 
 ## Preparation

@@ -1,13 +1,12 @@
 ---
 layout: post
 title: "用React, Flask和SocketIO搭建在线聊天室(四)"
-date: 2016-12-21 9:47:33+00:00
+date: 2016-12-21 09:47:33+00:00
 author: "shisaq"
-header-img: "img/post-sample-image.jpg"
-tags: ["前端开发", "-"]
-categories: ["成长日记"]
+header-img: "img/tag-bg.jpg"
+tags: ["前端开发"]
+categories: ["技术遗产"]
 ---
-
 > 这一篇默认你已经本身自带Python技能，或者按照上一篇的描述，实际操作过“Y分钟入门Python”了。否则本文看起来会很吃力。
  
 ## 安装Flask

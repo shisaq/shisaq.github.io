@@ -3,11 +3,10 @@ layout: post
 title: "3 Ways To Optimize Webpage Performance(网页性能优化的3种方法)"
 date: 2016-06-30 20:17:16+00:00
 author: "shisaq"
-header-img: "img/home-bg-geek.jpg"
-tags: ["前端开发", "-"]
-categories: ["成长日记"]
+header-img: "img/home-bg.jpg"
+tags: ["前端开发"]
+categories: ["技术遗产"]
 ---
-
 <blockquote>
 
 > 

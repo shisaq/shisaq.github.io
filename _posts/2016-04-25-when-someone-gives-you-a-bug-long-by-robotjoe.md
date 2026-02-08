@@ -4,10 +4,9 @@ title: "When someone gives you a bug (long)-- by RobotJoe"
 date: 2016-04-25 12:35:02+00:00
 author: "shisaq"
 header-img: "img/home-bg-art.jpg"
-tags: ["-", "网络资源摘录"]
+tags: ["网络资源摘录"]
 categories: ["成长日记"]
 ---
-
 I found [this article](https://redd.it/2spd2s) from a Chinese blog. Today I read it, it's funny and I'd like to share it here. Seems Git and Github are so important in coding. And, most engineers will meet such kind of problems in the daily life. By the way, I love the way the author write. Short sentence makes clearer meaning!
 
 这是我从一个国内博客上找到的文章。追根溯源就来到了[这里](https://redd.it/2spd2s)。今天我读完了，感觉真是太逗了，所以就转过来啦～看起来版本控制是灰常重要的，特别是在编程过程中。估计大把程序猿都会遇到不少类似的问题吧。对了，我也很喜欢这个作者的写作风格。短句式，好理解！

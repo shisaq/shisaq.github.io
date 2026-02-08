@@ -3,11 +3,10 @@ layout: post
 title: "Body Content Shakes A Little Bit When Pop-up Box Is Appearing?"
 date: 2016-09-06 22:17:24+00:00
 author: "shisaq"
-header-img: "img/about-bg-walle.jpg"
-tags: ["前端开发", "-"]
-categories: ["成长日记"]
+header-img: "img/contact-bg.jpg"
+tags: ["前端开发"]
+categories: ["技术遗产"]
 ---
-
 <blockquote>This article is about the effect of the pop-up box.</blockquote>
 
 

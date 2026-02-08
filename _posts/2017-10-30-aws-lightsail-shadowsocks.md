@@ -4,10 +4,9 @@ title: "科学上网-AWS和Shadowsocks给你自由"
 date: 2017-10-30 17:05:23+00:00
 author: "shisaq"
 header-img: "img/contact-bg.jpg"
-tags: ["-", "fullstack"]
-categories: ["成长日记"]
+tags: ["全栈开发"]
+categories: ["技术遗产"]
 ---
-
 > 本文主要分享的是ubuntu 16.04下安装shadowsocks并配置运行的过程。
 
 ## 准备工作

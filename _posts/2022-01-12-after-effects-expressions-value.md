@@ -2,13 +2,11 @@
 layout: post
 title: "AE 表达式特定变量 Value 的用途 After Effects Expression Default Value"
 subtitle: "AE学习笔记"
-date: 2022-01-12
 author: "shisaq"
-header-img: "img/home-bg-art.jpg"
-tags: ["filmmaking"]
-categories: ["成长日记"]
+header-img: "img/about-bg-walle.jpg"
+tags: ["音视频制作"]
+categories: ["创作与 AI"]
 ---
-
 ## value 默认值
 
 在 After Effects 表达式 (expression) 中，`value` 可作为默认值出现。如果既有关键帧，又有表达式，可在表达式中加入 `value`，这样可以通过 `if` 语句分情况输出表达式的结果或者关键帧的结果，达到灵活控制输出结果的效果。

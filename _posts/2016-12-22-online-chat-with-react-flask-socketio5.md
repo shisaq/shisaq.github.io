@@ -3,11 +3,10 @@ layout: post
 title: "用React, Flask和SocketIO搭建在线聊天室(五)"
 date: 2016-12-22 16:17:13+00:00
 author: "shisaq"
-header-img: "img/post-sample-image.jpg"
-tags: ["前端开发", "-"]
-categories: ["成长日记"]
+header-img: "img/about-bg-walle.jpg"
+tags: ["前端开发"]
+categories: ["技术遗产"]
 ---
-
 > 通过上一篇文章，我们已经部署了Flask本地服务器环境，这一篇文章主要谈谈我当时在学习SocketIO时的思路。
 
 ## 阅读本文所需技能点

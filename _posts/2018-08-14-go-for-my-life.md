@@ -3,11 +3,10 @@ layout: post
 title: "人生重要的选择就那几次"
 date: 2018-08-16 23:40:01+00:00
 author: "shisaq"
-header-img: "img/about-bg-walle.jpg"
-tags: ["-", "personal_dev"]
+header-img: "img/home-bg-art.jpg"
+tags: ["个人成长"]
 categories: ["成长日记"]
 ---
-
 > 像往常的文章一样，这篇文章刚开始还是引语。技术博客写多了，忽然不知道这样类似笔记的文章，如何用 markdown 去写了。索性就一段一段写吧。
 
 ## 与在 Google 工作的校友聊天有感

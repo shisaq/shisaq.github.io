@@ -3,11 +3,10 @@ layout: post
 title: "微信小程序学习笔记"
 date: 2018-05-24 16:01:23+00:00
 author: "shisaq"
-header-img: "img/home-bg-art.jpg"
-tags: ["-", "frontend"]
+header-img: "img/tag-bg.jpg"
+tags: ["前端开发"]
 categories: ["成长日记"]
 ---
-
 ## wx.navigateTo
 
 跳转到除tabBar页面的路径，可带参数。[navigateTo文档](https://developers.weixin.qq.com/miniprogram/dev/api/ui-navigate.html?search-key=navigateTo)

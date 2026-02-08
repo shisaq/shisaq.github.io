@@ -3,11 +3,10 @@ layout: post
 title: "The Google Resume读书笔记"
 date: 2018-02-12 23:26:22+00:00
 author: "shisaq"
-header-img: "img/about-bg-walle.jpg"
-tags: ["-", "personal_dev"]
+header-img: "img/post-sample-image.jpg"
+tags: ["个人成长"]
 categories: ["成长日记"]
 ---
-
 > 摘自[The Google Resume](https://www.uop.edu.jo/download/research/members/495_1887_llll.pdf)，自己翻译。
 
 ## Make an Impact 缔造真正的影响力

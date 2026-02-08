@@ -3,14 +3,10 @@ layout: post
 title: "纯CSS实现tab切换"
 date: 2016-01-20 14:21:05+00:00
 author: "shisaq"
-header-img: "img/about-bg-walle.jpg"
-tags: ["-", "网络资源摘录"]
+header-img: "img/contact-bg.jpg"
+tags: ["网络资源摘录"]
 categories: ["技术遗产"]
 ---
-
-
-
-
 # 纯CSS实现tab切换
 
 

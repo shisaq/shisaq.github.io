@@ -4,10 +4,9 @@ title: "米国第1个月"
 date: 2016-03-22 22:34:48+00:00
 author: "shisaq"
 header-img: "img/tag-bg.jpg"
-tags: ["-", "娱乐"]
+tags: ["娱乐"]
 categories: ["成长日记"]
 ---
-
 来美国一个月了。写点随笔。
 
 

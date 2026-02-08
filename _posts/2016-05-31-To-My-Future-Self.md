@@ -7,7 +7,6 @@ header-img: "img/about-bg-walle.jpg"
 tags: ["others"]
 categories: ["成长日记"]
 ---
-
 Hey myself:
 
 Now I'm in Pittsburgh, PA. I don't know where you will be in future. There 

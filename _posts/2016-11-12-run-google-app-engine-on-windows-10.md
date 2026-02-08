@@ -3,11 +3,10 @@ layout: post
 title: "在Windows 10上运行Google APP Engine"
 date: 2016-11-12 23:53:32+00:00
 author: "shisaq"
-header-img: "img/tag-bg.jpg"
-tags: ["前端开发", "-"]
-categories: ["成长日记"]
+header-img: "img/home-bg-art.jpg"
+tags: ["前端开发"]
+categories: ["技术遗产"]
 ---
-
 Google各方面都更新得很快。Udacity上的视频也不算老，但是已经跟不上Google的更新速度了。举例来说，前段时间在学习Chrome Dev Tools的时候，由于Google的更新，我必须放弃Udacity视频，去查阅官方文档和StackOverflow。
 
 这次在学习Web Development课程，目的是搭建一个功能完整的博客——这就意味着需要后台介入了——Python，数据库，服务器。虽然本博客也是一个功能完整的博客，但是这是站在巨人的肩膀(Wordpress)上搞定的。

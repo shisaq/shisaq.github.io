@@ -3,13 +3,10 @@ layout: post
 title: "iMac or MacBook Camera Isn't Working? Here's A Simple Solution"
 date: 2017-04-22 14:21:19+00:00
 author: "shisaq"
-header-img: "img/home-bg-o.jpg"
-tags: ["-", "personal_dev"]
+header-img: "img/about-bg-walle.jpg"
+tags: ["个人成长"]
 categories: ["成长日记"]
 ---
-
-
-
 ## Solution 1
 
 1. Open your terminal and input `sudo killall VDCAssistant`;

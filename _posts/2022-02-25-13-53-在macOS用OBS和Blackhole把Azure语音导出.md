@@ -2,13 +2,11 @@
 layout: post
 title: "在macOS用OBS和Blackhole把Azure语音导出"
 subtitle: "投资笔记"
-date: 2022-02-25
 author: "shisaq"
-header-img: "img/post-sample-image.jpg"
+header-img: "img/about-bg-walle.jpg"
 tags: ["howto"]
 categories: ["成长日记"]
 ---
-
 > Azure旧版[demo](https://azure.microsoft.com/zh-cn/services/cognitive-services/text-to-speech/#overview)已被关闭，新版[链接](https://speech.microsoft.com/audiocontentcreation)已更新。限制是每次只能生成500字。
 
 ## 原理

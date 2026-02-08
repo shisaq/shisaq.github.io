@@ -3,11 +3,10 @@ layout: post
 title: "WordPress学习笔记－SEO、自定义工具栏、仪表盘下新增分类"
 date: 2016-01-21 14:06:35+00:00
 author: "shisaq"
-header-img: "img/home-bg-geek.jpg"
-tags: ["前端开发", "-"]
+header-img: "img/post-sample-image.jpg"
+tags: ["前端开发"]
 categories: ["技术遗产"]
 ---
-
 今天晚上学了两个知识：
 
 

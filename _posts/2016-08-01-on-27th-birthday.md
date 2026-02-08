@@ -4,10 +4,9 @@ title: "写在27岁生日"
 date: 2016-08-01 12:25:07+00:00
 author: "shisaq"
 header-img: "img/contact-bg.jpg"
-tags: ["前端开发", "-"]
-categories: ["成长日记"]
+tags: ["前端开发"]
+categories: ["技术遗产"]
 ---
-
 _今天我27岁了。生日快乐。_
 
 

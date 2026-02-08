@@ -4,10 +4,9 @@ title: "Srcset 和 sizes"
 date: 2016-05-17 01:15:17+00:00
 author: "shisaq"
 header-img: "img/contact-bg.jpg"
-tags: ["-", "网络资源摘录"]
+tags: ["网络资源摘录"]
 categories: ["成长日记"]
 ---
-
 这篇文章虽然已经写得非常棒了，我还是没能看得很懂。。。中文版摘自陈三的blog，附上[原文链接](https://www.zfanw.com/blog/srcset-and-sizes.html)。
 
 **译注**：本文译自 [Srcset and sizes](http://ericportis.com/posts/2014/srcset-sizes/)，原文使用 [CC BY 3.0](http://creativecommons.org/licenses/by/3.0/) 许可。感谢作者额外提供一套灰色背景图片。

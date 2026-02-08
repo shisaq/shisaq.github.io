@@ -3,11 +3,10 @@ layout: post
 title: "使用rsync上传文件"
 date: 2018-04-15 15:47:12+00:00
 author: "shisaq"
-header-img: "img/post-sample-image.jpg"
-tags: ["-", "fullstack"]
+header-img: "img/home-bg-o.jpg"
+tags: ["全栈开发"]
 categories: ["成长日记"]
 ---
-
 > 亲测，rsync可以替代ftp服务了~速度杠杠的~
 
 ## 基本代码

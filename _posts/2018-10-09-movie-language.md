@@ -4,10 +4,9 @@ title: "微电影制作流程笔记(二)"
 date: 2018-10-09 14:28:31+00:00
 author: "shisaq"
 header-img: "img/home-bg-art.jpg"
-tags: ["-", "filmmaking"]
-categories: ["成长日记"]
+tags: ["音视频制作"]
+categories: ["创作与 AI"]
 ---
-
 # 影响语言分析与分镜表的制作
 
 ## 一般人拍片的问题

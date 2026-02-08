@@ -3,11 +3,10 @@ layout: post
 title: "初尝Kotlin"
 date: 2018-05-11 18:25:01+00:00
 author: "shisaq"
-header-img: "img/home-bg-geek.jpg"
-tags: ["-", "fullstack"]
+header-img: "img/home-bg-o.jpg"
+tags: ["全栈开发"]
 categories: ["成长日记"]
 ---
-
 > [Kotlin](http://kotlinlang.org/docs/reference/basic-syntax.html)现在这么火，而且能直接兼容Java，在Android开发中，趋势就是用简洁的Kotlin逐步替代掉Java。Java我还没怎么学，不如就直接上Kotlin吧。Udacity刚好也有[免费课程](https://www.udacity.com/course/kotlin-bootcamp-for-programmers--ud9011)，推荐一下。
 
 ## 控制台

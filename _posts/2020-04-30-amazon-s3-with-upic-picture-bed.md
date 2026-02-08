@@ -3,11 +3,10 @@ layout: post
 title: "用Amazon S3 实现快速上传图床"
 date: 2020-04-30 23:50:00+00:00
 author: "shisaq"
-header-img: "img/home-bg-o.jpg"
-tags: ["-", "personal_dev"]
+header-img: "img/about-bg-walle.jpg"
+tags: ["个人成长"]
 categories: ["成长日记"]
 ---
-
 > 在用Markdown写作时，往往会有想要配图的时候。但是图片的网址从哪来？得先上传到网络图床才行啊。但每有一张配图，就得打开图床网站，上传，再回来，这时候我早就忘了要写什么东西了。
 
 最近找到了一款好用的工具：[uPic](https://github.com/gee1k/uPic)，它可以让我按几个快捷键，然后就能通过command + v 把需要的图片的markdown代码直接粘贴到我的编辑器里面了！

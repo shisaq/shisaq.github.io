@@ -3,11 +3,10 @@ layout: post
 title: "Photoshop Gif 图制作"
 date: 2018-10-23 10:42:01+00:00
 author: "shisaq"
-header-img: "img/tag-bg.jpg"
-tags: ["-", "personal_dev"]
+header-img: "img/home-bg-o.jpg"
+tags: ["个人成长"]
 categories: ["成长日记"]
 ---
-
 > 以前学过 PS 的大部分工具，但最近遇到了一些需求，需要做特定尺寸的 gif 图。临阵磨枪，使用了“PPT + HandBrake + Gif Brewery 3”的组合，做了出来，不过工具略多，总体流程较复杂。所以决定研究一下 PS 下 gif 图的制作方法。
 
 ## 2 种方法优劣

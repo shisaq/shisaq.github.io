@@ -3,11 +3,10 @@ layout: post
 title: "我是怎么拿到原创和赞赏功能的"
 date: 2016-12-30 07:58:45+00:00
 author: "shisaq"
-header-img: "img/home-bg-art.jpg"
-tags: ["前端开发", "-"]
-categories: ["成长日记"]
+header-img: "img/post-sample-image.jpg"
+tags: ["前端开发"]
+categories: ["技术遗产"]
 ---
-
 > 今天拿到了微信公众平台的赞赏功能。作为一个个人公众号，已经拿到所有能拿的权限了。这篇文章分享一下我拿到原创和赞赏功能时的各项数据统计。
 
 ## 基本信息

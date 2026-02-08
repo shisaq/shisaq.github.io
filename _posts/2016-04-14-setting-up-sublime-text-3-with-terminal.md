@@ -3,11 +3,10 @@ layout: post
 title: "Setting Up Sublime Text 3 With Terminal"
 date: 2016-04-14 13:40:37+00:00
 author: "shisaq"
-header-img: "img/tag-bg.jpg"
-tags: ["前端开发", "-"]
-categories: ["成长日记"]
+header-img: "img/home-bg-o.jpg"
+tags: ["前端开发"]
+categories: ["技术遗产"]
 ---
-
 Nowdays I’m learning “Git and Github” in Udacity, setting up my Sublime Text 3 with Terminal.
 
 这几天我正在Udacity上学习Git and Github这门课，以下是我设置Sublime Text3 和Terminal（终端）配对的大概步骤。

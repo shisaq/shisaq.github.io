@@ -3,11 +3,10 @@ layout: post
 title: "Book review - How to read a book"
 date: 2017-05-10 17:01:19+00:00
 author: "shisaq"
-header-img: "img/home-bg-o.jpg"
-tags: ["-", "personal_dev"]
+header-img: "img/home-bg-art.jpg"
+tags: ["个人成长"]
 categories: ["成长日记"]
 ---
-
 # 如何阅读一本书(畅销70余年)
 
 > 作者：艾德勒(老师，原版) + 范多伦(学生，修订)

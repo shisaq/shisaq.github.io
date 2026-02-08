@@ -4,10 +4,9 @@ title: "CSS 居中完全指南"
 date: 2016-01-20 04:25:09+00:00
 author: "shisaq"
 header-img: "img/home-bg-o.jpg"
-tags: ["-", "网络资源摘录"]
+tags: ["网络资源摘录"]
 categories: ["技术遗产"]
 ---
-
 # CSS 居中完全指南
 
 

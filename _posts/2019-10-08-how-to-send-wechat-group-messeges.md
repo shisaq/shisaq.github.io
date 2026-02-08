@@ -4,10 +4,9 @@ title: "如何使用微信群发助手群发消息呢"
 date: 2019-10-08 15:36:00+00:00
 author: "shisaq"
 header-img: "img/about-bg-walle.jpg"
-tags: ["-", "personal_dev"]
+tags: ["个人成长"]
 categories: ["成长日记"]
 ---
-
 ## 步骤
 
 1. 点击“我”-“设置”-“通用”-“功能”-“群发助手”

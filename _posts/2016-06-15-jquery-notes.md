@@ -3,11 +3,10 @@ layout: post
 title: "jQuery Notes"
 date: 2016-06-15 19:51:17+00:00
 author: "shisaq"
-header-img: "img/contact-bg.jpg"
-tags: ["前端开发", "-"]
-categories: ["成长日记"]
+header-img: "img/home-bg-o.jpg"
+tags: ["前端开发"]
+categories: ["技术遗产"]
 ---
-
 I've learned "Intro to jQuery" in Udacity. Here is the link: [Intro to jQuery](https://www.udacity.com/course/intro-to-jquery--ud245).
 
 

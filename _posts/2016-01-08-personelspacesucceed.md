@@ -3,11 +3,10 @@ layout: post
 title: "个人空间搭建成功"
 date: 2016-01-08 08:24:06+00:00
 author: "shisaq"
-header-img: "img/home-bg-o.jpg"
-tags: ["前端开发", "-"]
-categories: ["成长日记"]
+header-img: "img/post-sample-image.jpg"
+tags: ["前端开发"]
+categories: ["技术遗产"]
 ---
-
 ![shisaqsfirstspace](http://shisaq.com/wp-content/uploads/2016/01/shisaqsfirstspace-1024x482.jpg)
 
 
