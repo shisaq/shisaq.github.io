@@ -22,31 +22,27 @@ tags: ["技术分享", "生产力"]
 
 ```bash
 sudo nano /boot/firmware/config.txt
-
 ```
 
 进行以下两处修改：
 
 1. 注释掉默认音频（若存在）：
+
 ```ini
 #dtparam=audio=on
-
 ```
 
 
 2. 在文件末尾追加 Voice HAT 驱动树覆盖指令：
+
 ```ini
 dtoverlay=googlevoicehat-soundcard
-
 ```
-
-
 
 保存并退出（`Ctrl+O`, `Enter`, `Ctrl+X`），然后重启系统：
 
 ```bash
 sudo reboot
-
 ```
 
 ## 2. 验证声卡并获取设备序号
@@ -58,7 +54,6 @@ sudo reboot
 
 ```bash
 aplay -l
-
 ```
 
 **预期输出：**
@@ -73,7 +68,6 @@ aplay -l
 
 ```bash
 nano ~/.asoundrc
-
 ```
 
 写入以下配置（注意将 `hw:1,0` 和 `card 1` 中的 `1` 替换为上一步获取的实际卡号）：
@@ -88,7 +82,6 @@ ctl.!default {
     type hw
     card 1
 }
-
 ```
 
 保存并退出。此时，系统的基础音频层已配置完毕。
@@ -103,14 +96,12 @@ Voice HAT 的按键和 LED 直接连接在树莓派的标准 GPIO 上（按键=G
 ```bash
 sudo apt update
 sudo apt install python3-gpiozero
-
 ```
 
 创建测试脚本：
 
 ```bash
 nano voice_mvp.py
-
 ```
 
 填入以下代码：
@@ -147,7 +138,6 @@ button.when_pressed = on_button_pressed
 
 print("[System] Initialization complete. Listening for hardware interrupts...")
 pause()
-
 ```
 
 ## 5. 运行测试
@@ -156,7 +146,6 @@ pause()
 
 ```bash
 python3 voice_mvp.py
-
 ```
 
 **测试标准：** 按下设备顶部物理按钮，LED 指示灯点亮，扬声器播放 "Front Center" 语音，随后 LED 熄灭，终端输出对应日志。
