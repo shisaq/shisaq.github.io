@@ -5,7 +5,7 @@ subtitle: "SUNO和LogicPro辅助编曲音乐平台过审与混音SOP"
 date: 2026-04-08
 author: "shisaq"
 header-img: "img/about-bg-walle.jpg"
-tags: []
+tags: ["技术分享", "howto", "音视频制作"]
 ---
 
 > 免责声明：以下内容仅供音乐制作爱好者参考，旨在分享个人在**已有原创词曲**和**亲自演唱**的前提下，在使用 SUNO 和 Logic Pro 进行辅助编曲时，如何通过调整混音流程来规避默认 AI 歌曲导致的词曲版权丢失的经验总结。请勿将此方法用于任何违法或侵犯版权的行为。
