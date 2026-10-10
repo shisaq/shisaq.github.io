@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "Mac mini 跑 AI 视频：内存占多少，生成要多久？"
-subtitle: "准备买 Mac mini 跑本地 AI 视频？我在 M5 Pro 64GB 上实测 MiniMax-H3：短片内存峰值 18.5–22GB，约 2 秒的片段要等 3 分钟，模型占 134–196GiB 硬盘。附生成效果和踩坑记录。"
+subtitle: "M5 Pro 64GB 实测 MiniMax-H3：内存峰值、生成耗时和硬盘占用"
 date: 2026-10-09
 author: "shisaq"
-header-img: "img/minimax-h3-cover.png"
-tags: ["像素李的AI笔记", "本地实测"]
+header-img: "img/about-bg-walle.jpg"
+tags: ["技术分享", "本地实测", "Mac mini", "本地AI", "AI视频"]
 ---
 
 如果准备买一台 Mac mini 跑本地 AI，内存选多少，估计是最纠结的地方。尤其是视频模型，光下载就上百 GB，很容易觉得机器也得配上百 GB 内存。
