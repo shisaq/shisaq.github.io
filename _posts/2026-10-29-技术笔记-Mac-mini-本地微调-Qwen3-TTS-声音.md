@@ -208,6 +208,18 @@ ttsd 的改动：音色 id 是 `tuned:<id>`，每个微调音色单独占一个�
 
 ## 复现
 
+最短路径（2026-10-29 加的 `run.sh` / `deploy.py`，视频文件可以直接放进素材文件夹，非 wav 的用 ffmpeg 解码）：
+
+```bash
+cd finetune && cp voiceprep.example.json voiceprep.json   # 填好后
+./run.sh prep                 # 切片 + 转写 + 筛人，完成后打开复核页
+./run.sh train alice          # 编码 → 训练 → 样音 → 打分；小内存加 --epochs 6 --batch_size 1 --grad_accum 8 --freeze_layers 20
+./run.sh review               # /compare/alice 挑一轮
+./run.sh deploy alice 8 --name "显示名" --gender m --restart <ttsd 的 launchd label>
+```
+
+`deploy` 会把模型复制进控制台的 `models_dir/tuned/`，备份后改 `tuned_voices`（speaker id 从检查点里读），可选重启。逐步手动跑：
+
 ```bash
 cd finetune
 cp voiceprep.example.json voiceprep.json      # 说话人、参考录音和文字稿、素材目录
