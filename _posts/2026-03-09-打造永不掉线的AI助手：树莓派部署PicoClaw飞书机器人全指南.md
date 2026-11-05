@@ -10,7 +10,7 @@ tags: ["技术分享", "生产力", "终端"]
 
 在本教程中，我们将使用树莓派作为本地服务器，部署 **PicoClaw** 网关，将飞书（Feishu）与强大的云端大模型（如火山引擎）无缝连接，打造一个随时随地响应你指令的专属企业级 AI 助手。
 
-![Cover](https://markdown-img.s3.ap-northeast-1.amazonaws.com/shisaq/2026-03-09-16-13-13-DtBCHx.png)
+![Cover](/img/markdown-img/shisaq/2026-03-09-16-13-13-DtBCHx.png)
 
 ---
 
@@ -27,7 +27,7 @@ tags: ["技术分享", "生产力", "终端"]
 - **操作方式**：本教程虽可通过 SSH 无头（Headless）操作，但**强烈建议有条件的小伙伴直接外接显示器和键盘**，能直观看到启动画面和 IP 地址，排错更方便。
     
 
-![树莓派实拍](https://markdown-img.s3.ap-northeast-1.amazonaws.com/shisaq/2026-03-13-09-52-47-123123.jpg)
+![树莓派实拍](/img/markdown-img/shisaq/2026-03-13-09-52-47-123123.jpg)
 
 ---
 
@@ -38,7 +38,7 @@ tags: ["技术分享", "生产力", "终端"]
 - **文件管理神器 (FileZilla)**：强烈建议在电脑上下载安装 **FileZilla**。这是一款免费的 FTP 工具，你可以通过它直接连接树莓派的 SFTP。用它来双击打开、编辑和同步配置文件，体验秒杀在终端里敲打枯燥的命令行。
     
 
-![FileZilla传输文件](https://markdown-img.s3.ap-northeast-1.amazonaws.com/shisaq/2026-03-09-16-16-51-Ys1ZJ7.png)
+![FileZilla传输文件](/img/markdown-img/shisaq/2026-03-09-16-16-51-Ys1ZJ7.png)
 
 ---
 
@@ -48,7 +48,7 @@ tags: ["技术分享", "生产力", "终端"]
 
 使用 Raspberry Pi Imager 烧录好系统后，将 SD 卡插入树莓派开机。连接好家里的 Wi-Fi，并记录下树莓派的 IP 地址（例如 `192.168.31.101`）。
 
-![树莓派系统选择](https://markdown-img.s3.ap-northeast-1.amazonaws.com/shisaq/2026-03-09-16-17-28-ayzdzw.png)
+![树莓派系统选择](/img/markdown-img/shisaq/2026-03-09-16-17-28-ayzdzw.png)
 
 ### 3.2 终极架构确认
 
@@ -198,7 +198,7 @@ JSON
 
 在开发者后台左侧菜单找到 **「添加应用能力」**，找到 **「机器人」** 卡片，点击 **添加**。如果不做这一步，后续的权限配置全是无用功。
 
-![飞书机器人权限开通](https://markdown-img.s3.ap-northeast-1.amazonaws.com/shisaq/2026-03-13-09-54-59-HdlvKT.png)
+![飞书机器人权限开通](/img/markdown-img/shisaq/2026-03-13-09-54-59-HdlvKT.png)
 
 ### 步骤二：先让树莓派“跑起来”
 
@@ -230,7 +230,7 @@ picoclaw gateway
     
 4. **`im:message:send_as_bot`** (以应用的身份发消息)
     
-    ![飞书权限](https://markdown-img.s3.ap-northeast-1.amazonaws.com/shisaq/2026-03-09-16-14-58-OIFbGh.png)
+    ![飞书权限](/img/markdown-img/shisaq/2026-03-09-16-14-58-OIFbGh.png)
     为了方便，也可以直接复制以下JSON代码，批量导入权限，缩短屡次申请/开通的周期：
     
 ```JSON
@@ -332,7 +332,7 @@ picoclaw gateway
 }
 ```
 
-![2026-03-09-16-15-27-gzKKzu](https://markdown-img.s3.ap-northeast-1.amazonaws.com/shisaq/2026-03-09-16-15-27-gzKKzu.png)
+![2026-03-09-16-15-27-gzKKzu](/img/markdown-img/shisaq/2026-03-09-16-15-27-gzKKzu.png)
 
 ### 步骤五：订阅消息事件（让机器人能“听见”）
 

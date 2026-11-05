@@ -27,12 +27,12 @@ Here are the links to rapidly find out the ukulele knowledge at different platfo
 
 ### Wechat Official Account: ukleelee
 
-![优客李李公众号](https://markdown-img.s3.ap-northeast-1.amazonaws.com/shisaq/2021-03-10-11-32-39-微信二维码.jpg)
+![优客李李公众号](/img/markdown-img/shisaq/2021-03-10-11-32-39-微信二维码.jpg)
 
 ### Wechat Channel
 
-优客李李 ![优客李李视频号](https://markdown-img.s3.ap-northeast-1.amazonaws.com/shisaq/2021-03-10-11-30-02-视频号.jpg)
+优客李李 ![优客李李视频号](/img/markdown-img/shisaq/2021-03-10-11-30-02-视频号.jpg)
 
 ### Personal Wechat
 
-![优客李李企业微信](https://markdown-img.s3.ap-northeast-1.amazonaws.com/shisaq/2021-03-10-12-43-11-优客李李企业微信二维码.png)
+![优客李李企业微信](/img/markdown-img/shisaq/2021-03-10-12-43-11-优客李李企业微信二维码.png)

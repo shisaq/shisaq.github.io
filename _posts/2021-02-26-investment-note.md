@@ -7,7 +7,7 @@ header-img: "img/home-bg-geek.jpg"
 tags: ["投资理财"]
 categories: ["投资实验室"]
 ---
-![跌红一片](https://markdown-img.s3.ap-northeast-1.amazonaws.com/shisaq/2021-02-26-10-58-09-ttxXx7.jpg)
+![跌红一片](/img/markdown-img/shisaq/2021-02-26-10-58-09-ttxXx7.jpg)
 
 最近大火的ARK, 白马蓝筹基金，比特币都在以2B图形下跌，感觉随时都会来一阵暴跌(其实已经跌1周了)。作为刚刚开始进入投资领域的小白，除了在币圈经历过2017年的大瀑布之外，我是没有亲身经历过这样的阵仗的。
 
