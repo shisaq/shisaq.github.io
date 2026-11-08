@@ -1,0 +1,10 @@
+{% comment %}
+    找当前页面的另一种语言版本，结果放在 lang_pair（没有就是 nil）。
+    英文版（_en/）front matter 的 original 写中文原文的路径，例如 _posts/2026-10-17-xxx.md
+{% endcomment %}
+{% assign lang_pair = nil %}
+{% if page.lang == 'en' %}
+    {% if page.original %}{% assign lang_pair = site.posts | where: "path", page.original | first %}{% endif %}
+{% elsif page.layout == 'post' %}
+    {% assign lang_pair = site.en | where: "original", page.path | first %}
+{% endif %}

@@ -1,0 +1,14 @@
+<section class="visible-md visible-lg">
+  <hr>
+  <h5><a href="{{'/about/?lang=en' | prepend: site.baseurl }}">About me</a></h5>
+  <div class="short-about">
+    {% if site.sidebar-avatar %}
+    <img src="{{site.sidebar-avatar}}" />
+    {% endif %}
+    <p>Video editor in China. I test local AI on a Mac mini and write down the numbers.</p>
+    <p>
+      <a href="https://github.com/{{ site.github_username }}">GitHub</a> ·
+      <a href="{{ '/en/feed.xml' | prepend: site.baseurl }}">RSS</a>
+    </p>
+  </div>
+</section>

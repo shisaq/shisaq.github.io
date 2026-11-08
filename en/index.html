@@ -1,0 +1,34 @@
+---
+layout: page
+title: "English"
+description: "Notes from a home lab in China: local AI on a Mac mini, small automations, and the tinkering in between."
+lang: en
+---
+
+{% assign en_posts = site.en | sort: "date" | reverse %}
+{% for post in en_posts %}
+<div class="post-preview">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+        <h2 class="post-title">
+            {{ post.title }}
+        </h2>
+        {% if post.subtitle %}
+        <h3 class="post-subtitle">
+            {{ post.subtitle }}
+        </h3>
+        {% endif %}
+        <div class="post-content-preview">
+            {{ post.content | strip_html | truncate:300 }}
+        </div>
+    </a>
+    <p class="post-meta">
+        By {{ site.en-author }} · {{ post.date | date: "%B %-d, %Y" }}
+    </p>
+</div>
+<hr>
+{% endfor %}
+
+<p class="post-meta">
+    These are translations of my Chinese posts, made with the help of AI.
+    <a href="{{ "/en/feed.xml" | prepend: site.baseurl }}">RSS</a>
+</p>

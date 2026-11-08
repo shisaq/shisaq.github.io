@@ -40,6 +40,14 @@
     
     <!-- Canonical URL -->
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    {% if lang_pair %}
+    <!-- 中英文互为译本 -->
+    <link rel="alternate" hreflang="{% if page.lang == 'en' %}en{% else %}zh-CN{% endif %}" href="{{ page.url | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="alternate" hreflang="{% if page.lang == 'en' %}zh-CN{% else %}en{% endif %}" href="{{ lang_pair.url | prepend: site.baseurl | prepend: site.url }}">
+    {% endif %}
+    {% if page.lang == 'en' or page.url contains '/en/' %}
+    <link rel="alternate" type="application/rss+xml" title="Pixel Lee (English)" href="{{ "/en/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+    {% endif %}
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}">

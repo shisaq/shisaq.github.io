@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+{% include lang-pair.html %}
+<html lang="{% if page.lang == 'en' %}en{% else %}zh-CN{% endif %}">
 
 {% include head.html %}
 

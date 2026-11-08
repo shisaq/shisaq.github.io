@@ -37,13 +37,21 @@
                 <div class="post-heading">
                     <div class="tags">
                         {% for tag in page.tags %}
+                        {% if page.lang == 'en' %}
+                        <span class="tag">{{ tag }}</span>
+                        {% else %}
                         <a class="tag" href="{{ site.baseurl }}/archive/?tag={{ tag | url_encode }}" title="{{ tag }}">{{ tag }}</a>
+                        {% endif %}
                         {% endfor %}
                     </div>
                     <h1>{{ page.title }}</h1>
                     {% comment %} always create a h2 for keeping the margin {% endcomment %}
                     <h2 class="subheading">{{ page.subtitle }}</h2>
+                    {% if page.lang == 'en' %}
+                    <span class="meta">By {{ site.en-author }} · {{ page.date | date: "%B %-d, %Y" }}</span>
+                    {% else %}
                     <span class="meta">作者: {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} 日期: {{ page.date | date: "%B %-d, %Y" }}</span>
+                    {% endif %}
                 </div>
             </div>
         </div>
@@ -75,7 +83,11 @@
                 <div class="post-heading">
                     <div class="tags">
                         {% for tag in page.tags %}
+                        {% if page.lang == 'en' %}
+                        <span class="tag">{{ tag }}</span>
+                        {% else %}
                         <a class="tag" href="{{ site.baseurl }}/archive/?tag={{ tag | url_encode }}" title="{{ tag }}">{{ tag }}</a>
+                        {% endif %}
                         {% endfor %}
                     </div>
                     <h1>{{ page.title }}</h1>

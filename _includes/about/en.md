@@ -1,38 +1,21 @@
-Hi, I am _@uulili_, it's time to shine out!
+Hi, I'm Pixel Lee. I live in China and work as a video editor.
 
-This blog is about to share my achievements during the lifelong learning process, including programming, filmmaking, music, ukulele, investment, etc.
+Outside work I tinker: local AI models on a Mac mini home server, small automations, smart-home hacks with an ESP32 and a Raspberry Pi, and music in Logic Pro. When I test something, I write down what I did and the real numbers, so the next person doesn't have to start from zero.
 
-Here are the links to rapidly find out the ukulele knowledge at different platforms:
+I've kept this blog since 2015, mostly in Chinese. The [English section](/en/) has translations of the posts I think are useful outside China too.
 
+### Things I've made
 
-### YouTube Channel
+- [homelab-desk](https://github.com/shisaq/homelab-desk): tell an AI agent one sentence and it sets up a private workbench for a Mac mini home server: friendly domain names, HTTPS, Tailscale-only access, a live dashboard and a daily health check.
+- Local AI write-ups: running a 27B model on a Mac mini, choosing how much memory to buy, fine-tuning a TTS voice, local AI video generation.
+- A beginner ukulele course and play-along videos on [YouTube](https://bit.ly/3hwep3x) and [Bilibili](https://space.bilibili.com/35566393) (as 优客李李, over 100k followers on Bilibili).
 
-[https://bit.ly/3hwep3x](https://bit.ly/3hwep3x)
+### What I'm good at
 
-### Bilibili
+Explaining technical things from the learner's side, in writing and in recorded video. I edit in Final Cut Pro, script with Python and JavaScript, and work in both Chinese and English.
 
-[https://space.bilibili.com/35566393](https://space.bilibili.com/35566393)
+### Find me
 
-### Weibo
-
-[http://weibo.com/shisaq](http://weibo.com/shisaq)
-
-### Ukulele Q&A
-
-[https://support.qq.com/products/107004/](https://support.qq.com/products/107004/)
-
-### Zhihu
-
-[https://www.zhihu.com/people/shisaq](https://www.zhihu.com/people/shisaq)
-
-### Wechat Official Account: ukleelee
-
-![优客李李公众号](/img/markdown-img/shisaq/2021-03-10-11-32-39-微信二维码.jpg)
-
-### Wechat Channel
-
-优客李李 ![优客李李视频号](/img/markdown-img/shisaq/2021-03-10-11-30-02-视频号.jpg)
-
-### Personal Wechat
-
-![优客李李企业微信](/img/markdown-img/shisaq/2021-03-10-12-43-11-优客李李企业微信二维码.png)
+- GitHub: [shisaq](https://github.com/shisaq)
+- YouTube: [优客李李](https://bit.ly/3hwep3x)
+- RSS for the English posts: [/en/feed.xml](/en/feed.xml)

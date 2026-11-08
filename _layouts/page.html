@@ -47,6 +47,10 @@ layout: default
                 col-xs-12
                 sidebar-container
             ">
+                {% if page.lang == 'en' %}
+                <!-- 英文页只放英文简介，中文标签和友链对英文读者没用 -->
+                {% include short-about-en.html %}
+                {% else %}
                 <!-- Featured Tags -->
                 {% include featured-tags.html %}
 
@@ -55,6 +59,7 @@ layout: default
 
                 <!-- Friends Blog -->
                 {% include friends.html %}
+                {% endif %}
     		</div>
         {% endif %}
 	</div>

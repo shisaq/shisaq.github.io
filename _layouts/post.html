@@ -25,6 +25,17 @@ layout: default
                     {% include multilingual-sel.html %}
                 {% endif %}
 
+                {% include lang-pair.html %}
+                {% if lang_pair %}
+                <p class="lang-switch" style="text-align: right; font-size: 14px;">
+                    {% if page.lang == 'en' %}
+                    <a href="{{ lang_pair.url | prepend: site.baseurl }}" hreflang="zh-CN">中文原文 →</a>
+                    {% else %}
+                    <a href="{{ lang_pair.url | prepend: site.baseurl }}" hreflang="en">Read in English →</a>
+                    {% endif %}
+                </p>
+                {% endif %}
+
 				{{ content }}
 
                 <hr style="visibility: hidden;">
@@ -32,7 +43,7 @@ layout: default
                     {% if page.previous.url %}
                     <li class="previous">
                         <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">
-                        上一篇<br>
+                        {% if page.lang == 'en' %}Previous{% else %}上一篇{% endif %}<br>
                         <span>{{page.previous.title}}</span>
                         </a>
                     </li>
@@ -40,7 +51,7 @@ layout: default
                     {% if page.next.url %}
                     <li class="next">
                         <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">
-                        下一篇<br>
+                        {% if page.lang == 'en' %}Next{% else %}下一篇{% endif %}<br>
                         <span>{{page.next.title}}</span>
                         </a>
                     </li>
@@ -73,7 +84,7 @@ layout: default
                 <div class="side-catalog">
                     <hr class="hidden-sm hidden-xs">
                     <h5>
-                        <a class="catalog-toggle" href="#">目录</a>
+                        <a class="catalog-toggle" href="#">{% if page.lang == 'en' %}Contents{% else %}目录{% endif %}</a>
                     </h5>
                     <ul class="catalog-body"></ul>
                 </div>
@@ -86,11 +97,13 @@ layout: default
                 col-md-10 col-md-offset-1
                 sidebar-container">
 
+                {% unless page.lang == 'en' %}
                 <!-- Featured Tags -->
                 {% include featured-tags.html bottom=true %}
 
                 <!-- Friends Blog -->
                 {% include friends.html %}
+                {% endunless %}
             </div>
         </div>
     </div>
