@@ -2,12 +2,11 @@
 title: "Mac mini Runs a 27B Model at Up to 35 token/s"
 subtitle: "M5 Pro 64GB tested with Qwen3.8-27B: setup, speed, power draw and buying advice"
 date: 2026-10-17
-author: "Pixel Lee"
+author: "Pixel Li"
 header-img: "img/about-bg-walle.jpg"
 tags: ["local LLM", "Mac mini", "Qwen", "inference speed", "prefix caching"]
 original: _posts/2026-10-17-小钢炮-Mac-mini-跑-27B，最快-35-token-s.md
 translated_by: deepseek-chat
-reviewed: false
 polished_by: deepseek-reasoner
 ---
 After using cloud AI for a while, one thing has kept distracting me: quota. There's a cap every 5 hours, and another every week. Halfway through a task, it says I'm out of quota and I just have to wait. Pretty annoying. It also gets stuck when the network is bad. And there are some questions I'd rather not send to the cloud, but I had no other way.
@@ -150,7 +149,3 @@ About the new M6 Mac mini: Apple's published configurations top out at 32GB of m
 My take: for local large models, memory matters more than chip tier. The chip decides speed; memory decides whether it runs and how long you can chat. Don't skimp on the disk either; cache and models both take space.
 
 If you mainly use the cloud and occasionally want an unlimited backup that never leaves the machine, a Mac mini with a lot of memory can already do that. I hope these numbers help with your config choice.
-
----
-
-*This is a translation of my Chinese post, made with the help of AI.*

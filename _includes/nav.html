@@ -13,13 +13,21 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
+                {% if page.lang == 'en' %}
+                <a class="navbar-brand" href="{{ site.baseurl }}/en/">{{ site.en-author }}</a>
+                {% else %}
                 <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
+                {% endif %}
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div id="huxblog_navbar">
                 <div class="navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
+                        {% if page.lang == 'en' %}
+                        <li><a href="{{ site.baseurl }}/en/">Home</a></li>
+                        <li><a href="{{ site.baseurl }}/about/?lang=en">About</a></li>
+                        {% else %}
                         <li>
                             <a href="{{ site.baseurl }}/">首页</a>
                         </li>
@@ -35,6 +43,8 @@
                                 <i class="fa fa-search"></i>
                             </a>
                         </li>
+                        {% endif %}
+                        {% include lang-toggle.html %}
                     </ul>
                 </div>
             </div>

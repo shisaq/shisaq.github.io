@@ -1,0 +1,63 @@
+{% comment %}
+    右上角中英切换。有译本跳到对应文章，没有就跳到另一种语言的首页；
+    About 这类 multilingual 页面用 ?lang= 切换（见 footer.html）。lang_pair 来自 lang-pair.html。
+{% endcomment %}
+{% if page.multilingual %}
+    {% assign lang_target = '?lang=en' %}
+{% elsif lang_pair %}
+    {% assign lang_target = lang_pair.url | prepend: site.baseurl %}
+{% elsif page.lang == 'en' %}
+    {% assign lang_target = site.baseurl | append: '/' %}
+{% else %}
+    {% assign lang_target = site.baseurl | append: '/en/' %}
+{% endif %}
+<li class="lang-toggle-item">
+    <a class="lang-toggle{% if page.lang == 'en' %} is-en{% endif %}" href="{{ lang_target }}"
+       title="{% if page.lang == 'en' %}切换到中文{% else %}Switch to English{% endif %}"
+       aria-label="{% if page.lang == 'en' %}切换到中文{% else %}Switch to English{% endif %}">
+        <span class="lang-zh">中</span><span class="lang-en">EN</span>
+    </a>
+</li>
+<style>
+    .navbar-custom .nav li a.lang-toggle {
+        display: inline-flex;
+        margin: 14px 15px 14px 5px;
+        padding: 0;
+        border: 1px solid currentColor;
+        border-radius: 999px;
+        overflow: hidden;
+        letter-spacing: 0;
+    }
+    .lang-toggle span {
+        padding: 4px 9px;
+        opacity: 0.55;
+        transition: background-color 0.2s, opacity 0.2s;
+    }
+    .lang-toggle .lang-zh,
+    .lang-toggle.is-en .lang-en {
+        opacity: 1;
+        background-color: rgba(128, 128, 128, 0.35);
+    }
+    .lang-toggle.is-en .lang-zh {
+        opacity: 0.55;
+        background-color: transparent;
+    }
+    /* 旧的语言下拉框由右上角开关代替；footer.html 的脚本还会读它，所以只隐藏不删 */
+    .sel-lang { display: none; }
+    @media only screen and (max-width: 767px) {
+        .navbar-custom .nav li a.lang-toggle { margin: 10px 15px; }
+    }
+</style>
+{% if page.multilingual %}
+<script>
+    // About 页：按 ?lang= 显示当前语言，开关指向另一种
+    (function () {
+        var $t = document.querySelector('.lang-toggle');
+        if (new URLSearchParams(location.search).get('lang') == 'en') {
+            $t.classList.add('is-en');
+            $t.setAttribute('href', '?lang=zh');
+            $t.setAttribute('title', '切换到中文');
+        }
+    })();
+</script>
+{% endif %}

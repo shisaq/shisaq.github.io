@@ -19,7 +19,7 @@
   （让模型整篇重写时它几乎原样照抄，所以改成逐条挑错。）
   改完在 front matter 记 polished_by，原稿备份到 /tmp/translate_post-backup/。
 
-只写本地文件，不 commit、不 push。生成的文件 front matter 里 reviewed: false，审完改成 true。
+只写本地文件，不 commit、不 push。front matter 里 translated_by / polished_by 只做记录，页面上不显示。
 """
 from pathlib import Path
 import argparse
@@ -33,7 +33,7 @@ import urllib.request
 
 REPO = Path(__file__).resolve().parent.parent
 EN_DIR = REPO / '_en'
-CHUNK_CHARS = 5000  # 按二级标题切块（按中文字数算），保证一次输出不被截断
+CHUNK_CHARS = int(os.environ.get('CHUNK_CHARS', 5000))  # 按二级标题切块（按中文字数算），保证一次输出不被截断；代码多的长文审稿被截断时调小
 
 PROVIDERS = {
     'deepseek': {'base_url': 'https://api.deepseek.com/v1', 'model': 'deepseek-chat',
@@ -42,7 +42,7 @@ PROVIDERS = {
               'key_file': '~/.config/omlx-local/api-key'},
 }
 
-STYLE = """You translate blog posts by Pixel Lee, a Chinese video editor and hobbyist who writes about local AI on a Mac mini, home servers and small automations.
+STYLE = """You translate blog posts by Pixel Li, a Chinese video editor and hobbyist who writes about local AI on a Mac mini, home servers and small automations.
 
 Write natural, plain English, the way a modest engineer writes on a personal blog:
 - First person. Short, direct sentences. No hype, no marketing tone, no added jokes.
@@ -58,7 +58,7 @@ Markdown rules (strict):
 - Keep Liquid tags such as {% raw %} unchanged.
 - Output only the translated Markdown. No preface, no notes, no surrounding code fence."""
 
-POLISH = """You are a native English editor. You get a Chinese blog post and its English translation by Pixel Lee, a Chinese video editor and hobbyist who writes about local AI on a Mac mini and home servers.
+POLISH = """You are a native English editor. You get a Chinese blog post and its English translation by Pixel Li, a Chinese video editor and hobbyist who writes about local AI on a Mac mini and home servers.
 
 Find every place where the English should be improved so it reads like a modest engineer wrote it in English in the first place:
 - Fix anything that sounds translated: Chinese word order, literal idioms (e.g. "7x24" -> "24/7"), stiff lists, missing articles, odd collocations.
@@ -87,6 +87,10 @@ WECHAT_FOOTER = re.compile(r'\n-{3,}\n+本文首发于微信公众号.*\Z', re.S
 CJK = re.compile(r'[一-鿿]')
 
 
+class Truncated(RuntimeError):
+    pass
+
+
 def read_key(path):
     p = Path(path).expanduser()
     return p.read_text().strip() if p.is_file() else None
@@ -111,7 +115,7 @@ def chat(cfg, messages, json_mode=False, retries=2):
                 data = json.load(r)
             choice = data['choices'][0]
             if choice.get('finish_reason') == 'length':
-                raise RuntimeError('模型输出被截断（finish_reason=length），把 CHUNK_CHARS 调小再试')
+                raise Truncated('模型输出被截断（finish_reason=length），用环境变量 CHUNK_CHARS=2000 调小分块再试')
             return choice['message']['content']
         except urllib.error.HTTPError as e:
             detail = e.read().decode(errors='replace')[:300]
@@ -203,9 +207,6 @@ def existing_for(original):
             return p
 
 
-AI_NOTE = '\n---\n\n*This is a translation of my Chinese post, made with the help of AI.*\n'
-
-
 def report(zh_body, en_body, out):
     """结构核对：中英文的代码块、图片、链接、表格行、标题数量应该一致。"""
     a, b = counts(zh_body), counts(en_body)
@@ -228,7 +229,7 @@ def polish(path, cfg):
         sys.exit(f'中文原文不在仓库里：{original}（先把中文版同步到博客）')
     _, zh_body = split_front((REPO / original).read_text(encoding='utf-8'))
     zh_body = WECHAT_FOOTER.sub('', zh_body.rstrip()) + '\n'
-    en_body = en_body.replace(AI_NOTE, '').rstrip() + '\n'
+    en_body = en_body.rstrip() + '\n'
 
     # 长文一次审不完（推理模型的思考也占输出额度），按二级标题把中英文对齐后分块审
     zh_secs, en_secs = sections(zh_body), sections(en_body)
@@ -241,8 +242,16 @@ def polish(path, cfg):
     for i, (zh, en) in enumerate(pairs, 1):
         print(f'  第 {i}/{len(pairs)} 块…', file=sys.stderr)
         msg = f'Chinese original:\n\n{zh}\n\n=====\n\nEnglish translation to review:\n\n{en}'
-        raw = chat(cfg, [{'role': 'system', 'content': POLISH}, {'role': 'user', 'content': msg}],
-                   json_mode=cfg['base_url'].startswith('https://api.deepseek.com'))
+        messages = [{'role': 'system', 'content': POLISH}, {'role': 'user', 'content': msg}]
+        json_mode = cfg['base_url'].startswith('https://api.deepseek.com')
+        try:
+            raw = chat(cfg, messages, json_mode=json_mode)
+        except Truncated:
+            # 推理模型偶尔在某一块上想太久把输出额度用光，这一块退回 deepseek-chat
+            if 'reason' not in cfg['model'] or not json_mode:
+                raise
+            print('    这一块推理模型输出被截断，改用 deepseek-chat 审', file=sys.stderr)
+            raw = chat({**cfg, 'model': 'deepseek-chat'}, messages, json_mode=True)
         m = re.search(r'\{.*\}', raw, re.S)
         edits += json.loads(m.group(0) if m else raw).get('edits', [])
 
@@ -265,7 +274,7 @@ def polish(path, cfg):
     backup.mkdir(exist_ok=True)
     (backup / path.name).write_text(text, encoding='utf-8')
     front = re.sub(r'^polished_by:.*\n?', '', front, flags=re.M).rstrip('\n') + f'\npolished_by: {cfg["model"]}'
-    path.write_text(f'---\n{front}\n---\n{new_body}{AI_NOTE}', encoding='utf-8')
+    path.write_text(f'---\n{front}\n---\n{new_body}', encoding='utf-8')
     report(zh_body, new_body, path)
     print(f'原稿备份：{backup / path.name}', file=sys.stderr)
 
@@ -339,20 +348,19 @@ def main():
              f'title: {yaml_str(meta["title"])}',
              f'subtitle: {yaml_str(meta.get("subtitle", ""))}',
              f'date: {date}',
-             f'author: "Pixel Lee"']
+             f'author: "Pixel Li"']
     if field(front, 'header-img'):
         lines.append(f'header-img: {yaml_str(field(front, "header-img"))}')
     lines += [f'tags: {json.dumps(meta.get("tags", []), ensure_ascii=False)}',
               f'original: {original}',
               f'translated_by: {cfg["model"]}',
-              'reviewed: false',
               '---', '']
 
     EN_DIR.mkdir(exist_ok=True)
     out = EN_DIR / f'{date}-{slug}.md'
     if old and old != out:
         old.unlink()
-    out.write_text('\n'.join(lines) + en_body + AI_NOTE, encoding='utf-8')
+    out.write_text('\n'.join(lines) + en_body, encoding='utf-8')
     report(body, en_body, out)
     print(out)
 

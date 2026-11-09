@@ -1,4 +1,4 @@
-Hi, I'm Pixel Lee. I live in China and work as a video editor.
+Hi, I'm Pixel Li. I live in China and work as a video editor.
 
 Outside work I tinker: local AI models on a Mac mini home server, small automations, smart-home hacks with an ESP32 and a Raspberry Pi, and music in Logic Pro. When I test something, I write down what I did and the real numbers, so the next person doesn't have to start from zero.
 

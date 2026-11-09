@@ -2,12 +2,11 @@
 title: "How Much Mac mini Memory? M6 and M5 Pro Buying Guide"
 subtitle: "16GB to 64GB, M6 vs M5 Pro, Mac Studio: a buying guide by use case"
 date: 2026-10-20
-author: "Pixel Lee"
+author: "Pixel Li"
 header-img: "img/about-bg-walle.jpg"
 tags: ["Mac mini", "memory", "M6", "M5 Pro", "local LLM"]
 original: _posts/2026-10-20-Mac-mini-内存买多大-M6、M5-Pro-选购这篇就够了.md
 translated_by: deepseek-chat
-reviewed: false
 polished_by: deepseek-reasoner
 ---
 What's the key to choosing a Mac mini? The CPU already crushes everything in its class, and you can add storage yourself later; but **the memory is soldered to the motherboard**, and how much memory you get is closely tied to what you use it for as a server.
@@ -198,7 +197,3 @@ Sources:
 - M5 Pro running MoE 4-bit: measured on my machine with oMLX 0.7.0, model mlx-community/Qwen3.6-35B-A3B-4bit (October 20, 2026)
 - M6 2nm, from ¥6,999: reports from the August 25, 2026 launch event (ITHome, Sina Tech); M4 Mac mini, from ¥4,499 in China: 2024 launch price (ITHome)
 - Services on the 16GB server: official documentation for Docker, AdGuard Home, FreshRSS and Paperless-ngx
-
----
-
-*This is a translation of my Chinese post, made with the help of AI.*
