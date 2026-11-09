@@ -47,6 +47,9 @@ plugins: [jekyll-paginate]
 # 英文版放在 _en/，文件名同 _posts（YYYY-MM-DD-slug.md），front matter 里 original 指向中文原文（_posts/xxx.md）
 # 不进中文首页分页；/en/ 是列表页，/en/feed.xml 给 Dev.to / Medium 导入
 en-author: Pixel Li
+en-tagline: Local AI and Home Lab Notes
+en-description: "Notes from a home lab in China: local AI on a Mac mini, small automations, smart-home hacks and music production, with real numbers."
+en-keywords: "Pixel Li, local AI, Mac mini, home lab, Home Assistant, Raspberry Pi, Logic Pro, Final Cut Pro"
 
 collections:
   en:

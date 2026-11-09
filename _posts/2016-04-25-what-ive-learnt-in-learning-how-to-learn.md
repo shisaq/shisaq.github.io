@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What I've learnt in "Learning how to learn" -- "学习如何学习"学后感"
+title: 'What I''ve learnt in "Learning how to learn" -- "学习如何学习"学后感'
 date: 2016-04-25 01:02:16+00:00
 author: "shisaq"
 header-img: "img/home-bg-art.jpg"

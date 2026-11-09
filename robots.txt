@@ -1,0 +1,28 @@
+---
+layout: null
+---
+# 搜索引擎和 AI 搜索都欢迎抓取
+User-agent: *
+Allow: /
+Disallow: /offline.html
+Disallow: /search.json
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: {{ site.url }}/sitemap.xml

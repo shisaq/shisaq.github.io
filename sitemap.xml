@@ -1,0 +1,46 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>{{ site.url }}/</loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="{{ site.url }}/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="{{ site.url }}/en/"/>
+  </url>
+  <url>
+    <loc>{{ site.url }}/en/</loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="{{ site.url }}/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="{{ site.url }}/en/"/>
+  </url>
+  <url>
+    <loc>{{ site.url }}/about/</loc>
+  </url>
+  <url>
+    <loc>{{ site.url }}/archive/</loc>
+  </url>
+  {% for post in site.posts %}
+  {% assign en = site.en | where: "original", post.path | first %}
+  <url>
+    <loc>{{ post.url | prepend: site.baseurl | prepend: site.url }}</loc>
+    <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+    {% if en %}
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}"/>
+    <xhtml:link rel="alternate" hreflang="en" href="{{ en.url | prepend: site.baseurl | prepend: site.url }}"/>
+    {% endif %}
+  </url>
+  {% endfor %}
+  {% for doc in site.en %}
+  {% assign zh = site.posts | where: "path", doc.original | first %}
+  <url>
+    <loc>{{ doc.url | prepend: site.baseurl | prepend: site.url }}</loc>
+    <lastmod>{{ doc.date | date_to_xmlschema }}</lastmod>
+    {% if zh %}
+    <xhtml:link rel="alternate" hreflang="en" href="{{ doc.url | prepend: site.baseurl | prepend: site.url }}"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="{{ zh.url | prepend: site.baseurl | prepend: site.url }}"/>
+    {% endif %}
+  </url>
+  {% endfor %}
+</urlset>

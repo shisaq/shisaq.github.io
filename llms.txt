@@ -1,0 +1,23 @@
+---
+layout: null
+---
+# {{ site.en-author }} ({{ site.title }})
+
+> {{ site.en-description }}
+
+{{ site.en-author }} (Chinese name {{ site.title }}, handle shisaq) is a video editor in China who tests local AI models on a Mac mini home server and writes up what works, with measured numbers: speed, memory, power draw and cost. The blog has run since 2015. Posts are written in Chinese first; the technical ones have English versions under /en/.
+
+- About: {{ site.url }}/about/?lang=en
+- GitHub: https://github.com/{{ site.github_username }} (homelab-desk: https://github.com/{{ site.github_username }}/homelab-desk)
+- English RSS: {{ site.url }}/en/feed.xml
+- Sitemap: {{ site.url }}/sitemap.xml
+
+## English posts
+{% assign en_posts = site.en | sort: "date" | reverse %}{% for doc in en_posts %}
+- [{{ doc.title }}]({{ doc.url | prepend: site.baseurl | prepend: site.url }}): {{ doc.subtitle }} ({{ doc.date | date: "%Y-%m-%d" }})
+{%- endfor %}
+
+## Chinese originals (technical)
+{% for post in site.posts %}{% assign tags = post.tags | join: ',' %}{% if tags contains '技术' or tags contains 'howto' or tags contains '音视频制作' %}
+- [{{ post.title }}]({{ post.url | prepend: site.baseurl | prepend: site.url }}){% if post.subtitle %}: {{ post.subtitle }}{% endif %} ({{ post.date | date: "%Y-%m-%d" }})
+{%- endif %}{% endfor %}
