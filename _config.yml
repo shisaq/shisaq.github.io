@@ -5,7 +5,7 @@ header-img: img/home-bg.jpg
 email: shisaq@gmail.com
 description: "要当闲云野鹤，要食人间烟火"
 keyword: "优客李李, 尤克里里, ukulele, uke, 乌克丽丽, 程序猿, 视频剪辑"
-url: "https://shisaq.github.io"              # your host, for absolute URL
+url: "https://uulili.com"                   # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
