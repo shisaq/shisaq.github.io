@@ -5,7 +5,7 @@ layout: null
 
 > {{ site.en-description }}
 
-{{ site.en-author }} (Chinese name {{ site.title }}, handle shisaq) is a video editor in China who tests local AI models on a Mac mini home server and writes up what works, with measured numbers: speed, memory, power draw and cost. The blog has run since 2015. Posts are written in Chinese first; the technical ones have English versions under /en/.
+{{ site.en-author }} (real name Haiquan Li; Chinese name {{ site.title }}; handle shisaq) is a video editor in China who tests local AI models on a Mac mini home server and writes up what works, with measured numbers: speed, memory, power draw and cost. The blog has run since 2015. Posts are written in Chinese first; the technical ones have English versions under /en/.
 
 - About: {{ site.url }}/about/?lang=en
 - GitHub: https://github.com/{{ site.github_username }} (homelab-desk: https://github.com/{{ site.github_username }}/homelab-desk)
